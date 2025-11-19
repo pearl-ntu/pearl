@@ -35,14 +35,27 @@ const peopleData = {
     ],
     
     mastersStudents: [
-        // Example structure:
-        // {
-        //     name: "Full Name",
-        //     title: "Masters Student",
-        //     email: "name@ntu.edu.sg",
-        //     image: "images/people/name.jpg",  // Optional
-        //     research: "Research interests"  // Optional
-        // }
+        {
+            name: "Ban Hao",
+            title: "Masters Student",
+            email: "CS-BAN.HAO@ntu.edu.sg",
+            image: "images/people/ban-hao.jpg",  // Add photo later
+            research: ""  // Add research interests if needed
+        },
+        {
+            name: "Qitong",
+            title: "Masters Student",
+            email: "CS-QITONG@ntu.edu.sg",
+            image: "images/people/qitong.jpg",  // Add photo later
+            research: ""  // Add research interests if needed
+        },
+        {
+            name: "Junxian",
+            title: "Masters Student",
+            email: "CS-JUNXIAN@ntu.edu.sg",
+            image: "images/people/junxian.jpg",  // Add photo later
+            research: ""  // Add research interests if needed
+        }
     ]
 };
 
