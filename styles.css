@@ -1152,14 +1152,20 @@ body {
 .event-image {
     margin: 20px 0;
     text-align: center;
+    width: 100%;
+    overflow: hidden;
 }
 
 .event-photo {
     max-width: 100%;
+    width: 100%;
     height: auto;
+    max-height: 500px;
+    object-fit: cover;
     border-radius: 8px;
     box-shadow: var(--shadow);
     margin-bottom: 20px;
+    display: block;
 }
 
 .event-content {
@@ -1491,6 +1497,18 @@ body {
         grid-template-columns: 1fr;
     }
 
+    .event-photo {
+        max-height: 400px;
+    }
+
+    .events-list {
+        padding: 20px;
+    }
+
+    .event-item-large {
+        padding: 20px;
+    }
+
     .publication-item {
         flex-direction: column;
         gap: 12px;
@@ -1561,6 +1579,18 @@ body {
 
     .professor-name {
         font-size: 24px;
+    }
+
+    .event-photo {
+        max-height: 300px;
+    }
+
+    .event-item-large {
+        padding: 15px;
+    }
+
+    .events-list {
+        padding: 15px;
     }
 }
 
