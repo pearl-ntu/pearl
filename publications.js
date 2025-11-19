@@ -1,8 +1,17 @@
 // Publications Display and Filtering
-document.addEventListener('DOMContentLoaded', function() {
-    // Wait for publicationsData to be available
+// Wait for both DOM and publicationsData to be ready
+
+function initializePublications() {
+    // Check if publicationsData is available
     if (typeof publicationsData === 'undefined') {
-        console.error('publicationsData is not defined. Make sure publications-data.js is loaded before publications.js');
+        console.error('publicationsData is not defined');
+        document.getElementById('publicationsList').innerHTML = '<div class="no-results">Error: Publications data not loaded. Please refresh the page.</div>';
+        return;
+    }
+    
+    if (!publicationsData || publicationsData.length === 0) {
+        console.error('publicationsData is empty');
+        document.getElementById('publicationsList').innerHTML = '<div class="no-results">No publications data available.</div>';
         return;
     }
     
@@ -11,6 +20,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const sortFilter = document.getElementById('sortFilter');
     const citationFilter = document.getElementById('citationFilter');
     const searchFilter = document.getElementById('searchFilter');
+    
+    if (!publicationsList || !yearFilter || !sortFilter || !citationFilter || !searchFilter) {
+        console.error('Required DOM elements not found');
+        return;
+    }
     
     // Function to calculate and update statistics
     function updateStatistics() {
@@ -135,5 +149,43 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
     }
     updateSearchPlaceholder();
-});
+}
 
+// Wait for both DOM and publicationsData
+function initPublications() {
+    // Check if DOM is ready
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function() {
+            // Wait a bit more for scripts to load
+            setTimeout(checkAndInit, 50);
+        });
+    } else {
+        // DOM is ready, but check if data is loaded
+        setTimeout(checkAndInit, 50);
+    }
+}
+
+function checkAndInit() {
+    // Check if publicationsData is available
+    if (typeof publicationsData !== 'undefined' && publicationsData && publicationsData.length > 0) {
+        initializePublications();
+    } else {
+        // Retry after a short delay (max 10 times)
+        if (typeof checkAndInit.retries === 'undefined') {
+            checkAndInit.retries = 0;
+        }
+        checkAndInit.retries++;
+        if (checkAndInit.retries < 10) {
+            setTimeout(checkAndInit, 100);
+        } else {
+            console.error('Failed to load publicationsData after multiple attempts');
+            const publicationsList = document.getElementById('publicationsList');
+            if (publicationsList) {
+                publicationsList.innerHTML = '<div class="no-results">Error: Unable to load publications data. Please refresh the page.</div>';
+            }
+        }
+    }
+}
+
+// Start initialization
+initPublications();
