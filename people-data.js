@@ -38,21 +38,21 @@ const peopleData = {
         {
             name: "Ban Hao",
             title: "Masters Student",
-            email: "CS-BAN.HAO@ntu.edu.sg",
+            email: "BANH0002@e.ntu.edu.sg",
             image: "images/people/ban-hao.jpg",  // Add photo later
             research: ""  // Add research interests if needed
         },
         {
             name: "Qitong",
             title: "Masters Student",
-            email: "CS-QITONG@ntu.edu.sg",
+            email: "WANG2333@e.ntu.edu.sg",
             image: "images/people/qitong.jpg",  // Add photo later
             research: ""  // Add research interests if needed
         },
         {
             name: "Junxian",
             title: "Masters Student",
-            email: "CS-JUNXIAN@ntu.edu.sg",
+            email: "CHEN1932@e.ntu.edu.sg",
             image: "images/people/junxian.jpg",  // Add photo later
             research: ""  // Add research interests if needed
         }
