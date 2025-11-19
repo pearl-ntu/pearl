@@ -1,10 +1,50 @@
 // Publications Display and Filtering
 document.addEventListener('DOMContentLoaded', function() {
+    // Wait for publicationsData to be available
+    if (typeof publicationsData === 'undefined') {
+        console.error('publicationsData is not defined. Make sure publications-data.js is loaded before publications.js');
+        return;
+    }
+    
     const publicationsList = document.getElementById('publicationsList');
     const yearFilter = document.getElementById('yearFilter');
     const sortFilter = document.getElementById('sortFilter');
     const citationFilter = document.getElementById('citationFilter');
     const searchFilter = document.getElementById('searchFilter');
+    
+    // Function to calculate and update statistics
+    function updateStatistics() {
+        if (!publicationsData || publicationsData.length === 0) return;
+        
+        // Calculate total citations
+        const totalCitations = publicationsData.reduce((sum, pub) => sum + (pub.citations || 0), 0);
+        
+        // Calculate h-index
+        const citations = publicationsData.map(p => p.citations || 0).sort((a, b) => b - a);
+        let hIndex = 0;
+        for (let i = 0; i < citations.length; i++) {
+            if (citations[i] >= i + 1) {
+                hIndex = i + 1;
+            } else {
+                break;
+            }
+        }
+        
+        // Calculate i10-index (number of publications with at least 10 citations)
+        const i10Index = publicationsData.filter(p => (p.citations || 0) >= 10).length;
+        
+        // Update statistics display
+        const statNumbers = document.querySelectorAll('.stat-number');
+        if (statNumbers.length >= 4) {
+            statNumbers[0].textContent = totalCitations.toLocaleString();
+            statNumbers[1].textContent = hIndex;
+            statNumbers[2].textContent = i10Index;
+            statNumbers[3].textContent = publicationsData.length + '+';
+        }
+    }
+    
+    // Calculate and update statistics
+    updateStatistics();
     
     let filteredPublications = [...publicationsData];
     
