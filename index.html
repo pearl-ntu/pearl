@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" id="html-root">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photon Emission and Reactivity Laboratory | PEARL</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="language-switcher-top">
+                <a href="#" class="lang-link" data-lang="zh">中文</a>
+                <span>|</span>
+                <a href="#" class="lang-link active" data-lang="en">En</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active" data-en="Home" data-zh="首页">Home</a></li>
+                <li><a href="research.html" class="nav-link" data-en="Research" data-zh="研究">Research</a></li>
+                <li><a href="publications.html" class="nav-link" data-en="Publications" data-zh="出版物">Publications</a></li>
+                <li><a href="people.html" class="nav-link" data-en="People" data-zh="人员">People</a></li>
+                <li><a href="news.html" class="nav-link" data-en="News" data-zh="新闻">News</a></li>
+                <li><a href="events.html" class="nav-link" data-en="Events" data-zh="活动">Events</a></li>
+                <li><a href="join-us.html" class="nav-link" data-en="Join Us" data-zh="加入我们">Join Us</a></li>
+                <li><a href="contact.html" class="nav-link" data-en="Contact Us" data-zh="联系我们">Contact Us</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Top Banner with Logo and Group Photo -->
+    <section class="top-banner">
+        <div class="container">
+            <div class="banner-content">
+                <div class="logo-banner">
+                    <div class="logo-image-wrapper">
+                        <img src="images/pearl-logo.jpg" alt="PEARL Logo" class="pearl-logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="logo-icon-fallback" style="display: none;">
+                            <svg width="80" height="80" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="25" cy="25" r="20" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <circle cx="25" cy="15" r="3" fill="currentColor"/>
+                                <circle cx="35" cy="30" r="3" fill="currentColor"/>
+                                <circle cx="15" cy="30" r="3" fill="currentColor"/>
+                                <line x1="25" y1="18" x2="32" y2="27" stroke="currentColor" stroke-width="1.5"/>
+                                <line x1="25" y1="18" x2="18" y2="27" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M25 25 L30 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="logo-text-banner">
+                        <h1 class="pearl-title" data-en="PEARL - Photon Emission and Reactivity Laboratory" data-zh="PEARL - 光子发射与反应性实验室">PEARL - Photon Emission and Reactivity Laboratory</h1>
+                        <p class="lab-tagline" data-en="Illuminating Molecular Design through Computation and Experiment" data-zh="通过计算与实验照亮分子设计">Illuminating Molecular Design through Computation and Experiment</p>
+                    </div>
+                </div>
+            </div>
+            <div class="group-photo-banner">
+                <img src="images/group-photo.jpg" alt="PEARL Research Group" class="group-photo-banner-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Professor Profile Section -->
+        <section class="professor-section">
+            <div class="container">
+                <div class="professor-card">
+                    <div class="professor-image">
+                        <img src="images/professor-photo.jpg" alt="Dr. Xiaogang Liu" class="professor-photo">
+                    </div>
+                    <div class="professor-info">
+                        <h2 class="professor-name">Xiaogang Liu</h2>
+                        <p class="professor-title" data-en="Associate Professor" data-zh="副教授">Associate Professor</p>
+                        <p class="professor-tagline" data-en="Illuminating Molecular Design through Computation and Experiment" data-zh="通过计算与实验照亮分子设计">Illuminating Molecular Design through Computation and Experiment</p>
+                        <div class="professor-bio">
+                            <p data-en="Dr. Xiaogang Liu is an Associate Professor at the School of Chemistry, Chemical Engineering and Biotechnology, Nanyang Technological University (NTU), and leads the Photon Emission and Reactivity Laboratory (PEARL). His research focuses on the rational design of functional luminophores by integrating chemical synthesis, photophysical characterization, and computational modeling." data-zh="刘晓刚博士是南洋理工大学化学、化学工程与生物技术学院的副教授，并领导光子发射与反应性实验室（PEARL）。他的研究重点是通过整合化学合成、光物理表征和计算建模来合理设计功能性发光团。">Dr. Xiaogang Liu is an Associate Professor at the School of Chemistry, Chemical Engineering and Biotechnology, Nanyang Technological University (NTU), and leads the Photon Emission and Reactivity Laboratory (PEARL). His research focuses on the rational design of functional luminophores by integrating chemical synthesis, photophysical characterization, and computational modeling.</p>
+                            <p data-en="His team investigates fundamental photophysical processes—including energy and charge transfer, as well as conformational dynamics—to establish structure–property relationships in organic dyes. Guided by quantum chemical predictions and validated through experiments, they develop new molecules with tailored optical properties for applications in bioimaging, sensing, therapeutics, and photonics." data-zh="他的团队研究基本的光物理过程——包括能量和电荷转移以及构象动力学——以建立有机染料的结构-性质关系。在量子化学预测的指导下并通过实验验证，他们开发具有定制光学特性的新分子，用于生物成像、传感、治疗和光子学应用。">His team investigates fundamental photophysical processes—including energy and charge transfer, as well as conformational dynamics—to establish structure–property relationships in organic dyes. Guided by quantum chemical predictions and validated through experiments, they develop new molecules with tailored optical properties for applications in bioimaging, sensing, therapeutics, and photonics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Preview Section -->
+        <section class="research-preview">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-en="Research" data-zh="研究">Research</h2>
+                    <a href="research.html" class="more-link" data-en="More >" data-zh="更多 >">More ></a>
+                </div>
+                <div class="research-content">
+                    <p data-en="Our research focuses on the structure–property relationships of organic dyes. We combine computational modeling, molecular synthesis, and photophysical characterization to establish rational design principles. By integrating theoretical predictions with experimental studies, we investigate and modulate energy transfer, photoinduced processes, and excited-state dynamics, aiming to create next-generation dyes with optimized performance for imaging, sensing, therapy, and photocatalysis." data-zh="我们的研究专注于有机染料的结构-性质关系。我们结合计算建模、分子合成和光物理表征来建立合理的设计原则。通过将理论预测与实验研究相结合，我们研究和调节能量转移、光诱导过程和激发态动力学，旨在创建用于成像、传感、治疗和光催化的具有优化性能的下一代染料。">Our research focuses on the structure–property relationships of organic dyes. We combine computational modeling, molecular synthesis, and photophysical characterization to establish rational design principles. By integrating theoretical predictions with experimental studies, we investigate and modulate energy transfer, photoinduced processes, and excited-state dynamics, aiming to create next-generation dyes with optimized performance for imaging, sensing, therapy, and photocatalysis.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Events Preview Section -->
+        <section class="events-preview">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-en="Events" data-zh="活动">Events</h2>
+                    <a href="events.html" class="more-link" data-en="More >" data-zh="更多 >">More ></a>
+                </div>
+                <div class="event-item">
+                    <h3 data-en="Fluorescence Research Group Begins a New Chapter at NTU CCEB" data-zh="荧光研究组在NTU CCEB开启新篇章">Fluorescence Research Group Begins a New Chapter at NTU CCEB</h3>
+                    <p class="event-date" data-en="Recent" data-zh="最近">Recent</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Photon Emission and Reactivity Laboratory</h3>
+                    <p>Illuminating Molecular Design through Computation and Experiment</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="people.html">People</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="join-us.html">Join Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Photon Emission and Reactivity Laboratory. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

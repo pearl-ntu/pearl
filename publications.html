@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" id="html-root">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications | PEARL</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="language-switcher-top">
+                <a href="#" class="lang-link" data-lang="zh">中文</a>
+                <span>|</span>
+                <a href="#" class="lang-link active" data-lang="en">En</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link" data-en="Home" data-zh="首页">Home</a></li>
+                <li><a href="research.html" class="nav-link" data-en="Research" data-zh="研究">Research</a></li>
+                <li><a href="publications.html" class="nav-link active" data-en="Publications" data-zh="出版物">Publications</a></li>
+                <li><a href="people.html" class="nav-link" data-en="People" data-zh="人员">People</a></li>
+                <li><a href="news.html" class="nav-link" data-en="News" data-zh="新闻">News</a></li>
+                <li><a href="events.html" class="nav-link" data-en="Events" data-zh="活动">Events</a></li>
+                <li><a href="join-us.html" class="nav-link" data-en="Join Us" data-zh="加入我们">Join Us</a></li>
+                <li><a href="contact.html" class="nav-link" data-en="Contact Us" data-zh="联系我们">Contact Us</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="breadcrumb">
+        <div class="container">
+            <p><span data-en="Current Page： " data-zh="当前页面： ">Current Page： </span><a href="index.html" data-en="Home" data-zh="首页">Home</a> > <span data-en="Publications" data-zh="出版物">Publications</span></p>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <section class="publications-page">
+            <div class="container">
+                <h1 class="page-title" data-en="Publications" data-zh="出版物">Publications</h1>
+                
+                <!-- Statistics Section -->
+                <div class="pub-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">9,692</div>
+                        <div class="stat-label" data-en="Total Citations" data-zh="总引用数">Total Citations</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">52</div>
+                        <div class="stat-label" data-en="h-index" data-zh="h指数">h-index</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">122</div>
+                        <div class="stat-label" data-en="i10-index" data-zh="i10指数">i10-index</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">170+</div>
+                        <div class="stat-label" data-en="Publications" data-zh="出版物">Publications</div>
+                    </div>
+                </div>
+
+                <!-- Filters -->
+                <div class="pub-filters">
+                    <div class="filter-group">
+                        <label data-en="Filter by Year:" data-zh="按年份筛选：">Filter by Year:</label>
+                        <select id="yearFilter" class="filter-select">
+                            <option value="all" data-en="All Years" data-zh="所有年份">All Years</option>
+                            <option value="2025">2025</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
+                            <option value="2011">2011</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label data-en="Sort by:" data-zh="排序方式：">Sort by:</label>
+                        <select id="sortFilter" class="filter-select">
+                            <option value="citations" data-en="Most Cited" data-zh="最多引用">Most Cited</option>
+                            <option value="year" data-en="Recent First" data-zh="最新优先">Recent First</option>
+                            <option value="title" data-en="Title (A-Z)" data-zh="标题（A-Z）">Title (A-Z)</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label data-en="Min Citations:" data-zh="最少引用：">Min Citations:</label>
+                        <select id="citationFilter" class="filter-select">
+                            <option value="0" data-en="All" data-zh="全部">All</option>
+                            <option value="100">100+</option>
+                            <option value="50">50+</option>
+                            <option value="20">20+</option>
+                            <option value="10">10+</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <input type="text" id="searchFilter" class="search-input" placeholder="Search publications..." data-en-placeholder="Search publications..." data-zh-placeholder="搜索出版物...">
+                    </div>
+                </div>
+
+                <!-- Publications List -->
+                <div class="publications-list" id="publicationsList">
+                    <!-- Publications will be dynamically inserted here -->
+                </div>
+
+                <div class="pub-footer">
+                    <p data-en="For the complete list, visit:" data-zh="完整列表请访问：">For the complete list, visit: <a href="https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar Profile</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-en="Photon Emission and Reactivity Laboratory" data-zh="光子发射与反应性实验室">Photon Emission and Reactivity Laboratory</h3>
+                    <p data-en="Illuminating Molecular Design through Computation and Experiment" data-zh="通过计算与实验照亮分子设计">Illuminating Molecular Design through Computation and Experiment</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Quick Links" data-zh="快速链接">Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html" data-en="Home" data-zh="首页">Home</a></li>
+                        <li><a href="research.html" data-en="Research" data-zh="研究">Research</a></li>
+                        <li><a href="publications.html" data-en="Publications" data-zh="出版物">Publications</a></li>
+                        <li><a href="people.html" data-en="People" data-zh="人员">People</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Connect" data-zh="联系">Connect</h4>
+                    <ul>
+                        <li><a href="news.html" data-en="News" data-zh="新闻">News</a></li>
+                        <li><a href="events.html" data-en="Events" data-zh="活动">Events</a></li>
+                        <li><a href="join-us.html" data-en="Join Us" data-zh="加入我们">Join Us</a></li>
+                        <li><a href="contact.html" data-en="Contact Us" data-zh="联系我们">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Photon Emission and Reactivity Laboratory. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="publications-data.js"></script>
+    <script src="publications.js"></script>
+</body>
+</html>

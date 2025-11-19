@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" id="html-root">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People | PEARL</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="language-switcher-top">
+                <a href="#" class="lang-link" data-lang="zh">中文</a>
+                <span>|</span>
+                <a href="#" class="lang-link active" data-lang="en">En</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link" data-en="Home" data-zh="首页">Home</a></li>
+                <li><a href="research.html" class="nav-link" data-en="Research" data-zh="研究">Research</a></li>
+                <li><a href="publications.html" class="nav-link" data-en="Publications" data-zh="出版物">Publications</a></li>
+                <li><a href="people.html" class="nav-link active" data-en="People" data-zh="人员">People</a></li>
+                <li><a href="news.html" class="nav-link" data-en="News" data-zh="新闻">News</a></li>
+                <li><a href="events.html" class="nav-link" data-en="Events" data-zh="活动">Events</a></li>
+                <li><a href="join-us.html" class="nav-link" data-en="Join Us" data-zh="加入我们">Join Us</a></li>
+                <li><a href="contact.html" class="nav-link" data-en="Contact Us" data-zh="联系我们">Contact Us</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="breadcrumb">
+        <div class="container">
+            <p><span data-en="Current Page： " data-zh="当前页面： ">Current Page： </span><a href="index.html" data-en="Home" data-zh="首页">Home</a> > <span data-en="People" data-zh="人员">People</span></p>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <section class="people-page">
+            <div class="container">
+                <h1 class="page-title" data-en="People" data-zh="人员">People</h1>
+                
+                <!-- Principal Investigator -->
+                <div class="people-section">
+                    <h2 data-en="Principal Investigator" data-zh="首席研究员">Principal Investigator</h2>
+                    <div class="people-grid">
+                        <div class="person-card">
+                            <div class="person-image">
+                                <img src="images/professor-photo.jpg" alt="Xiaogang Liu" class="person-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                                <div class="image-placeholder" style="display: none;">
+                                    <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="75" cy="75" r="60" fill="#d0d0d0"/>
+                                        <circle cx="75" cy="60" r="18" fill="#999"/>
+                                        <path d="M45 135 Q75 105 105 135" stroke="#999" stroke-width="15" fill="none" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <h3>Xiaogang Liu</h3>
+                            <p class="person-title" data-en="Associate Professor" data-zh="副教授">Associate Professor</p>
+                            <p class="person-email">xiaogang.liu@ntu.edu.sg</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Postdocs -->
+                <div class="people-section">
+                    <h2 data-en="Postdocs" data-zh="博士后">Postdocs</h2>
+                    <div class="people-grid" id="postdocs-grid">
+                        <!-- Postdocs will be added here -->
+                    </div>
+                </div>
+
+                <!-- PhD Students -->
+                <div class="people-section">
+                    <h2 data-en="PhD Students" data-zh="博士研究生">PhD Students</h2>
+                    <div class="people-grid" id="phd-students-grid">
+                        <!-- PhD Students will be added here -->
+                    </div>
+                </div>
+
+                <!-- Masters Students -->
+                <div class="people-section">
+                    <h2 data-en="Masters Students" data-zh="硕士研究生">Masters Students</h2>
+                    <div class="people-grid" id="masters-students-grid">
+                        <!-- Masters Students will be added here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-en="Photon Emission and Reactivity Laboratory" data-zh="光子发射与反应性实验室">Photon Emission and Reactivity Laboratory</h3>
+                    <p data-en="Illuminating Molecular Design through Computation and Experiment" data-zh="通过计算与实验照亮分子设计">Illuminating Molecular Design through Computation and Experiment</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Quick Links" data-zh="快速链接">Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html" data-en="Home" data-zh="首页">Home</a></li>
+                        <li><a href="research.html" data-en="Research" data-zh="研究">Research</a></li>
+                        <li><a href="publications.html" data-en="Publications" data-zh="出版物">Publications</a></li>
+                        <li><a href="people.html" data-en="People" data-zh="人员">People</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Connect" data-zh="联系">Connect</h4>
+                    <ul>
+                        <li><a href="news.html" data-en="News" data-zh="新闻">News</a></li>
+                        <li><a href="events.html" data-en="Events" data-zh="活动">Events</a></li>
+                        <li><a href="join-us.html" data-en="Join Us" data-zh="加入我们">Join Us</a></li>
+                        <li><a href="contact.html" data-en="Contact Us" data-zh="联系我们">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-en="&copy; 2024 Photon Emission and Reactivity Laboratory. All rights reserved." data-zh="&copy; 2024 光子发射与反应性实验室。保留所有权利。">&copy; 2024 Photon Emission and Reactivity Laboratory. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="people-data.js"></script>
+    <script src="people.js"></script>
+</body>
+</html>
+

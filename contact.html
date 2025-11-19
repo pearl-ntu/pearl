@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | PEARL</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="language-switcher-top">
+                <a href="#" class="lang-link" data-lang="zh">中文</a>
+                <span>|</span>
+                <a href="#" class="lang-link active" data-lang="en">En</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link" data-en="Home" data-zh="首页">Home</a></li>
+                <li><a href="research.html" class="nav-link" data-en="Research" data-zh="研究">Research</a></li>
+                <li><a href="publications.html" class="nav-link" data-en="Publications" data-zh="出版物">Publications</a></li>
+                <li><a href="people.html" class="nav-link" data-en="People" data-zh="人员">People</a></li>
+                <li><a href="news.html" class="nav-link" data-en="News" data-zh="新闻">News</a></li>
+                <li><a href="events.html" class="nav-link" data-en="Events" data-zh="活动">Events</a></li>
+                <li><a href="join-us.html" class="nav-link" data-en="Join Us" data-zh="加入我们">Join Us</a></li>
+                <li><a href="contact.html" class="nav-link active" data-en="Contact Us" data-zh="联系我们">Contact Us</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="breadcrumb">
+        <div class="container">
+            <p><span data-en="Current Page： " data-zh="当前页面： ">Current Page： </span><a href="index.html" data-en="Home" data-zh="首页">Home</a> > <span data-en="Contact Us" data-zh="联系我们">Contact Us</span></p>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <section class="contact-page">
+            <div class="container">
+                <h1 class="page-title" data-en="Contact Us" data-zh="联系我们">Contact Us</h1>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2 data-en="Photon Emission and Reactivity Laboratory (PEARL)" data-zh="光子发射与反应性实验室（PEARL）">Photon Emission and Reactivity Laboratory (PEARL)</h2>
+                        <p><strong data-en="Principal Investigator:" data-zh="首席研究员：">Principal Investigator:</strong> Dr. Xiaogang Liu</p>
+                        <p><strong data-en="Title:" data-zh="职称：">Title:</strong> <span data-en="Associate Professor" data-zh="副教授">Associate Professor</span></p>
+                        
+                        <div class="contact-details">
+                            <h3 data-en="Contact Information" data-zh="联系信息">Contact Information</h3>
+                            <p><strong data-en="Email:" data-zh="电子邮件：">Email:</strong> xiaogang.liu@ntu.edu.sg</p>
+                            <p><strong data-en="Institution:" data-zh="机构：">Institution:</strong> <span data-en="School of Chemistry, Chemical Engineering and Biotechnology" data-zh="化学、化学工程与生物技术学院">School of Chemistry, Chemical Engineering and Biotechnology</span></p>
+                            <p><strong data-en="University:" data-zh="大学：">University:</strong> <span data-en="Nanyang Technological University (NTU)" data-zh="南洋理工大学（NTU）">Nanyang Technological University (NTU)</span></p>
+                            <p><strong data-en="Location:" data-zh="位置：">Location:</strong> <span data-en="Singapore" data-zh="新加坡">Singapore</span></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-section">
+                        <h3 data-en="Send us a Message" data-zh="给我们留言">Send us a Message</h3>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name" data-en="Name" data-zh="姓名">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" data-en="Email" data-zh="电子邮件">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" data-en="Subject" data-zh="主题">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" data-en="Message" data-zh="留言">Message</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn" data-en="Send Message" data-zh="发送留言">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Photon Emission and Reactivity Laboratory</h3>
+                    <p>Illuminating Molecular Design through Computation and Experiment</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="people.html">People</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="join-us.html">Join Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Photon Emission and Reactivity Laboratory. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
