@@ -1,0 +1,884 @@
+All Since 2020
+Citations 9695 7799
+h-index 53 49
+i10-index 122 120
+71 articles
+not available
+Based on funding mandates
+Xiaogang Liu
+Nanyang Technological University
+Fluorescence
+Photochemistry
+Physical Chemistry
+Fluorescent Dyes
+Molecular Design
+TITLE CITED BY YEAR
+Precision Design of Fluorogenic Probes via Orthogonal Tuning of Binding
+and Photophysics for Isoform-Selective ALDH2 Imaging
+R Tao, Y Chen, T Yang, S Hu, W Lv, X Li, Z Wang, R Zhang, Z Wu, T Hou, ...
+Journal of the American Chemical Society
+2025
+Bright, Robust and Readily Accessible Fluorophore Family for NIR-II
+Bioimaging
+H Bian, D Ma, X Zhang, Y Qiu, X Wu, M Jia, X Zhang, X Liu, Y Yang, ...
+Journal of the American Chemical Society
+2025
+Bioorthogonal In Situ Formation of AIE Luminogens for Imaging Disease
+Progression via Sigmoidal Signal Amplification
+X Yu, X Liu, H Sun, T Shen, Y Deng, H Ren, P Zou, Y Zheng, P Xiao, ...
+Angewandte Chemie International Edition 64 (40), e202511705
+1 2025
+Hetero-Hydrazone Photoswitches
+D Sosnin, SAA Abedi, M Izadyar, Y Ünal, X Liu, I Aprahamian
+Angewandte Chemie International Edition 64 (44), e202515136
+2025
+Reengineering Cyanine Dyes via Borondifluoro Indolenine: A Tunable
+Platform for Wash-Free Imaging and Responsive Biosensing
+Z Zhan, J Zhang, T Shen, J Li, L Chai, L Pan, H Yang, T Liu, X Liu, W Mao
+Journal of the American Chemical Society
+3 2025
+A pH-Resilient Fluorogenic Probe for Stable High-Resolution Imaging of
+Lysosomal Dynamics
+X Fang, G Jiang, Q Qiao, X Liu, Z Xu
+Dyes and Pigments, 112872
+2025
+Tail-Assisted Excited-State Intramolecular Proton Transfer (ta-ESIPT)
+Fluorophores: A Universal Ratiometric Platform for Hydration-Sensitive
+Biomolecular Imaging …
+Q Qiao, C Wang, H Wang, Y Ruan, W Liu, J Chen, Z Wu, X Liu, Z Xu
+Journal of the American Chemical Society 147 (18), 15602-15613
+8 2025
+“Clicked” Hydrazone Photoswitches
+D Sosnin, M Izadyar, SAA Abedi, X Liu, I Aprahamian
+Journal of the American Chemical Society 147 (18), 14930-14935
+5 2025
+Bright and Versatile Azetidinecarboxamide-Based Fluorophore–Ligand
+Conjugates for High-Resolution Cell Imaging
+N Xu, Q Qiao, C Wang, W Zhou, P Bao, J Li, S Wu, X Liu, Z Xu
+Angewandte Chemie International Edition 64 (23), e202505579
+3 2025
+61 articles
+available
+TITLE CITED BY YEAR
+Activity-based trapping for multiplex imaging illuminates the hidden role of
+endogenous formaldehyde in proinflammatory signaling
+Y Pan, X Liang, T Shen, T Fan, H Gao, X Liu, X Li
+Cell Biomaterials
+1 2025
+Super-photostable organic dye for long-term live-cell single-protein imaging
+DH Kim, HM Triet, SH Lee, S Jazani, S Jang, SAA Abedi, X Liu, J Seo, ...
+Nature Methods 22 (3), 550-558
+10 2025
+Oxazolidine-Caged Heptamethine Cyanine Switch Exhibits High
+Photostability for Bioimaging via Buffering Fluorogenicity
+Q Qi, J Li, Q Qiao, C Yan, M Izadyar, C Wang, SAA Abedi, X Liu, Z Guo, ...
+CCS Chemistry, 1-12
+3 2025
+Precision Molecular Engineering of Compact Near-Infrared Fluorophores
+R Huang, Q Qiao, D Seah, T Shen, X Wu, F De Moliner, C Wang, N Ding, ...
+Journal of the American Chemical Society 147 (6), 5258-5268
+9 2025
+PET-leveraged ALDH probe toward cancer stem cells
+JH Kim, BYK Hui, J Lee, K Lee, J Kim, Y Kim, MH Chua, J Xu, MG Lee, ...
+Journal of Materials Chemistry B 13 (37), 11809-11820
+2025
+Solvent-dependent reactivity of azo-BF 2 switches
+Q Qi, H Fu, L Peng, S Patra, X Liu, I Aprahamian
+Chemical Science 16 (37), 17214-17220
+2025
+Unveiling the Power of Dark State Photocages: An Efficient Pathway to
+Triplet State under Near-Infrared Light Irradiation
+Q Hu, J Du, SA Abbas Abedi, X Liu, S Long, W Sun, J Fan, X Peng
+Angewandte Chemie International Edition, e202504670
+1 2025
+Breaking the heavy-atom paradigm: weak-donor-engineered triplet
+harvesting in BODIPY photosensitizers for immunogenic pyroptosis therapy
+HS Kim, H Rha, M Izadyar, S Chanmungkalakul, H Huang, YY Kang, ...
+Chemical Science 16 (32), 14485-14495
+2025
+Ether Rhodamines with Enhanced Hydrophilicity, Fluorogenicity, and
+Brightness for Super-Resolution Imaging
+X Fang, Q Qiao, Z Li, HK Li, Y Huang, D Hou, J Chen, N Xu, K An, W Jiang, ...
+Journal of the American Chemical Society
+9 2025
+Highly stable electrofluorochromic switching of aggregation-induced
+emission-active conjugated polymers
+R Tao, BYK Hui, KLO Chin, XYD Soo, D Zhang, SAA Abedi, P Bi, X Liu, ...
+Materials Chemistry Frontiers 9 (9), 1410-1420
+1 2025
+Two-Color Single-Molecule Blinking Ratiometricity: A Functional Super-
+Resolution Imaging Approach for Resolving Lysosomal pH and Dynamics
+Q Qiao, W Yin, X Wu, S Wu, Y Ruan, N Xu, J Li, ZS Wu, X Liu, Z Xu
+Angewandte Chemie International Edition 64 (21), e202503916
+6 2025
+Whole-cell Lysosome SMLM Imaging as Indicators for Functional
+Diagnostics with a Low-Phototoxic Spontaneously Blinking Probe
+Q Qiao, A Song, G Jiang, Y Zhou, Y Ruan, W Jia, X Liu, Z Xu
+Angewandte Chemie International Edition 64 (28), e202503177
+5 2025
+TITLE CITED BY YEAR
+Design strategies for tetrazine fluorogenic probes for bioorthogonal imaging
+A Yu, X He, T Shen, X Yu, W Mao, W Chi, X Liu, H Wu
+Chemical Society Reviews 54 (6), 2984-3016
+30 2025
+Moisture Tolerance, Thermally Stable and Light Switchable Adhesives
+Platform Based on Reversible Redshifted [2+ 2] Photocycloaddition
+XY Oh, QV Thi, MML Yu, M Izadyar, SAA Abedi, X Liu, VX Truong
+Advanced Functional Materials, 2421823
+2 2025
+Unveiling the photophysical mechanistic mysteries of tetrazine-
+functionalized fluorogenic labels
+T Shen, X Liu
+Chemical Science
+6 2025
+“Superimposed” spectral characteristics of fluorophores arising from cross-
+conjugation hybridization
+K An, Q Qiao, SAA Abedi, X Liu, Z Xu
+Chinese Chemical Letters 36 (1), 109786
+5 2025
+Rational design of an ultrabright quinolinium-fused rhodamine turn-on
+fluorescent probe for highly sensitive detection of SO2 derivatives:
+Applications in food safety and …
+J Li, M Tian, T Shen, X Sun, T Liang, L Tang, X Liu, X Yan, K Zhong
+Journal of Hazardous Materials 480, 136291
+58 2024
+Conformational Folding Activates Photoinduced Electron Transfer
+S Huang, SAA Abedi, Z Li, R Huang, X Yan, M Izadyar, Q Qiao, Y Fang, ...
+CCS Chemistry 6 (11), 2804-2813
+7 2024
+Brightness-constant solvatochromic dye for ratiometric fluorescent imaging
+of lipid dynamics in developing zebrafish
+G Wang, Q Qiao, N Xu, X Wang, P Bao, Y Zhang, X Liu, Z Xu
+Sensors and Actuators B: Chemical 417, 136155
+4 2024
+Using Olive Oil as a Pedagogical Medium to Teach Ultraviolet
+Spectrophotometry
+T Shen, HK Li, EY Bong, Y Gao, M Jia, X Liu
+Journal of Chemical Education 101 (11), 5115-5121
+2024
+Construction of wavelength-tunable DSE quinoline salt derivatives by
+regulating the hybridization form of the nitrogen atom and intramolecular
+torsion angle
+K Deng, F Yang, ZQ Cheng, BW Ren, H Liu, J Chen, MY She, L Yu, ...
+Chinese Chemical Letters 35 (10), 109464
+3 2024
+Chromene-derived red-fluorescent probes for sulfite detection in food and
+living cells based on an integrated ICT&PET platform
+T Liang, S Liu, T Shen, X Chen, X Li, X Yan, X Sun, M Tian, C Wu, X Sun, ...
+Sensors and Actuators B: Chemical 413, 135864
+29 2024
+Photosensitizer-Amplified Antimicrobial Materials for Broad-Spectrum
+Ablation of Resistant Pathogens in Ocular Infections
+C Lochenie, S Duncan, Y Zhou, L Fingerhut, A Kiang, S Benson, G Jiang, ...
+Advanced Materials 36 (31), 2404107
+26 2024
+TITLE CITED BY YEAR
+Synergistic Inter-and Intramolecular Aggregation of Dimeric Cyanine Dyes
+Affords Highly Efficient In Vivo Self-Delivery and Photothermal Therapy
+Y Hou, J Li, G Jiang, T Xia, Z Li, H Gu, X Liu, Q Yao, C Zhang, W Liu, J Du, ...
+Advanced Functional Materials 34 (32), 2316452
+18 2024
+The dark side of cyclooctatetraene (COT): photophysics in the singlet
+states of “self-healing” dyes
+S Chanmungkalakul, SAA Abedi, FJ Hernandez, J Xu, X Liu
+Chinese Chemical Letters 35 (8), 109227
+9 2024
+Photoinduced Charge Centralization Quenches the Fluorescence of
+Conjugation-Fused Tetrazine Labels with Red-to-Near-Infrared Emissions
+T Shen, X Liu
+Bioconjugate Chemistry 35 (7), 1024-1032
+3 2024
+Strategies to Enhance the Electrochromic Properties of Conjugated
+Polymers Bearing Pyromellitic Diimide Acceptors
+BYK Hui, KLO Chin, JJL Lim, XYD Soo, X Lu, Q Zhu, X Liu, J Xu, ...
+Chemistry–An Asian Journal 19 (12), e202400236
+1 2024
+Enhanced Reactivity of Acridinium Perchlorate: Harnessing Redox
+Mediators for Trace Chloride Activation in Hydrogen Atom Transfer
+Photocatalysis
+M Wu, Z Wu, HT Ang, B Wang, T Liu, S Wu, Z Lei, MW Liaw, ...
+ACS Catalysis 14 (12), 9364-9373
+14 2024
+Matthew effect: General design strategy of ultra-fluorogenic nanoprobes
+with amplified dark–bright states in aggregates
+S Segawa, X Ou, T Shen, T Ryu, Y Ishii, HHY Sung, ID Williams, ...
+Aggregate 5 (2), e499
+16 2024
+Unlocking Multicolor Emissions in the Crystalline State through
+Dimerization and Configurational Transformation of a Single Fluorophore
+Y Shao, R Huang, G Jiang, Q Shi, H Wei, G Wang, W Chi, H Peng, X Liu, ...
+Chemistry of Materials 36 (7), 3223-3232
+5 2024
+Fluorogenic Rhodamine Probes with Pyrrole Substitution Enables STED
+and Lifetime Imaging of Lysosomes in Live Cells
+Y Zhou, Q Wang, S Chanmungkalakul, X Wu, H Xiao, R Miao, X Liu, ...
+Chemistry–A European Journal 30 (15), e202303707
+7 2024
+Tetrazine-Isonitrile Bioorthogonal Fluorogenic Reactions Enable Multiplex
+Labeling and Wash-Free Bioimaging of Live Cells
+Y Deng, T Shen, X Yu, J Li, P Zou, Q Gong, Y Zheng, H Sun, X Liu, H Wu
+Angewandte Chemie International Edition 63 (10), e202319853
+27 2024
+1,2-BF2 Shift and Photoisomerization Induced Multichromatic Response
+Q Qi, S Huang, X Liu, I Aprahamian
+Journal of the American Chemical Society 146 (10), 6471-6475
+22 2024
+Auxochrome dimethyl-dihydroacridine improves fluorophores for prolonged
+live-cell super-resolution imaging
+X Ren, C Wang, X Wu, M Rong, R Huang, Q Liang, T Shen, H Sun, ...
+Journal of the American Chemical Society 146 (10), 6566-6579
+33 2024
+TITLE CITED BY YEAR
+Aryl-Modified Pentamethyl Cyanine Dyes at the C2’Position: A Tunable
+Platform for Activatable Photosensitizers
+F Han, SA Abbas Abedi, S He, H Zhang, S Long, X Zhou, ...
+Advanced Science 11 (7), 2305761
+27 2024
+A de novo zwitterionic strategy of ultra-stable chemiluminescent probes:
+highly selective sensing of singlet oxygen in FDA-approved phototherapy
+Y Lu, Y Zhang, X Wu, R Pu, C Yan, W Liu, X Liu, Z Guo, WH Zhu
+Chemical Science 15 (31), 12431-12441
+15 2024
+Molecular design and architectonics towards film-based fluorescent
+sensing
+R Huang, T Liu, H Peng, J Liu, X Liu, L Ding, Y Fang
+Chemical Society Reviews 53 (13), 6960-6991
+54 2024
+Photoinduced electron transfer endows fluorogenicity in tetrazine-based
+near-infrared labels
+T Shen, X Li, X Liu
+Materials Chemistry Frontiers 8 (9), 2135-2141
+10 2024
+Rational design of supramolecular self-assembly sensor for living cell
+imaging of HDAC1 and its application in high-throughput screening
+M Li, H Yu, Y Li, X Li, S Huang, X Liu, G Weng, L Xu, T Hou, DS Guo, ...
+Biosensors and Bioelectronics 242, 115716
+11 2023
+Visible light-induced switching of soft matter materials properties based on
+thioindigo photoswitches
+SL Walden, PHD Nguyen, HK Li, X Liu, MTN Le, L Xian Jun, ...
+Nature Communications 14 (1), 8298
+30 2023
+Constructing D-π-A-π dye to obtain red-emission fluorescent probe for
+structured illumination microscopy imaging of lipid droplet dynamics
+W Jiang, J Chen, K An, P Bao, Q Qiao, X Liu, Z Xu
+Green Chemical Engineering 4 (4), 387-392
+2 2023
+Ratiometric quantification and visual detection of sulfur dioxide residues
+using a coumarin-derived fluorescent probe
+W Mi, T Shen, X Guo, X Liu, M Zhang, M Jia
+Sensors and Actuators B: Chemical 395, 134459
+24 2023
+Janus-Type ESIPT Chromophores with Distinctive Intramolecular
+Hydrogen-bonding Selectivity
+Y Chen, S Lu, SA Abbas Abedi, M Jeong, H Li, M Hwa Kim, S Park, X Liu, ...
+Angewandte Chemie International Edition 62 (40), e202311543
+36 2023
+Spontaneously Blinking Rhodamine Dyes for Single-Molecule Localization
+Microscopy
+W Chi, D Tan, Q Qiao, Z Xu, X Liu
+Angewandte Chemie International Edition 62 (39), e202306061
+46 2023
+Blending Low-Frequency Vibrations and Push–Pull Effects Affords Superior
+Photoacoustic Imaging Agents
+L Yu, SA Abbas Abedi, J Lee, Y Xu, S Son, W Chi, M Li, X Liu, JH Park, ...
+Angewandte Chemie International Edition 62 (32), e202307797
+25 2023
+TITLE CITED BY YEAR
+Synergistic effects of multiple rotors and hydrogen-bond interactions lead
+to sensitive near-infrared viscosity probes for live-cell microscopy
+D Li, T Shen, X Xue, W Chen, W Tao, W Chi, SH Liu, Y Tan, X Liu, J Yin
+Science China Chemistry 66 (8), 2329-2338
+35 2023
+Visualizing Drug Release from a Stimuli-Responsive Soft Material Based
+on Amine–Thiol Displacement
+T Wu, S Huang, X Feng, X Liu, TD James, X Sun, X Qian
+ACS Applied Materials & Interfaces 15 (19), 22967-22976
+6 2023
+Stepwise on-demand functionalization of multihydrosilanes enabled by a
+hydrogen-atom-transfer photocatalyst based on eosin Y
+X Fan, M Zhang, Y Gao, Q Zhou, Y Zhang, J Yu, W Xu, J Yan, H Liu, Z Lei, ...
+Nature Chemistry 15 (5), 666-676
+77 2023
+Modulation of dynamic aggregation in fluorogenic SNAP-tag probes for
+long-term super-resolution imaging
+Q Qiao, W Liu, W Chi, J Chen, W Zhou, N Xu, J Li, X Fang, Y Tao, Y Zhang, ...
+Aggregate 4 (2), e258
+28 2023
+1, 2, 4, 5-Tetrazine-tethered probes for fluorogenically imaging superoxide
+in live cells with ultrahigh specificity
+X Jiang, M Li, Y Wang, C Wang, Y Wang, T Shen, L Shen, X Liu, Y Wang, ...
+Nature Communications 14 (1), 1401
+27 2023
+Shining light on plant health: Detecting salt stress with a near-infrared
+fluorescent probe
+X Liu
+Advanced Agrochem 2 (1), 1-2
+13 2023
+Selective fluorescent sensors for copper (II) ion from julolidine hydrazone
+derivatives
+W Akarasareenon, S Chanmungkalakul, L Xiaogang, P Rashatasakhon
+Journal of Photochemistry and Photobiology A: Chemistry 437, 114422
+14 2023
+A unique NIR dye constructed mitochondrial anchoring fluorescent probe
+for highly selective selenocysteine detection and imaging in living cells and
+mice
+K Luo, M Jia, C Xie, Q Yang, L Tan, X Liu, L Zhou
+Sensors and Actuators B: Chemical 375, 132944
+12 2023
+Recent advances in aggregation-induced emission (AIE)-based
+chemosensors for the detection of organic small molecules
+MH Chua, BYK Hui, KLO Chin, Q Zhu, X Liu, J Xu
+Materials Chemistry Frontiers 7 (22), 5561-5660
+72 2023
+Restriction of intramolecular bending (RIB) enables the quantitative design
+of AIEgens
+W Chi, J Dai, C Yan, D Tan, Z Guo, X Liu
+Journal of Materials Chemistry C 11 (30), 10205-10214
+6 2023
+Monitoring amyloid aggregation via a twisted intramolecular charge transfer
+(TICT)-based fluorescent sensor array
+C Wang, W Jiang, D Tan, L Huang, J Li, Q Qiao, P Yadav, X Liu, Z Xu
+Chemical Science 14 (18), 4786-4795
+65 2023
+TITLE CITED BY YEAR
+Ground-state intramolecular proton transfer inhibits the selective
+methylation on quinoline and pyridine derivatives
+S Chanmungkalakul, S Huang, X Wu, ECX Ang, ZQ Yang, Y Li, X Yan, ...
+Physical Chemistry Chemical Physics 25 (15), 10599-10603
+1 2023
+The fluorescence quenching mechanism of tetrazine-functionalized
+fluorogenic labels with integrated π-conjugations: internal conversion to a
+dark state
+T Shen, W Zhang, P Yadav, XW Sun, X Liu
+Materials Chemistry Frontiers 7 (6), 1082-1092
+23 2023
+Molecular design of dual-emission rhodamine analogs
+X Wu, Y Gao, W Chi, C Wang, Z Xu, X Liu
+Materials Chemistry Frontiers 7 (6), 1137-1145
+4 2023
+Fluorescent Janus ring siloxanes for detection of Au (III) and L-cysteine
+T Chaiprasert, S Chanmungkalakul, Y Liu, T Bureerug, K Silpcharu, ...
+Dyes and Pigments 208, 110793
+11 2023
+An Oily Endeavor: Teaching Excitation–Emission Matrix Using the
+Fluorescence Fingerprints of Olive Oils
+T Shen, D Tan, JFR Lee, EY Bong, X Liu
+Journal of Chemical Education 100 (1), 178-185
+3 2022
+An Approach to Developing Cyanines with Upconverted Photosensitive
+Efficiency Enhancement for Highly Efficient NIR Tumor Phototheranostics
+X Zhao, S He, W Chi, X Liu, P Chen, W Sun, J Du, J Fan, X Peng
+Advanced Science 9 (31), 2202885
+30 2022
+A TICS-fluorophore based probe for dual-color GSH imaging
+W Liu, J Chen, Q Qiao, X Liu, Z Xu
+Chinese Chemical Letters 33 (11), 4943-4947
+53 2022
+Single-Fluorophore-Based Organic Crystals with Distinct Conformers
+Enabling Wide-Range Excitation-Dependent Emissions
+R Huang, C Wang, D Tan, K Wang, B Zou, Y Shao, T Liu, H Peng, X Liu, ...
+Angewandte Chemie International Edition 61 (41), e202211106
+59 2022
+Brønsted acid-enhanced direct hydrogen atom transfer photocatalysis for
+selective functionalization of unactivated C (sp3)–H bonds
+H Cao, D Kong, LC Yang, S Chanmungkalakul, T Liu, JL Piper, Z Peng, ...
+Nature Synthesis 1 (10), 794-803
+68 2022
+Design of an HPPD fluorescent probe and visualization of plant responses
+to abiotic stress
+X Zeng, Y Huang, J Dong, X Ma, JX Nan, W Chen, HY Lin, WC Yang, ...
+Advanced Agrochem 1 (1), 73-84
+72 2022
+High Quantum Yield Blue InP/ZnS/ZnS Quantum Dots Based on Bromine
+Passivation for Efficient Blue Light-Emitting Diodes
+W Zhang, Y Tan, X Duan, F Zhao, H Liu, W Chen, P Liu, X Liu, K Wang, ...
+Advanced Optical Materials 10 (15), 2200685
+68 2022
+“Crossbreeding” Small-Molecular Weight NIR-II Flavchromenes Endows
+Activatable Multiplexed In Vivo Imaging
+L Zhang, Y Zhang, W Chi, C Yan, Z Zhao, X Liu, WH Zhu, Z Guo
+21 2022
+TITLE CITED BY YEAR
+ACS Materials Letters 4 (8), 1493-1502
+Rational design and application of an indolium-derived heptamethine
+cyanine with record-long second near-infrared emission
+X Ma, Y Huang, SAA Abedi, H Kim, TTB Davin, X Liu, WC Yang, Y Sun, ...
+CCS Chemistry 4 (6), 1961-1976
+85 2022
+An Acid-Regulated Self-Blinking Fluorescent Probe for Resolving Whole-
+Cell Lysosomes with Long-Term Nanoscopy
+Q Qiao, W Liu, J Chen, X Wu, F Deng, X Fang, N Xu, W Zhou, S Wu, W Yin, ...
+Angewandte Chemie International Edition 61 (21), e202202961
+77 2022
+Molecular origins of the multi-donor strategy in inducing bathochromic
+shifts and enlarging Stokes shifts of fluorescent proteins
+X Wu, D Tan, Q Qiao, W Yin, Z Xu, X Liu
+Physical Chemistry Chemical Physics 24 (26), 15937-15944
+9 2022
+Rapid quantification of ethanol content in aqueous solutions using a
+ratiometric fluorescent sensor
+T Shen, D Tan, M Shanmugham, X Liu
+Sensors & Diagnostics 1 (4), 714-718
+9 2022
+High-fidelity imaging of amyloid-beta deposits with an ultrasensitive
+fluorescent probe facilitates the early diagnosis and treatment of
+Alzheimer's Disease
+R Tao, N Wang, T Shen, Y Tan, Y Ren, W Wei, M Liao, D Tan, C Tang, ...
+Theranostics 12 (6), 2549
+28 2022
+Unique assembly of carbonylpyridinium and chromene reveals
+mitochondrial thiol starvation under ferroptosis and novel ferroptosis
+inducer
+K Ma, H Yang, T Shen, Y Yue, L Zhao, X Liu, F Huo, C Yin
+Chemical Science 13 (13), 3706-3712
+29 2022
+Overcoming the Spectral Dependence: A General Strategy for Developing
+Far-Red and Near-Infrared Ultra-Fluorogenic Tetrazine Bioorthogonal
+Probes
+W Mao, W Chi, X He, C Wang, X Wang, H Yang, X Liu, H Wu
+Angewandte Chemie International Edition 61 (22), e202117386
+67 2022
+A Descriptor for Accurate Predictions of Host Molecules Enabling Ultralong
+Room-Temperature Phosphorescence in Guest Emitters
+S Chanmungkalakul, C Wang, R Miao, W Chi, D Tan, Q Qiao, ECX Ang, ...
+Angewandte Chemie International Edition 61 (14), e202200546
+39 2022
+A PET-based fluorescent probe for monitoring labile Fe (ii) pools in
+macrophage activations and ferroptosis
+W Xing, H Xu, H Ma, SAA Abedi, S Wang, X Zhang, X Liu, H Xu, W Wang, ...
+Chemical Communications 58 (18), 2979-2982
+26 2022
+A General Method to Develop Highly Environmentally Sensitive
+Fluorescent Probes and AIEgens
+R Miao, J Li, C Wang, X Jiang, Y Gao, X Liu, D Wang, X Li, X Liu, Y Fang
+Advanced Science, 2104609
+71 2022
+TITLE CITED BY YEAR
+A Personalized Online Homework System in a Freshman Engineering
+Linear Algebra Course
+K Kang, WP Wong, X Liu, S Kushnarev, DY Tan, O Ortiz, S Goyal, ...
+2021 IEEE International Conference on Engineering, Technology & Education …
+4 2021
+A smart TP-FRET-based ratiometric fluorescent sensor for
+bisulfite/formaldehyde detection and its imaging application
+L Tan, H Ding, S Chanmungkalakul, L Peng, G Yuan, Q Yang, X Liu, ...
+Sensors and Actuators B: Chemical 345, 130331
+29 2021
+An Edaravone-Guided Design of a Rhodamine-Based Turn-on Fluorescent
+Probe for Detecting Hydroxyl Radicals in Living Systems
+L Chen, X Wu, H Yu, L Wu, Q Wang, J Zhang, X Liu, Z Li, XF Yang
+Analytical chemistry 93 (42), 14343-14350
+56 2021
+Construction and regulation of imidazo [1, 5-a] pyridines with AIE
+characteristics via iodine mediated Csp2− H or Csp− H amination
+J Zhang, M She, L Liu, M Liu, Z Wang, H Liu, W Sun, X Liu, P Liu, S Zhang, ...
+Chinese Chemical Letters 32 (10), 3083-3086
+16 2021
+Bioinspired Design of Reversible Fluorescent Probes for Tracking Nitric
+Oxide Dynamics in Live Cells
+RY Guo, YT Zhang, S Chanmungkalakul, HR Guo, Y Hu, J Li, X Liu, ...
+CCS Chemistry 3 (10), 116-128
+19 2021
+Force-Induced Near-Infrared Chromism of Mechanophore-Linked Polymers
+Q Qi, G Sekhon, R Chandradat, NM Ofodum, T Shen, J Scrimgeour, M Joy, ...
+Journal of the American Chemical Society 143 (42), 17337-17343
+67 2021
+Restriction of Twisted Intramolecular Charge Transfer Enables the
+Aggregation-Induced Emission of 1-(N,N-Dialkylamino)-naphthalene
+Derivatives
+SAA Abedi, W Chi, D Tan, T Shen, C Wang, ECX Ang, CH Tan, F Anariba, ...
+The Journal of Physical Chemistry A 125 (38), 8397-8403
+26 2021
+Molecular-Dimension-Dependent ESIPT Break for Specific Reversible
+Response to GSH and Its Real-Time Bioimaging
+H Ren, F Huo, T Shen, X Liu, C Yin
+Analytical Chemistry 93 (37), 12801-12807
+43 2021
+Bio-orthogonal Red and Far-Red Fluorogenic Probes for Wash-Free Live-
+Cell and Super-resolution Microscopy
+P Werther, K Yserentant, F Braun, K Grußmayer, V Navikas, M Yu, ...
+ACS central science 7 (9), 1561-1571
+106 2021
+An Approach to Developing Cyanines with Simultaneous Intersystem
+Crossing Enhancement and Excited-State Lifetime Elongation for
+Photodynamic Antitumor Metastasis
+X Zhao, Q Yao, S Long, W Chi, Y Yang, D Tan, X Liu, H Huang, W Sun, ...
+Journal of the American Chemical Society 143 (31), 12345-12354
+165 2021
+Fluorescence umpolung enables light-up sensing of N-acetyltransferases
+and nerve agents
+C Yan, Z Guo, W Chi, W Fu, SAA Abedi, X Liu, H Tian, WH Zhu
+Nature Communications 12 (1), 3869
+102 2021
+TITLE CITED BY YEAR
+Energy transfer followed by electron transfer (ETET) endows a TPE-NBD
+dyad with enhanced environmental sensitivity
+X Wu, D Li, J Li, W Chi, X Han, C Wang, Z Xu, J Yin, X Liu
+Chinese Chemical Letters 32 (6), 1937-1941
+16 2021
+Aggregation-induced emission or aggregation-caused quenching? Impact
+of covalent bridge between tetraphenylethene and naphthalimide
+X Ma, W Chi, X Han, C Wang, S Liu, X Liu, J Yin
+Chinese Chemical Letters 32 (5), 1790-1794
+84 2021
+Water-soluble polyaromatic-based imidazolium for detecting picric acid:
+Pyrene vs. anthracene
+C Pherkkhuntod, V Ervithayasuporn, S Chanmungkalakul, C Wang, X Liu, ...
+Sensors and Actuators B: Chemical 330, 129287
+36 2021
+Methine-Quinoidal Fragment Induces Significant Bathochromic Shifts in
+Organic Dyes
+T Shen, Y Gao, C Wang, Z Xu, X Liu
+The Journal of Physical Chemistry B 125 (5), 1447-1452
+11 2021
+State-crossing from a Locally Excited to an Electron Transfer State
+(SLEET) Model Rationalizing the Aggregation-induced Emission
+Mechanism of (Bi) piperidylanthracenes
+W Chi, C Wang, X Liu
+Chemical Research in Chinese Universities 37, 157-161
+9 2021
+Twisted intramolecular charge transfer (TICT) and twists beyond TICT: from
+mechanisms to rational designs of bright and sensitive fluorophores
+C Wang, W Chi, Q Qiao, D Tan, Z Xu, X Liu
+Chemical Society Reviews 50 (22), 12656-12678
+560 2021
+Stable super-resolution imaging of lipid droplet dynamics through a buffer
+strategy with a hydrogen-bond sensitive fluorogenic probe
+J Chen, C Wang, W Liu, Q Qiao, H Qi, W Zhou, N Xu, J Li, H Piao, D Tan, ...
+Angewandte Chemie International Edition 60 (47), 25104-25113
+127 2021
+A unified fluorescence quenching mechanism of tetrazine-based
+fluorogenic dyes: energy transfer to a dark state
+W Chi, L Huang, C Wang, D Tan, Z Xu, X Liu
+Materials Chemistry Frontiers 5 (18), 7012-7021
+42 2021
+Thermal equilibria between conformers enable highly reliable single-
+fluorophore ratiometric thermometers
+T Shen, X Wu, D Tan, Z Xu, X Liu
+Analyst 146 (13), 4219-4225
+6 2021
+Theoretical studies on triplet formations in nitrobenzoxadiazole (NBD)
+derivatives: The impact of donor group and heteroatom substitution
+C Wang, HJ Koh, Z Xu, X Liu
+Results in Chemistry 3, 100116
+3 2021
+One-step condensation synthesis and characterizations of indocyanine
+green
+X Fang, W Liu, X Wu, W Zhou, J Chen, X Liu, Z Xu
+Results in Chemistry 3, 100092
+19 2021
+TITLE CITED BY YEAR
+An ESIPT-induced NIR fluorescent probe to visualize mitochondrial sulfur
+dioxide during oxidative stress in vivo
+H Ren, F Huo, X Wu, X Liu, C Yin
+Chemical Communications 57 (5), 655-658
+69 2021
+A systematic study on the relationship between viscosity sensitivity and
+temperature dependency of BODIPY rotors
+X Liu, W Chi, AJ Gómez-Infante, E Peña-Cabrera, X Liu, YT Chang
+Bulletin of the Korean Chemical Society 42 (1), 91-94
+6 2021
+Fluorophore-Promoted Facile Deprotonation and Exocyclic Five-Membered
+Ring Cyclization for Selective and Dynamic Tracking of Labile Glyoxals
+H Xu, Q Liu, X Song, C Wang, X Wang, S Ma, X Wang, Y Feng, X Meng, ...
+Analytical Chemistry 92 (20), 13829-13838
+26 2020
+Multiple Factors Regulate the Spirocyclization Equilibrium of Si-
+Rhodamines
+F Deng, Q Qiao, J Li, W Yin, L Miao, X Liu, Z Xu
+The Journal of Physical Chemistry B 124 (34), 7467-7474
+17 2020
+Molecular Origins of Photoinduced Backward Intramolecular Charge
+Transfer
+M Hao, W Chi, C Wang, Z Xu, Z Li, X Liu
+The Journal of Physical Chemistry C 124 (31), 16820-16826
+37 2020
+A Sequential Dual-Lock Strategy for Photoactivatable Chemiluminescent
+Probes Enabling Bright Duplex Optical Imaging
+Y Zhang, C Yan, C Wang, Z Guo, X Liu, WH Zhu
+Angewandte Chemie International Edition 59 (23), 9059-9066
+135 2020
+Towards tetrazine-based near-infrared fluorogenic dyes: Is there a
+wavelength limit?
+L Chen, F Li, M Nandi, L Huang, Z Chen, J Wei, W Chi, X Liu, J Yang
+Dyes and Pigments 177, 108313
+34 2020
+Activatable selenium-containing fluorescent apoptotic agent for biosensing
+and tracing cancer cell apoptosis
+L Zhou, F Luo, W Chi, Y Tang, X Liu, Q Lin
+Sensors and Actuators B: Chemical 311, 127915
+10 2020
+Controlling Metallophilic Interactions in Chiral Gold (I) Double Salts towards
+Excitation Wavelength-Tunable Circularly Polarized Luminescence
+JG Yang, K Li, J Wang, S Sun, W Chi, C Wang, X Chang, C Zou, WP To, ...
+Angewandte Chemie International Edition 59 (17), 6915-6922
+90 2020
+A General Descriptor ΔE Enables the Quantitative Development of
+Luminescent Materials Based on Photoinduced Electron Transfer
+W Chi, J Chen, W Liu, C Wang, Q Qi, Q Qiao, TM Tan, K Xiong, X Liu, ...
+Journal of the American Chemical Society 142 (14), 6777-6785
+183 2020
+Molecular Mechanism of Viscosity Sensitivity in BODIPY Rotors and
+Application to Motion-Based Fluorescent Sensors
+X Liu, W Chi, Q Qiao, SV Kokate, EP Cabrera, Z Xu, X Liu, YT Chang
+ACS sensors 5 (3), 731-739
+135 2020
+TITLE CITED BY YEAR
+De novo strategy with engineering anti-Kasha/Kasha fluorophores enables
+reliable ratiometric quantification of biomolecules
+L Shi, C Yan, Z Guo, W Chi, J Wei, W Liu, X Liu, H Tian, WH Zhu
+Nature Communications 11 (1), 793
+105 2020
+A Unified Push–Pull Model for Understanding the Ring-Opening
+Mechanism of Rhodamine Dyes
+W Chi, Q Qi, R Lee, Z Xu, X Liu
+The Journal of Physical Chemistry C 124 (6), 3793-3801
+89 2020
+Molecular Origins of Heteroatom Engineering on the Emission Wavelength
+Tuning, Quantum Yield Variations and Fluorogenicity of NBD-like
+SCOTfluors
+Y Gao, C Wang, W Chi, X Liu
+Chemistry–An Asian Journal
+14 2020
+Descriptor ΔGC-O Enables the Quantitative Design of Spontaneously
+Blinking Rhodamines for Live-Cell Super-Resolution Imaging
+Z Xu, W Chi, Q Qiao, C Wang, J Zheng, W Zhou, N Xu, X Wu, X Jiang, ...
+Angewandte Chemie International Edition 59 (45), 20215-20223
+78 2020
+Efficient and Stable Organic Light-Emitting Diodes Employing Indolo [2, 3-
+b] indole-Based Thermally Activated Delayed Fluorescence Emitters
+Q Ai, J Chai, W Lou, T Liu, D Wang, C Deng, C Wang, G Li, X Liu, Z Liu, ...
+ACS Applied Materials & Interfaces
+32 2020
+Quantitative Design of Bright Fluorophores and AIEgens via the Accurate
+Prediction of Twisted Intramolecular Charge Transfer (TICT)
+C Wang, Q Qiao, W Chi, J Chen, W Liu, D Tan, S McKechnie, D Lyu, ...
+Angewandte Chemie International Edition 59 (25), 10160-10172
+239 2020
+Quaternary Piperazine-Substituted Rhodamines with Enhanced Brightness
+for Super-Resolution Imaging
+Z Ye, W Yang, C Wang, Y Zheng, W Chi, X Liu, Z Huang, X Li, Y Xiao
+Journal of the American Chemical Society 141 (37), 14491-14495
+184 2019
+Regulation of aggregation-induced emission behaviours and
+mechanofluorochromism of tetraphenylethene through different oxidation
+states of sulphur moieties
+Q Yang, D Li, W Chi, R Guo, B Yan, J Lan, X Liu, J Yin
+Journal of Materials Chemistry C 7 (27), 8244-8249
+24 2019
+A dual-site modulated FRET-based two-photon ratiometric fluorescent
+probe for tracking lysosomal pH changes in living cells, tissues and
+zebrafish
+X Zhao, C Wang, G Yuan, H Ding, L Zhou, X Liu, Q Lin
+Sensors and Actuators B: Chemical 290, 79-86
+51 2019
+Visualizing Microglia with a Fluorescence Turn-On Ugt1a7c Substrate
+B Kim, M Fukuda, JY Lee, D Su, S Sanu, A Silvin, ATT Khoo, T Kwon, ...
+Angewandte Chemie International Edition 58 (24), 7972-7976
+39 2019
+A Photoexcitation-Induced Twisted Intramolecular Charge Shuttle (TICS)
+W Chi, Q Qiao, R Lee, W Liu, YS Teo, D Gu, MJ Lang, YT Chang, Z Xu, ...
+Angewandte Chemie International Edition 58 (21), 7073-7077
+110 2019
+*
+TITLE CITED BY YEAR
+Crystal multi-conformational control through deformable carbon-sulfur bond
+for singlet-triplet emissive tuning
+H Wu, W Chi, G Baryshnikov, B Wu, Y Gong, D Zheng, X Li, Y Zhao, X Liu, ...
+Angewandte Chemie International Edition 58 (13), 4328-4333
+117 2019
+Achieving amorphous ultralong room temperature phosphorescence by
+coassembling planar small organic molecules with polyvinyl alcohol
+H Wu, W Chi, Z Chen, G Liu, L Gu, AK Bindra, G Yang, X Liu, Y Zhao
+Advanced Functional Materials 29 (10), 1807243
+204 2019
+Strong π-π stacking interactions led to the mis-assignment of dimer
+emissions to the monomers of 1-acetylpyrene
+S Long, W Chi, L Miao, Q Qiao, X Liu, Z Xu
+Chinese Chemical Letters 30 (3), 601-604
+9 2019
+Rapid Identification of Bacteria by Membrane-Responsive Aggregation of a
+Pyrene Derivative
+S Long, L Miao, R Li, F Deng, Q Qiao, X Liu, A Yan, Z Xu
+ACS sensors 4 (2), 281-285
+45 2019
+A ruthenium bisoxazoline complex as a photoredox catalyst for nitro
+compound reduction under visible light
+WG Jia, MX Cheng, LL Gao, SM Tan, C Wang, X Liu, R Lee
+Dalton Transactions 48 (27), 9949-9953
+16 2019
+Revealing the switching mechanisms of an off–on–off fluorescent logic gate
+system
+W Chi, J Chen, Q Qiao, Y Gao, Z Xu, X Liu
+Physical Chemistry Chemical Physics 21 (30), 16798-16803
+26 2019
+A H-bond strategy to develop acid-resistant photoswitchable rhodamine
+spirolactams for super-resolution single-molecule localization microscopy
+Q Qi, W Chi, Y Li, Q Qiao, J Chen, L Miao, Y Zhang, J Li, W Ji, T Xu, X Liu, ...
+Chemical Science 10 (18), 4914-4922
+92 2019
+Rhodamine-naphthalimide demonstrated a distinct aggregation-induced
+emission mechanism: elimination of dark-states via dimer interactions
+(EDDI)
+Q Qi, L Huang, R Yang, J Li, Q Qiao, B Xu, W Tian, X Liu, Z Xu
+Chemical Communications 55 (10), 1446-1449
+37 2019
+Unusual intermolecular charge transfer enables supramolecular fluorescent
+viscosity sensors
+X Han, F Hu, W Chi, X Ma, SH Liu, X Liu, J Yin
+Sensors and Actuators B: Chemical 277, 55-61
+22 2018
+A Highly Reversible Mechanochromic Difluorobenzothiadiazole Dye with
+Near-Infrared Emission
+J Chen, D Li, W Chi, G Liu, SH Liu, X Liu, C Zhang, J Yin
+Chemistry–A European Journal 24 (15), 3671-3676
+51 2018
+Interactions between molecules and perovskites in halide perovskite solar
+cells
+L Zhang, X Liu, J Li, S McKechnie
+Solar Energy Materials and Solar Cells 175, 1-19
+83 2018
+TITLE CITED BY YEAR
+Development of 4-hydrazinyl-7-nitrobenzofurazan as a fluorogenic probe
+for detecting malondialdehyde in biological samples
+X Wang, X Liu, T Cheng, H Li, XF Yang
+Sensors and Actuators B: Chemical 254, 248-254
+19 2018
+Solid-State Photoinduced Luminescence Switch for Advanced
+Anticounterfeiting and Super-Resolution Imaging Applications
+Q Qi, C Li, X Liu, S Jiang, Z Xu, R Lee, M Zhu, B Xu, W Tian
+Journal of the American Chemical Society 139 (45), 16036-16039
+404 2017
+Substantial Intramolecular Charge Transfer Induces Long Emission
+Wavelengths and Mega Stokes Shifts in 6-Aminocoumarins
+X Liu, JM Cole, Z Xu
+The Journal of Physical Chemistry C 121 (24), 13274-13279
+81 2017
+Ground-state conformers enable bright single-fluorophore ratiometric
+thermometers with positive temperature coefficients
+W Chi, W Yin, Q Qi, Q Qiao, Y Lin, Z Zhu, S Vijayan, M Hashimoto, ...
+Materials Chemistry Frontiers 1 (11), 2383-2390
+24 2017
+Motion-induced change in emission (MICE) for developing fluorescent
+probes
+D Su, CL Teoh, L Wang, X Liu, YT Chang
+Chemical Society Reviews 46 (16), 4833-4844
+218 2017
+Modulating aggregation-induced emission via a non-conjugated linkage of
+fluorophores to tetraphenylethenes
+X Han, B Zhang, J Chen, SH Liu, C Tan, H Liu, MJ Lang, Y Tan, X Liu, ...
+Journal of Materials Chemistry B 5 (26), 5096-5100
+22 2017
+Rational Development of Near-Infrared Fluorophores with Large Stokes
+Shifts, Bright One-Photon and Two-Photon Emissions for Bioimaging and
+Biosensing
+Z Liyi, Q Wang, Y Tan, M Lang, H Sun, X Liu
+Chemistry - A European Journal 23 (36), 8736-8740
+66 2017
+Multilayer Dye Aggregation at Dye/TiO2 Interface via π… π Stacking and
+Hydrogen Bond and Its Impact on Solar Cell Performance: A DFT Analysis
+L Zhang, X Liu, W Rao, J Li
+Scientific reports 6, 35893
+54 2016
+First-Principles Study of Molecular Adsorption on Lead Iodide Perovskite
+Surface: A Case Study of Halogen Bond Passivation for Solar Cell
+Application
+L Zhang, X Liu, J Su, J Li
+The Journal of Physical Chemistry C 120 (41), 23536-23541
+38 2016
+Aziridinyl fluorophores demonstrate bright fluorescence and superior
+photostability by effectively inhibiting twisted intramolecular charge transfer
+X Liu, Q Qiao, W Tian, W Liu, J Chen, MJ Lang, Z Xu
+Journal of the American Chemical Society 138 (22), 6960-6963
+329 2016
+TITLE CITED BY YEAR
+Rationalizing the photophysical properties of BODIPY laser dyes via
+aromaticity and electron-donor-based structural perturbations
+PG Waddell, X Liu, T Zhao, JM Cole
+Dyes and Pigments 116, 74-81
+24 2015
+Coumarin 545: an emission reference dye with a record-low temperature
+coefficient for ratiometric fluorescence based temperature measurements
+D Mao, X Liu, Q Qiao, W Yin, M Zhao, JM Cole, J Cui, Z Xu
+Analyst 140 (4), 1008-1013
+19 2015
+Quantitatively mapping cellular viscosity with detailed organelle information
+via a designed PET fluorescent probe
+T Liu, X Liu, DR Spring, X Qian, J Cui, Z Xu
+Scientific reports 4, 5418
+171 2014
+Predicting Solar-Cell Dyes for Cosensitization
+SL Bayliss, JM Cole, PG Waddell, S McKechnie, X Liu
+The Journal of Physical Chemistry C 118 (26), 14082-14090
+23 2014
+Dye Aggregation and Complex Formation Effects in 7-(Diethylamino)-
+coumarin-3-carboxylic Acid
+X Liu, JM Cole, PCY Chow, L Zhang, Y Tan, T Zhao
+The Journal of Physical Chemistry C 118 (24), 13042-13051
+48 2014
+A twisted-intramolecular-charge-transfer (TICT) based ratiometric
+fluorescent thermometer with a mega-Stokes shift and a positive
+temperature coefficient
+C Cao, X Liu, Q Qiao, M Zhao, W Yin, D Mao, H Zhang, Z Xu
+Chemical Communications 50 (99), 15811-15814
+164 2014
+Black silicon: fabrication methods, properties and solar energy applications
+X Liu, PR Coxon, M Peters, B Hoex, JM Cole, DJ Fray
+Energy & Environmental Science 7 (10), 3223-3263
+638 2014
+Temperature insensitive fluorescence intensity in a coumarin monomer–
+aggregate coupled system
+X Liu, D Mao, JM Cole, Z Xu
+Chemical Communications 50 (66), 9329-9332
+18 2014
+Tuning Solvatochromism of Azo Dyes with Intramolecular Hydrogen
+Bonding in Solution and on Titanium Dioxide Nanoparticles
+L Zhang, JM Cole, X Liu
+The Journal of Physical Chemistry C 117 (49), 26316-26323
+53 2013
+Relating Electron Donor and Carboxylic Acid Anchoring Substitution Effects
+in Azo Dyes to Dye-Sensitized Solar Cell Performance
+L Zhang, JM Cole, PG Waddell, KS Low, X Liu
+ACS Sustainable Chemistry & Engineering 1 (11), 1440-1452
+116 2013
+Molecular Design of UV–vis Absorption and Emission Properties in Organic
+Fluorophores: Toward Larger Bathochromic Shifts, Enhanced Molar
+Extinction Coefficients, and Greater …
+X Liu, Z Xu, JM Cole
+The Journal of Physical Chemistry C 117 (32), 16584-16595
+310 2013
+TITLE CITED BY YEAR
+Molecular origins of dye aggregation and complex formation effects in
+coumarin 343
+X Liu, JM Cole, KS Low
+The Journal of Physical Chemistry C 117 (28), 14723-14730
+55 2013
+Solvent Effects on the UV–vis Absorption and Emission of Optoelectronic
+Coumarins: a Comparison of Three Empirical Solvatochromic Models
+X Liu, JM Cole, KS Low
+The Journal of Physical Chemistry C 117 (28), 14731-14741
+118 2013
+Molecular Origins of Optoelectronic Properties in Coumarins 343, 314T,
+445, and 522B
+X Liu, JM Cole, PG Waddell, TC Lin, S McKechnie
+The Journal of Physical Chemistry C 117 (27), 14130-14141
+48 2013
+Molecular origins of optoelectronic properties in coumarin dyes: toward
+designer solar cell and laser applications
+X Liu, JM Cole, PG Waddell, TC Lin, J Radia, A Zeidler
+The Journal of Physical Chemistry A 116 (1), 727-737
+328 2012
+Molecular origins of commercial laser dye functionality in azacoumarins
+and 2-quinolones: LD 425, LD 489 and LD 473
+X Liu, JM Cole, PG Waddell, TC Lin
+Acta Crystallographica Section B: Structural Science 67 (6), 560-568
+9 2011
+Macroscopic invisibility cloak for visible light
+B Zhang, Y Luo, X Liu, G Barbastathis
+Physical review letters 106 (3), 33901
+463 2011
+麻省理⼯的领导⻛范 , 管理⼒和教育
+托⻢斯，  伊格，  刘晓刚，  张家惠，  梁婷
+清华⼤学教育研究 , 1-5
+2 2009
