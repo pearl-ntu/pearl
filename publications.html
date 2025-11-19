@@ -47,27 +47,20 @@
             <div class="container">
                 <h1 class="page-title" data-en="Publications" data-zh="出版物">Publications</h1>
                 
-                <!-- Statistics Section -->
-                <div class="pub-stats">
-                    <div class="stat-card">
-                        <div class="stat-number">9,692</div>
-                        <div class="stat-label" data-en="Total Citations" data-zh="总引用数">Total Citations</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">52</div>
-                        <div class="stat-label" data-en="h-index" data-zh="h指数">h-index</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">122</div>
-                        <div class="stat-label" data-en="i10-index" data-zh="i10指数">i10-index</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">170+</div>
-                        <div class="stat-label" data-en="Publications" data-zh="出版物">Publications</div>
+                <!-- Selected Publications Section -->
+                <div class="selected-publications-section">
+                    <h2 class="section-title" data-en="Selected Publications" data-zh="精选出版物">Selected Publications</h2>
+                    <p class="section-description" data-en="Highlighted publications from prestigious journals where Prof. Xiaogang Liu is the corresponding author." data-zh="刘晓刚教授作为通讯作者在知名期刊上发表的重点论文。">Highlighted publications from prestigious journals where Prof. Xiaogang Liu is the corresponding author.</p>
+                    <div class="selected-publications-list" id="selectedPublicationsList">
+                        <!-- Selected publications will be dynamically inserted here -->
                     </div>
                 </div>
 
-                <!-- Filters -->
+                <!-- All Publications Section -->
+                <div class="all-publications-section">
+                    <h2 class="section-title" data-en="All Publications" data-zh="所有出版物">All Publications</h2>
+                    
+                    <!-- Filters -->
                 <div class="pub-filters">
                     <div class="filter-group">
                         <label data-en="Filter by Year:" data-zh="按年份筛选：">Filter by Year:</label>
@@ -114,9 +107,10 @@
                     </div>
                 </div>
 
-                <!-- Publications List -->
-                <div class="publications-list" id="publicationsList">
-                    <!-- Publications will be dynamically inserted here -->
+                    <!-- Publications List -->
+                    <div class="publications-list" id="publicationsList">
+                        <!-- Publications will be dynamically inserted here -->
+                    </div>
                 </div>
 
                 <div class="pub-footer">

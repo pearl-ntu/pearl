@@ -26,39 +26,110 @@ function initializePublications() {
         return;
     }
     
-    // Function to calculate and update statistics
-    function updateStatistics() {
-        if (!publicationsData || publicationsData.length === 0) return;
+    // Function to identify selected publications
+    // Selected: X Liu is last author (or near last) in prestigious journals
+    function getSelectedPublications() {
+        const prestigiousJournals = [
+            'Journal of the American Chemical Society',
+            'Nature',
+            'Nature Methods',
+            'Nature Chemistry',
+            'Nature Communications',
+            'Nature Synthesis',
+            'Angewandte Chemie International Edition',
+            'Science',
+            'Cell'
+        ];
         
-        // Calculate total citations
-        const totalCitations = publicationsData.reduce((sum, pub) => sum + (pub.citations || 0), 0);
-        
-        // Calculate h-index
-        const citations = publicationsData.map(p => p.citations || 0).sort((a, b) => b - a);
-        let hIndex = 0;
-        for (let i = 0; i < citations.length; i++) {
-            if (citations[i] >= i + 1) {
-                hIndex = i + 1;
-            } else {
-                break;
+        return publicationsData.filter(pub => {
+            // Check if journal is prestigious
+            const isPrestigious = prestigiousJournals.some(journal => 
+                pub.journal.includes(journal)
+            );
+            
+            if (!isPrestigious) return false;
+            
+            // Check if X Liu is last author (appears last before "..." or at the end)
+            const authors = pub.authors;
+            const liuPattern = /X Liu/i;
+            
+            if (!liuPattern.test(authors)) return false;
+            
+            // Check if X Liu appears near the end (last or second-to-last before "...")
+            const authorsList = authors.split(',').map(a => a.trim());
+            const lastIndex = authorsList.length - 1;
+            const secondLastIndex = authorsList.length - 2;
+            
+            // Check if X Liu is in the last 2 positions (before "..." if present)
+            for (let i = Math.max(0, lastIndex - 2); i <= lastIndex; i++) {
+                if (authorsList[i] && liuPattern.test(authorsList[i])) {
+                    return true;
+                }
             }
+            
+            return false;
+        }).sort((a, b) => {
+            // Sort by year (newest first), then by citations
+            if (b.year !== a.year) return b.year - a.year;
+            return b.citations - a.citations;
+        });
+    }
+    
+    // Display selected publications
+    function displaySelectedPublications() {
+        const selectedPubs = getSelectedPublications();
+        const selectedList = document.getElementById('selectedPublicationsList');
+        
+        if (!selectedList) return;
+        
+        if (selectedPubs.length === 0) {
+            selectedList.innerHTML = '<p class="section-description" data-en="No selected publications found." data-zh="未找到精选出版物。">No selected publications found.</p>';
+            return;
         }
         
-        // Calculate i10-index (number of publications with at least 10 citations)
-        const i10Index = publicationsData.filter(p => (p.citations || 0) >= 10).length;
+        selectedList.innerHTML = selectedPubs.map((pub, index) => {
+            const citationText = pub.citations === 1 ? 'citation' : 'citations';
+            const citationTextZh = '次引用';
+            
+            // Determine journal badge
+            let journalBadge = '';
+            if (pub.journal.includes('Journal of the American Chemical Society')) {
+                journalBadge = 'JACS';
+            } else if (pub.journal.includes('Nature')) {
+                journalBadge = 'Nature';
+            } else if (pub.journal.includes('Angewandte Chemie')) {
+                journalBadge = 'Angew. Chem.';
+            } else if (pub.journal.includes('Science')) {
+                journalBadge = 'Science';
+            } else if (pub.journal.includes('Cell')) {
+                journalBadge = 'Cell';
+            }
+            
+            return `
+            <div class="selected-publication-item">
+                <div class="selected-pub-content">
+                    <h3 class="selected-pub-title">${pub.title}</h3>
+                    <p class="selected-pub-authors">${pub.authors}</p>
+                    <p class="selected-pub-journal">${pub.journal}</p>
+                    <div class="selected-pub-meta">
+                        ${journalBadge ? `<span class="selected-pub-badge">${journalBadge}</span>` : ''}
+                        <span class="pub-year">${pub.year}</span>
+                        <span class="pub-citations" data-en="${pub.citations} ${citationText}" data-zh="${pub.citations} ${citationTextZh}">${pub.citations} ${citationText}</span>
+                    </div>
+                </div>
+            </div>
+        `;
+        }).join('');
         
-        // Update statistics display
-        const statNumbers = document.querySelectorAll('.stat-number');
-        if (statNumbers.length >= 4) {
-            statNumbers[0].textContent = totalCitations.toLocaleString();
-            statNumbers[1].textContent = hIndex;
-            statNumbers[2].textContent = i10Index;
-            statNumbers[3].textContent = publicationsData.length + '+';
+        // Apply language to new elements
+        if (typeof switchLanguage === 'function') {
+            const currentLang = localStorage.getItem('language') || 'en';
+            setTimeout(() => switchLanguage(currentLang), 10);
         }
     }
     
-    // Calculate and update statistics
-    updateStatistics();
+    // Display selected publications
+    displaySelectedPublications();
     
     let filteredPublications = [...publicationsData];
     
