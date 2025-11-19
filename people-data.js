@@ -4,21 +4,21 @@ const peopleData = {
         {
             name: "Syed Ali Abbas Abedi",
             title: "Postdoctoral Researcher",
-            email: "syedaliabbas@ntu.edu.sg",  // Update with correct email if needed
+            email: "CS-SYEDALIA.ABEDI@ntu.edu.sg",
             image: "images/people/syed-ali-abbas-abedi.jpg",  // Add photo later
             research: ""  // Add research interests if needed
         },
         {
             name: "RongRong Huang",
             title: "Postdoctoral Researcher",
-            email: "rongrong.huang@ntu.edu.sg",  // Update with correct email if needed
+            email: "CS-RONGRONG.HUANG@ntu.edu.sg",
             image: "images/people/rongrong-huang.jpg",  // Add photo later
             research: ""  // Add research interests if needed
         },
         {
             name: "Guanyu Jiang",
             title: "Postdoctoral Researcher",
-            email: "guanyu.jiang@ntu.edu.sg",  // Update with correct email if needed
+            email: "CS-GUANYU.JIANG@ntu.edu.sg",
             image: "images/people/guanyu-jiang.jpg",  // Add photo later
             research: ""  // Add research interests if needed
         }
@@ -28,7 +28,7 @@ const peopleData = {
         {
             name: "Lovelesh",
             title: "PhD Student",
-            email: "lovelesh@ntu.edu.sg",  // Update with correct email if needed
+            email: "CS-LOVELESH.LOVELES@ntu.edu.sg",
             image: "images/people/lovelesh.jpg",  // Add photo later
             research: ""  // Add research interests if needed
         }
