@@ -1128,19 +1128,53 @@ body {
     border-left: 4px solid var(--primary-color);
     background-color: var(--bg-light);
     border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.event-item-large:last-child {
+    margin-bottom: 0;
 }
 
 .event-item-large h3 {
     font-size: 24px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     color: var(--secondary-color);
+}
+
+.event-date {
+    color: var(--text-light);
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.event-image {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.event-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+}
+
+.event-content {
+    margin-top: 20px;
 }
 
 .event-description {
     margin-top: 15px;
+    margin-bottom: 15px;
     line-height: 1.8;
     color: var(--text-color);
+}
+
+.event-description:last-child {
+    margin-bottom: 0;
 }
 
 /* Join Us Page */
