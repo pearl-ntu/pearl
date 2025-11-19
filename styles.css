@@ -669,25 +669,47 @@ body {
     padding: 40px 0;
 }
 
-.research-intro,
-.research-content-section,
-.research-conclusion {
-    margin-bottom: 40px;
+.research-overview {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.research-intro {
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 1.9;
+    color: var(--text-color);
+    text-align: justify;
+}
+
+.research-approach,
+.research-goal {
+    margin-bottom: 50px;
+    padding: 30px;
+    background-color: var(--bg-light);
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.research-approach h2,
+.research-goal h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}
+
+.research-approach p,
+.research-goal p {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
+    margin-bottom: 15px;
 }
 
-.research-image-section {
-    margin: 40px 0;
-    text-align: center;
-}
-
-.research-image-placeholder {
-    background-color: var(--bg-light);
-    border-radius: 8px;
-    padding: 40px;
-    display: inline-block;
+.research-approach p:last-child,
+.research-goal p:last-child {
+    margin-bottom: 0;
 }
 
 .research-areas {
@@ -712,20 +734,46 @@ body {
 
 .research-card {
     background-color: white;
-    padding: 30px;
-    border-radius: 8px;
+    padding: 35px 30px;
+    border-radius: 12px;
     box-shadow: var(--shadow);
     transition: var(--transition);
     border-top: 4px solid var(--primary-color);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.research-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-color), var(--primary-dark));
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
 }
 
 .research-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px);
     box-shadow: var(--shadow-hover);
 }
 
+.research-card:hover::before {
+    transform: scaleX(1);
+}
+
+.research-card-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+    display: block;
+    line-height: 1;
+}
+
 .research-card h3 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     margin-bottom: 15px;
     color: var(--primary-color);
@@ -733,7 +781,8 @@ body {
 
 .research-card p {
     color: var(--text-light);
-    line-height: 1.7;
+    line-height: 1.8;
+    font-size: 15px;
 }
 
 /* People Page */
