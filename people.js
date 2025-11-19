@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <h3>${person.name}</h3>
                     ${person.title ? `<p class="person-title">${person.title}</p>` : ''}
                     ${person.email ? `<a href="mailto:${person.email}" class="person-email">${person.email}</a>` : ''}
+                    ${person.website ? `<a href="${person.website}" target="_blank" rel="noopener" class="person-website" data-en="Personal Website" data-zh="个人网站">Personal Website</a>` : ''}
                     ${person.research ? `<p class="person-research">${person.research}</p>` : ''}
                 </div>
             `;

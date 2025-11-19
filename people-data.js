@@ -6,7 +6,8 @@ const peopleData = {
             title: "Postdoctoral Researcher",
             email: "CS-SYEDALIA.ABEDI@ntu.edu.sg",
             image: "images/people/syed-ali-abbas-abedi.jpg",  // Add photo later
-            research: ""  // Add research interests if needed
+            research: "",  // Add research interests if needed
+            website: "https://abedisyedaliabbas.github.io/abedi-research/"
         },
         {
             name: "RongRong Huang",
