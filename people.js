@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                     <h3>${person.name}</h3>
                     ${person.title ? `<p class="person-title">${person.title}</p>` : ''}
-                    ${person.email ? `<p class="person-email">${person.email}</p>` : ''}
+                    ${person.email ? `<a href="mailto:${person.email}" class="person-email">${person.email}</a>` : ''}
                     ${person.research ? `<p class="person-research">${person.research}</p>` : ''}
                 </div>
             `;
