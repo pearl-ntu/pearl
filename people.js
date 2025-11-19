@@ -22,18 +22,18 @@ document.addEventListener('DOMContentLoaded', function() {
                         ${hasImage ? `
                             <img src="${imageSrc}" alt="${person.name}" class="person-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
                             <div class="image-placeholder" style="display: none;">
-                                <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="75" cy="75" r="60" fill="#d0d0d0"/>
-                                    <circle cx="75" cy="60" r="18" fill="#999"/>
-                                    <path d="M45 135 Q75 105 105 135" stroke="#999" stroke-width="15" fill="none" stroke-linecap="round"/>
+                                <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="60" cy="60" r="50" fill="#d0d0d0"/>
+                                    <circle cx="60" cy="48" r="14" fill="#999"/>
+                                    <path d="M36 108 Q60 84 84 108" stroke="#999" stroke-width="12" fill="none" stroke-linecap="round"/>
                                 </svg>
                             </div>
                         ` : `
                             <div class="image-placeholder">
-                                <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="75" cy="75" r="60" fill="#d0d0d0"/>
-                                    <circle cx="75" cy="60" r="18" fill="#999"/>
-                                    <path d="M45 135 Q75 105 105 135" stroke="#999" stroke-width="15" fill="none" stroke-linecap="round"/>
+                                <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="60" cy="60" r="50" fill="#d0d0d0"/>
+                                    <circle cx="60" cy="48" r="14" fill="#999"/>
+                                    <path d="M36 108 Q60 84 84 108" stroke="#999" stroke-width="12" fill="none" stroke-linecap="round"/>
                                 </svg>
                             </div>
                         `}
