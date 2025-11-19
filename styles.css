@@ -2132,6 +2132,15 @@ body {
         font-size: 26px;
     }
 
+    .research-banner-photo {
+        margin: 25px 0 40px;
+        border-radius: 10px;
+    }
+
+    .research-banner-img {
+        min-height: 250px;
+    }
+
     .research-intro {
         padding: 30px 25px;
     }
@@ -2323,6 +2332,15 @@ body {
 
     .section-header h2 {
         font-size: 22px;
+    }
+
+    .research-banner-photo {
+        margin: 20px 0 30px;
+        border-radius: 8px;
+    }
+
+    .research-banner-img {
+        min-height: 200px;
     }
 
     .research-intro {
