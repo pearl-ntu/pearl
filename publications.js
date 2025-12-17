@@ -108,7 +108,9 @@ function initializePublications() {
             return `
             <div class="selected-publication-item">
                 <div class="selected-pub-content">
-                    <h3 class="selected-pub-title">${pub.title}</h3>
+                    <h3 class="selected-pub-title">
+                        <a href="${pub.url || '#'}" target="_blank" rel="noopener" class="pub-title-link">${pub.title}</a>
+                    </h3>
                     <p class="selected-pub-authors">${pub.authors}</p>
                     <p class="selected-pub-journal">${pub.journal}</p>
                     <div class="selected-pub-meta">
@@ -179,7 +181,9 @@ function initializePublications() {
             <div class="publication-item" data-year="${pub.year}" data-citations="${pub.citations}">
                 <div class="pub-number">${index + 1}</div>
                 <div class="pub-content">
-                    <h3 class="pub-title">${pub.title}</h3>
+                    <h3 class="pub-title">
+                        <a href="${pub.url || '#'}" target="_blank" rel="noopener" class="pub-title-link">${pub.title}</a>
+                    </h3>
                     <p class="pub-authors">${pub.authors}</p>
                     <p class="pub-journal">${pub.journal}</p>
                     <div class="pub-meta">

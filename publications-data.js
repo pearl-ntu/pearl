@@ -7,7 +7,7 @@ const publicationsData = [
         journal: "Journal of the American Chemical Society",
         year: 2025,
         citations: 0,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/jacs.5c15490"
     },
     {
         title: "PET-leveraged ALDH probe toward cancer stem cells",
@@ -15,7 +15,7 @@ const publicationsData = [
         journal: "Journal of Materials Chemistry B 13 (37), 11809-11820",
         year: 2025,
         citations: 0,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2025/tb/d5tb01253h"
     },
     {
         title: "Bioorthogonal In Situ Formation of AIE Luminogens for Imaging Disease Progression via Sigmoidal Signal Amplification",
@@ -23,7 +23,7 @@ const publicationsData = [
         journal: "Angewandte Chemie International Edition 64 (40), e202511705",
         year: 2025,
         citations: 1,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/10.1002/anie.202511705"
     },
     {
         title: "Oxazolidine-Caged Heptamethine Cyanine Switch Exhibits High Photostability for Bioimaging via Buffering Fluorogenicity",
@@ -31,7 +31,7 @@ const publicationsData = [
         journal: "CCS Chemistry, 1-12",
         year: 2025,
         citations: 3,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.chinesechemsoc.org/doi/full/10.31635/ccschem.025.202405383"
     },
     {
         title: "Precision Molecular Engineering of Compact Near-Infrared Fluorophores",
@@ -39,7 +39,7 @@ const publicationsData = [
         journal: "Journal of the American Chemical Society 147 (6), 5258-5268",
         year: 2025,
         citations: 9,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/abs/10.1021/jacs.4c16087"
     },
     {
         title: "Brightness for Super-Resolution Imaging",
@@ -47,7 +47,7 @@ const publicationsData = [
         journal: "Journal of the American Chemical Society",
         year: 2025,
         citations: 9,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/abs/10.1021/jacs.5c08833"
     },
     {
         title: "Super-photostable organic dye for long-term live-cell single-protein imaging",
@@ -55,7 +55,7 @@ const publicationsData = [
         journal: "Nature Methods 22 (3), 550-558",
         year: 2025,
         citations: 10,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.nature.com/articles/s41592-024-02584-0"
     },
     {
         title: "Using Olive Oil as a Pedagogical Medium to Teach Ultraviolet Spectrophotometry",
@@ -63,7 +63,7 @@ const publicationsData = [
         journal: "Journal of Chemical Education 101 (11), 5115-5121",
         year: 2024,
         citations: 0,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/acs.jchemed.4c00663"
     },
     {
         title: "Polymers Bearing Pyromellitic Diimide Acceptors",
@@ -71,7 +71,7 @@ const publicationsData = [
         journal: "Chemistry–An Asian Journal 19 (12), e202400236",
         year: 2024,
         citations: 1,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://aces.onlinelibrary.wiley.com/doi/10.1002/asia.202400236"
     },
     {
         title: "Strategies to Enhance the Electrochromic Properties of Conjugated Polymers Bearing Pyromellitic Diimide Acceptors",
@@ -79,7 +79,7 @@ const publicationsData = [
         journal: "Chemistry–An Asian Journal 19 (12), e202400236",
         year: 2024,
         citations: 1,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://aces.onlinelibrary.wiley.com/doi/10.1002/asia.202400236"
     },
     {
         title: "Construction of wavelength-tunable DSE quinoline salt derivatives by regulating the hybridization form of the nitrogen atom and intramolecular torsion angle",
