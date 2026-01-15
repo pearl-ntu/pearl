@@ -2640,14 +2640,9 @@ body {
         opacity: 1;
     }
 
-    /* Hide desktop nav menu on mobile */
+    /* Mobile slide-out menu - always in DOM, just positioned off-screen */
     .nav-menu {
-        display: none !important;
-    }
-
-    /* Show mobile slide-out menu */
-    .nav-menu {
-        display: flex;
+        display: flex !important;
         flex-direction: column;
         width: 280px;
         max-width: 85vw;
@@ -2668,7 +2663,6 @@ body {
 
     .nav-menu.active {
         left: 0;
-        display: flex !important;
     }
 
     .nav-link {

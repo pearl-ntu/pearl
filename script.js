@@ -87,33 +87,43 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function openMobileMenu() {
+        if (!navMenu || !mobileNavOverlay || !mobileMenuToggle) return;
+        
         navMenu.classList.add('active');
         mobileNavOverlay.classList.add('active');
         document.body.style.overflow = 'hidden'; // Prevent background scrolling
         
         // Animate hamburger icon
         const spans = mobileMenuToggle.querySelectorAll('span');
-        spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
-        spans[1].style.opacity = '0';
-        spans[2].style.transform = 'rotate(-45deg) translate(7px, -6px)';
+        if (spans.length >= 3) {
+            spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+            spans[1].style.opacity = '0';
+            spans[2].style.transform = 'rotate(-45deg) translate(7px, -6px)';
+        }
     }
 
     function closeMobileMenu() {
+        if (!navMenu || !mobileNavOverlay || !mobileMenuToggle) return;
+        
         navMenu.classList.remove('active');
         mobileNavOverlay.classList.remove('active');
         document.body.style.overflow = ''; // Restore scrolling
         
         // Reset hamburger icon
         const spans = mobileMenuToggle.querySelectorAll('span');
-        spans[0].style.transform = 'none';
-        spans[1].style.opacity = '1';
-        spans[2].style.transform = 'none';
+        if (spans.length >= 3) {
+            spans[0].style.transform = 'none';
+            spans[1].style.opacity = '1';
+            spans[2].style.transform = 'none';
+        }
     }
 
-    if (mobileMenuToggle && navMenu) {
+    if (mobileMenuToggle && navMenu && mobileNavOverlay) {
         // Open menu when hamburger is clicked
         mobileMenuToggle.addEventListener('click', function(e) {
+            e.preventDefault();
             e.stopPropagation();
+            console.log('Hamburger clicked'); // Debug
             if (navMenu.classList.contains('active')) {
                 closeMobileMenu();
             } else {
