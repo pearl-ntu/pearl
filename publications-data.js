@@ -7,7 +7,8 @@ const publicationsData = [
         journal: "Journal of the American Chemical Society",
         year: 2025,
         citations: 0,
-        url: "https://pubs.acs.org/doi/10.1021/jacs.5c15490"
+        url: "https://pubs.acs.org/doi/10.1021/jacs.5c15490",
+        tocImage: "images/publications/Bright, Robust and Readily Accessible Fluorophore Family for NIR-II Bioimaging.jpg"
     },
     {
         title: "PET-leveraged ALDH probe toward cancer stem cells",
@@ -15,7 +16,8 @@ const publicationsData = [
         journal: "Journal of Materials Chemistry B 13 (37), 11809-11820",
         year: 2025,
         citations: 0,
-        url: "https://pubs.rsc.org/en/content/articlelanding/2025/tb/d5tb01253h"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2025/tb/d5tb01253h",
+        tocImage: "images/publications/PET-leveraged ALDH probe toward cancer stem cells.jpg"
     },
     {
         title: "Bioorthogonal In Situ Formation of AIE Luminogens for Imaging Disease Progression via Sigmoidal Signal Amplification",
@@ -23,7 +25,8 @@ const publicationsData = [
         journal: "Angewandte Chemie International Edition 64 (40), e202511705",
         year: 2025,
         citations: 1,
-        url: "https://onlinelibrary.wiley.com/doi/10.1002/anie.202511705"
+        url: "https://onlinelibrary.wiley.com/doi/10.1002/anie.202511705",
+        tocImage: "images/publications/Bioorthogonal In Situ Formation of AIE Luminogens for Imaging Disease Progression via Sigmoidal Signal Amplification.webp"
     },
     {
         title: "Oxazolidine-Caged Heptamethine Cyanine Switch Exhibits High Photostability for Bioimaging via Buffering Fluorogenicity",
@@ -31,7 +34,8 @@ const publicationsData = [
         journal: "CCS Chemistry, 1-12",
         year: 2025,
         citations: 3,
-        url: "https://www.chinesechemsoc.org/doi/full/10.31635/ccschem.025.202405383"
+        url: "https://www.chinesechemsoc.org/doi/full/10.31635/ccschem.025.202405383",
+        tocImage: "images/publications/Oxazolidine-Caged Heptamethine Cyanine Switch Exhibits High Photostability for Bioimaging via Buffering Fluorogenicity.webp"
     },
     {
         title: "Precision Molecular Engineering of Compact Near-Infrared Fluorophores",
@@ -39,15 +43,17 @@ const publicationsData = [
         journal: "Journal of the American Chemical Society 147 (6), 5258-5268",
         year: 2025,
         citations: 9,
-        url: "https://pubs.acs.org/doi/abs/10.1021/jacs.4c16087"
+        url: "https://pubs.acs.org/doi/abs/10.1021/jacs.4c16087",
+        tocImage: "images/publications/Precision Molecular Engineering of Compact Near-Infrared FluorophoresArticle link copied!.webp"
     },
     {
-        title: "Brightness for Super-Resolution Imaging",
+        title: "Ether Rhodamines with Enhanced Hydrophilicity, Fluorogenicity, and Brightness for Super-Resolution Imaging",
         authors: "X Fang, Q Qiao, Z Li, HK Li, Y Huang, D Hou, J Chen, N Xu, K An, W Jiang, ...",
         journal: "Journal of the American Chemical Society",
         year: 2025,
         citations: 9,
-        url: "https://pubs.acs.org/doi/abs/10.1021/jacs.5c08833"
+        url: "https://pubs.acs.org/doi/abs/10.1021/jacs.5c08833",
+        tocImage: "images/publications/Ether Rhodamines with Enhanced Hydrophilicity, Fluorogenicity, and Brightness for Super-Resolution Imaging.webp"
     },
     {
         title: "Super-photostable organic dye for long-term live-cell single-protein imaging",
@@ -55,7 +61,8 @@ const publicationsData = [
         journal: "Nature Methods 22 (3), 550-558",
         year: 2025,
         citations: 10,
-        url: "https://www.nature.com/articles/s41592-024-02584-0"
+        url: "https://www.nature.com/articles/s41592-024-02584-0",
+        tocImage: "images/publications/Super-photostable organic dye for long-term live-cell single-protein imaging.png"
     },
     {
         title: "Using Olive Oil as a Pedagogical Medium to Teach Ultraviolet Spectrophotometry",
@@ -1336,5 +1343,192 @@ const publicationsData = [
         year: 2009,
         citations: 2,
         url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+    },
+    {
+        title: "Red and Robust: Highly Stable Electrofluorochromic Switching in Cyano‐Substituted Aggregation‐Induced Emission‐Active Conjugated Polymers",
+        authors: "BYK Hui, R Tao, KLO Chin, XYD Soo, A Sng, SAA Abedi, KC Chong, ...",
+        journal: "Advanced Optical Materials, e02075",
+        year: 2025,
+        citations: 0,
+        url: "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adom.202502075?af=R",
+        tocImage: "images/publications/Red and Robust Highly Stable Electrofluorochromic Switching in Cyano-Substituted Aggregation-Induced Emission-Active Conjugated Polymers.webp"
+    },
+    {
+        title: "Photostable o-Carborane-DAPA Hybrids for On-Site Nitrite Screening: Dual-Mode Detection Achieving Sub-100 nM Sensitivity in Complex Food Matrices",
+        authors: "H Wei, Y Shao, X Wang, Y Luo, M Ji, R Wen, R Huang, X Liu, Y Fang",
+        journal: "Analytical Chemistry 97 (46), 25725-25732",
+        year: 2025,
+        citations: 0,
+        url: "https://pubs.acs.org/doi/10.1021/acs.analchem.5c05140",
+        tocImage: "images/publications/Photostable o-Carborane-DAPA Hybrids for On-Site Nitrite Screening Dual-Mode Detection Achieving Sub-100 nM Sensitivity in Complex Food Matrices.webp"
+    },
+    {
+        title: "Precision Design of Fluorogenic Probes via Orthogonal Tuning of Binding and Photophysics for Isoform-Selective ALDH2 Imaging",
+        authors: "R Tao, Y Chen, T Yang, S Hu, W Lv, X Li, Z Wang, R Zhang, Z Wu, T Hou, ...",
+        journal: "Journal of the American Chemical Society 147 (45), 41768-41778",
+        year: 2025,
+        citations: 0,
+        url: "https://pubs.acs.org/doi/10.1021/jacs.5c13638",
+        tocImage: "images/publications/Precision Design of Fluorogenic Probes via Orthogonal Tuning of Binding and Photophysics for Isoform-Selective ALDH2 Imaging.webp"
+    },
+    {
+        title: "Hetero‐Hydrazone Photoswitches",
+        authors: "D Sosnin, SAA Abedi, M Izadyar, Y Ünal, X Liu, I Aprahamian",
+        journal: "Angewandte Chemie International Edition 64 (44), e202515136",
+        year: 2025,
+        citations: 1,
+        url: "https://onlinelibrary.wiley.com/doi/10.1002/anie.202515136",
+        tocImage: "images/publications/Hetero-Hydrazone Photoswitches.webp",
+    },
+    {
+        title: "Reengineering Cyanine Dyes via Borondifluoro Indolenine: A Tunable Platform for Wash-Free Imaging and Responsive Biosensing",
+        authors: "Z Zhan, J Zhang, T Shen, J Li, L Chai, L Pan, H Yang, T Liu, X Liu, W Mao",
+        journal: "Journal of the American Chemical Society",
+        year: 2025,
+        citations: 6,
+        url: "https://pubs.acs.org/doi/10.1021/jacs.5c05565",
+        tocImage: "images/publications/Reengineering Cyanine Dyes via Borondifluoro Indolenine A Tunable Platform for Wash-Free Imaging and Responsive Biosensing.webp"
+    },
+    {
+        title: "A pH-Resilient Fluorogenic Probe for Stable High-Resolution Imaging of Lysosomal Dynamics",
+        authors: "X Fang, G Jiang, Q Qiao, X Liu, Z Xu",
+        journal: "Dyes and Pigments, 112872",
+        year: 2025,
+        citations: 1,
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0143720825002426",
+        tocImage: "images/publications/A pH-Resilient fluorogenic probe for stable high-resolution imaging of lysosomal dynamics.jpg"
+    },
+    {
+        title: "Tail-Assisted Excited-State Intramolecular Proton Transfer (ta-ESIPT) Fluorophores: A Universal Ratiometric Platform for Hydration-Sensitive Biomolecular Imaging",
+        authors: "Q Qiao, C Wang, H Wang, Y Ruan, W Liu, J Chen, Z Wu, X Liu, Z Xu",
+        journal: "Journal of the American Chemical Society 147 (18), 15602-15613",
+        year: 2025,
+        citations: 17,
+        url: "https://pubs.acs.org/doi/10.1021/jacs.5c02725",
+        tocImage: "images/publications/Tail-Assisted Excited-State Intramolecular Proton Transfer (ta-ESIPT) Fluorophores A Universal Ratiometric Platform for Hydration-Sensitive Biomolecular Imaging and Sensing.webp"
+    },
+    {
+        title: "\"Clicked\" Hydrazone Photoswitches",
+        authors: "D Sosnin, M Izadyar, SAA Abedi, X Liu, I Aprahamian",
+        journal: "Journal of the American Chemical Society 147 (18), 14930-14935",
+        year: 2025,
+        citations: 5,
+        url: "https://pubs.acs.org/doi/10.1021/jacs.5c02183",
+        tocImage: "images/publications/Clicked Hydrazone Photoswitches.webp"
+    },
+    {
+        title: "Bright and Versatile Azetidinecarboxamide‐Based Fluorophore–Ligand Conjugates for High‐Resolution Cell Imaging",
+        authors: "N Xu, Q Qiao, C Wang, W Zhou, P Bao, J Li, S Wu, X Liu, Z Xu",
+        journal: "Angewandte Chemie International Edition 64 (23), e202505579",
+        year: 2025,
+        citations: 4,
+        url: "https://onlinelibrary.wiley.com/doi/10.1002/anie.202505579",
+        tocImage: "images/publications/Bright and Versatile Azetidinecarboxamide-Based Fluorophore–Ligand Conjugates for High-Resolution Cell Imaging.webp"
+    },
+    {
+        title: "Activity-based trapping for multiplex imaging illuminates the hidden role of endogenous formaldehyde in proinflammatory signaling",
+        authors: "Y Pan, X Liang, T Shen, T Fan, H Gao, X Liu, X Li",
+        journal: "Cell Biomaterials",
+        year: 2025,
+        citations: 1,
+        url: "https://www.cell.com/cell-biomaterials/fulltext/S3050-5623(25)00036-4",
+        tocImage: "images/publications/Activity-based trapping for multiplex imaging illuminates the hidden role of endogenous formaldehyde in proinflammatory signaling.jpg"
+    },
+    {
+        title: "Solvent-dependent reactivity of azo-BF 2 switches",
+        authors: "Q Qi, H Fu, L Peng, S Patra, X Liu, I Aprahamian",
+        journal: "Chemical Science 16 (37), 17214-17220",
+        year: 2025,
+        citations: 0,
+        url: "https://pubs.rsc.org/en/content/articlelanding/2025/sc/d5sc05042a",
+        tocImage: "images/publications/Solvent-dependent reactivity of azo-BF2 switches.png"
+    },
+    {
+        title: "Unveiling the Power of Dark State Photocages: An Efficient Pathway to Triplet State under Near‐Infrared Light Irradiation",
+        authors: "Q Hu, J Du, SA Abbas Abedi, X Liu, S Long, W Sun, J Fan, X Peng",
+        journal: "Angewandte Chemie International Edition, e202504670",
+        year: 2025,
+        citations: 5,
+        url: "https://onlinelibrary.wiley.com/doi/10.1002/anie.202504670",
+        tocImage: "images/publications/Unveiling the Power of Dark State Photocages An Efficient Pathway to Triplet State Under Near-Infrared Light Irradiation.webp"
+    },
+    {
+        title: "Breaking the heavy-atom paradigm: weak-donor-engineered triplet harvesting in BODIPY photosensitizers for immunogenic pyroptosis therapy",
+        authors: "HS Kim, H Rha, M Izadyar, S Chanmungkalakul, H Huang, YY Kang, ...",
+        journal: "Chemical Science 16 (32), 14485-14495",
+        year: 2025,
+        citations: 2,
+        url: "https://pubs.rsc.org/en/content/articlelanding/2025/sc/d5sc03466c",
+        tocImage: "images/publications/Breaking the heavy-atom paradigm weak-donor-engineered triplet harvesting in BODIPY photosensitizers for immunogenic pyroptosis therapy.jpg"
+    },
+    {
+        title: "Highly stable electrofluorochromic switching of aggregation-induced emission-active conjugated polymers",
+        authors: "R Tao, BYK Hui, KLO Chin, XYD Soo, D Zhang, SAA Abedi, P Bi, X Liu, ...",
+        journal: "Materials Chemistry Frontiers 9 (9), 1410-1420",
+        year: 2025,
+        citations: 4,
+        url: "https://pubs.rsc.org/en/content/articlelanding/2025/qm/d5qm00035a",
+        tocImage: "images/publications/Red and Robust Highly Stable Electrofluorochromic Switching in Cyano-Substituted Aggregation-Induced Emission-Active Conjugated Polymers.webp"
+    },
+    {
+        title: "Two‐Color Single‐Molecule Blinking Ratiometricity: A Functional Super‐Resolution Imaging Approach for Resolving Lysosomal pH and Dynamics",
+        authors: "Q Qiao, W Yin, X Wu, S Wu, Y Ruan, N Xu, J Li, ZS Wu, X Liu, Z Xu",
+        journal: "Angewandte Chemie International Edition 64 (21), e202503916",
+        year: 2025,
+        citations: 8,
+        url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202503916",
+        tocImage: "images/publications/Two-Color Single-Molecule Blinking Ratiometricity A Functional Super-Resolution Imaging Approach for Resolving Lysosomal pH and Dynamics.webp"
+    },
+    {
+        title: "Whole‐cell Lysosome SMLM Imaging as Indicators for Functional Diagnostics with a Low‐Phototoxic Spontaneously Blinking Probe",
+        authors: "Q Qiao, A Song, G Jiang, Y Zhou, Y Ruan, W Jia, X Liu, Z Xu",
+        journal: "Angewandte Chemie International Edition 64 (28), e202503177",
+        year: 2025,
+        citations: 6,
+        url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202503177",
+        tocImage: "images/publications/Whole-Cell Lysosome SMLM Imaging as Indicators for Functional Diagnostics with a Low-Phototoxic Spontaneously Blinking Probe.webp"
+    },
+    {
+        title: "Design strategies for tetrazine fluorogenic probes for bioorthogonal imaging",
+        authors: "A Yu, X He, T Shen, X Yu, W Mao, W Chi, X Liu, H Wu",
+        journal: "Chemical Society Reviews 54 (6), 2984-3016",
+        year: 2025,
+        citations: 38,
+        url: "https://pubs.rsc.org/en/content/articlelanding/2025/cs/d3cs00520h",
+        tocImage: "images/publications/Design strategies for tetrazine fluorogenic probes for bioorthogonal imaging.png"
+    },
+    {
+        title: "Moisture Tolerance, Thermally Stable and Light Switchable Adhesives Platform Based on Reversible Redshifted [2+ 2] Photocycloaddition",
+        authors: "XY Oh, QV Thi, MML Yu, M Izadyar, SAA Abedi, X Liu, VX Truong",
+        journal: "Advanced Functional Materials, 2421823",
+        year: 2025,
+        citations: 2,
+        url: "https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adfm.202421823",
+        tocImage: "images/publications/Moisture Tolerance, Thermally Stable and Light Switchable Adhesives Platform Based on Reversible Redshifted [2 + 2] Photocycloaddition.png"
+    },
+    {
+        title: "Unveiling the photophysical mechanistic mysteries of tetrazine-functionalized fluorogenic labels",
+        authors: "T Shen, X Liu",
+        journal: "Chemical Science",
+        year: 2025,
+        citations: 9,
+        url: "https://pubs.rsc.org/en/content/articlelanding/2025/sc/d4sc07018f",
+        tocImage: "images/publications/Unveiling the photophysical mechanistic mysteries of tetrazine-functionalized fluorogenic labels.png"
+    },
+    {
+        title: "\"Superimposed\" spectral characteristics of fluorophores arising from cross-conjugation hybridization",
+        authors: "K An, Q Qiao, SAA Abedi, X Liu, Z Xu",
+        journal: "Chinese Chemical Letters 36 (1), 109786",
+        year: 2025,
+        citations: 0,
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S100184172400305X",
+        tocImage: "images/publications/Superimposed spectral characteristics of fluorophores arising from cross-conjugation hybridization.jpg"
+    },
+    {
+        title: "The dark side of cyclooctatetraene (COT): photophysics in the singlet states of \"self-healing\" dyes",
+        authors: "S Chanmungkalakul, SAA Abedi, FJ Hernandez, J Xu, X Liu",
+        journal: "Chinese Chemical Letters 35 (8), 109227",
+        year: 2024,
+        citations: 9
     }
 ];

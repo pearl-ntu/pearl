@@ -1,0 +1,10 @@
+# TOC Image Mappings
+# Format: publication_title|image_path
+# 
+# Instructions:
+# 1. List your publications and their TOC images below
+# 2. Use partial title matching (just enough to identify the publication)
+# 3. Run: python add_toc_images_simple.py --batch
+#
+# Example:
+# Bright, Robust and Readily Accessible Fluorophore Family|images/publications/toc-2025-jacs-01.jpg

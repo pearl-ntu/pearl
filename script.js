@@ -30,10 +30,15 @@ function switchLanguage(lang) {
         
         if (!hasTranslatableChildren) {
             // This is a leaf node, safe to update
-            if (lang === 'zh') {
-                element.textContent = element.getAttribute('data-zh');
-            } else {
-                element.textContent = element.getAttribute('data-en');
+            // But check if element contains HTML content (like news items) - preserve it
+            const hasHtmlContent = element.querySelector('div, p, a, img, ul, ol, li, strong, em, i, b') !== null;
+            if (!hasHtmlContent) {
+                // Only use textContent for plain text elements
+                if (lang === 'zh') {
+                    element.textContent = element.getAttribute('data-zh');
+                } else {
+                    element.textContent = element.getAttribute('data-en');
+                }
             }
         }
     });

@@ -80,5 +80,53 @@ document.addEventListener('DOMContentLoaded', function() {
         renderPeople('postdocs', postdocsGrid);
         renderPeople('phdStudents', phdStudentsGrid);
         renderPeople('mastersStudents', mastersStudentsGrid);
+
+        // Render Alumni
+        const alumniList = document.getElementById('alumni-list');
+        if (alumniList && peopleData.alumni) {
+            const alumni = peopleData.alumni || [];
+            if (alumni.length > 0) {
+                alumniList.innerHTML = '<ul class="alumni-items">' + 
+                    alumni.map(alum => {
+                        let text = `${alum.name} (${alum.role}`;
+                        if (alum.years) {
+                            text += `, ${alum.years}`;
+                        }
+                        text += ')';
+                        if (alum.currentPosition) {
+                            text += `; ${alum.currentPosition}`;
+                        }
+                        return `<li>${text}</li>`;
+                    }).join('') + 
+                    '</ul>';
+            } else {
+                alumniList.innerHTML = '<p class="section-note" data-en="No alumni listed yet." data-zh="暂无校友。">No alumni listed yet.</p>';
+            }
+        }
+
+        // Render UROP Students
+        const uropList = document.getElementById('urop-list');
+        if (uropList && peopleData.uropStudents) {
+            const uropStudents = peopleData.uropStudents || [];
+            if (uropStudents.length > 0) {
+                uropList.innerHTML = '<ul class="urop-items">' + 
+                    uropStudents.map(student => {
+                        let text = student.name;
+                        if (student.institution) {
+                            text += ` (${student.institution}`;
+                            if (student.year) {
+                                text += `; ${student.year}`;
+                            }
+                            text += ')';
+                        } else if (student.year) {
+                            text += ` (${student.year})`;
+                        }
+                        return `<li>${text}</li>`;
+                    }).join('') + 
+                    '</ul>';
+            } else {
+                uropList.innerHTML = '<p class="section-note" data-en="No UROP/internship students listed yet." data-zh="暂无UROP/实习学生。">No UROP/internship students listed yet.</p>';
+            }
+        }
     }, 100); // Small delay to ensure peopleData is loaded
 });

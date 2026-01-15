@@ -59,7 +59,10 @@
                 <div class="all-publications-section">
                     <h2 class="section-title" data-en="All Publications" data-zh="所有出版物">All Publications</h2>
                     
-                    <!-- Filters -->
+                    <div class="publications-layout">
+                        <!-- Publications Content (Left) -->
+                        <div class="publications-content">
+                            <!-- Filters -->
                 <div class="pub-filters">
                     <div class="filter-group">
                         <label data-en="Filter by Year:" data-zh="按年份筛选：">Filter by Year:</label>
@@ -109,6 +112,18 @@
                     <!-- Publications List -->
                     <div class="publications-list" id="publicationsList">
                         <!-- Publications will be dynamically inserted here -->
+                    </div>
+                        </div>
+                        
+                        <!-- Year Navigation (Right) -->
+                        <aside class="publications-year-nav" id="publicationsYearNav">
+                            <div class="year-nav-sticky">
+                                <h3 class="year-nav-title" data-en="Navigate by Year" data-zh="按年份导航">Navigate by Year</h3>
+                                <nav class="year-nav" id="yearNav">
+                                    <!-- Year navigation will be dynamically generated here -->
+                                </nav>
+                            </div>
+                        </aside>
                     </div>
                 </div>
 
