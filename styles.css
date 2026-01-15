@@ -2640,6 +2640,12 @@ body {
         opacity: 1;
     }
 
+    /* Hide desktop nav menu on mobile */
+    .nav-menu {
+        display: none !important;
+    }
+
+    /* Show mobile slide-out menu */
     .nav-menu {
         display: flex;
         flex-direction: column;
@@ -2655,10 +2661,14 @@ body {
         transition: left 0.3s ease;
         overflow-y: auto;
         padding-top: 60px;
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
     }
 
     .nav-menu.active {
         left: 0;
+        display: flex !important;
     }
 
     .nav-link {
