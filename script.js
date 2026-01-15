@@ -61,16 +61,43 @@ document.addEventListener('DOMContentLoaded', function() {
     switchLanguage(currentLang);
     
     // Language switcher event listeners - works on all pages
-    document.querySelectorAll('.lang-link').forEach(link => {
-        link.addEventListener('click', function(e) {
+    const langLinks = document.querySelectorAll('.lang-link');
+    console.log('Found', langLinks.length, 'language links'); // Debug
+    
+    langLinks.forEach(link => {
+        // Make sure link is clickable
+        link.style.pointerEvents = 'auto';
+        link.style.cursor = 'pointer';
+        link.style.zIndex = '1002';
+        link.style.position = 'relative';
+        
+        // Remove any existing listeners by using once or replacing
+        const newLink = link.cloneNode(true);
+        link.parentNode.replaceChild(newLink, link);
+        
+        // Add click listener to new link
+        newLink.addEventListener('click', function(e) {
             e.preventDefault();
             e.stopPropagation();
             const lang = this.getAttribute('data-lang');
-            console.log('Language link clicked:', lang); // Debug
-            if (lang) {
+            console.log('Language link clicked:', lang, 'Current lang:', currentLang); // Debug
+            if (lang && lang !== currentLang) {
                 switchLanguage(lang);
                 // Language is now saved in localStorage and will persist across pages
             }
+            return false;
+        });
+        
+        // Also add touch event for mobile
+        newLink.addEventListener('touchend', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            const lang = this.getAttribute('data-lang');
+            console.log('Language link touched:', lang); // Debug
+            if (lang && lang !== currentLang) {
+                switchLanguage(lang);
+            }
+            return false;
         });
     });
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
