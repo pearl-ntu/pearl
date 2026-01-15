@@ -159,29 +159,31 @@ document.addEventListener('DOMContentLoaded', function() {
             mobileNavOverlay: !!mobileNavOverlay 
         }); // Debug
         
-        // Open menu when hamburger is clicked
+        // Also add direct listeners as backup
         mobileMenuToggle.addEventListener('click', function(e) {
             e.preventDefault();
             e.stopPropagation();
-            console.log('Hamburger clicked, navMenu active?', navMenu.classList.contains('active')); // Debug
+            console.log('Hamburger clicked directly!'); // Debug
             if (navMenu.classList.contains('active')) {
                 closeMobileMenu();
             } else {
                 openMobileMenu();
             }
-        }, false);
+            return false;
+        }, true);
         
         // Also try touch events for mobile
         mobileMenuToggle.addEventListener('touchend', function(e) {
             e.preventDefault();
             e.stopPropagation();
-            console.log('Hamburger touched'); // Debug
+            console.log('Hamburger touched directly!'); // Debug
             if (navMenu.classList.contains('active')) {
                 closeMobileMenu();
             } else {
                 openMobileMenu();
             }
-        }, false);
+            return false;
+        }, true);
 
         // Close menu when clicking overlay
         mobileNavOverlay.addEventListener('click', function() {
