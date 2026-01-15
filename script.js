@@ -196,24 +196,27 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Add smooth reveal to sections
-    const sections = document.querySelectorAll('section');
-    sections.forEach((section, index) => {
-        section.style.opacity = '0';
-        section.style.transform = 'translateY(20px)';
-        section.style.transition = `opacity 0.6s ease ${index * 0.1}s, transform 0.6s ease ${index * 0.1}s`;
-        
-        const sectionObserver = new IntersectionObserver(function(entries) {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, { threshold: 0.1 });
-        
-        sectionObserver.observe(section);
-    });
+    // Add smooth reveal to sections (but exclude publications and news pages to avoid conflicts)
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    if (currentPage !== 'publications.html' && currentPage !== 'news.html') {
+        const sections = document.querySelectorAll('section');
+        sections.forEach((section, index) => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = `opacity 0.6s ease ${index * 0.1}s, transform 0.6s ease ${index * 0.1}s`;
+            
+            const sectionObserver = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            sectionObserver.observe(section);
+        });
+    }
 
     // Add hover effect to navigation links
     const navLinks = document.querySelectorAll('.nav-link');
