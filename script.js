@@ -68,7 +68,9 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.lang-link').forEach(link => {
         link.addEventListener('click', function(e) {
             e.preventDefault();
+            e.stopPropagation();
             const lang = this.getAttribute('data-lang');
+            console.log('Language link clicked:', lang); // Debug
             if (lang) {
                 switchLanguage(lang);
                 // Language is now saved in localStorage and will persist across pages
@@ -119,17 +121,31 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     if (mobileMenuToggle && navMenu && mobileNavOverlay) {
+        console.log('Mobile menu elements found:', { mobileMenuToggle, navMenu, mobileNavOverlay }); // Debug
+        
         // Open menu when hamburger is clicked
         mobileMenuToggle.addEventListener('click', function(e) {
             e.preventDefault();
             e.stopPropagation();
-            console.log('Hamburger clicked'); // Debug
+            console.log('Hamburger clicked, navMenu active?', navMenu.classList.contains('active')); // Debug
             if (navMenu.classList.contains('active')) {
                 closeMobileMenu();
             } else {
                 openMobileMenu();
             }
-        });
+        }, false);
+        
+        // Also try touch events for mobile
+        mobileMenuToggle.addEventListener('touchend', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            console.log('Hamburger touched'); // Debug
+            if (navMenu.classList.contains('active')) {
+                closeMobileMenu();
+            } else {
+                openMobileMenu();
+            }
+        }, false);
 
         // Close menu when clicking overlay
         mobileNavOverlay.addEventListener('click', function() {
