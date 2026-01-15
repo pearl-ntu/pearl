@@ -60,45 +60,48 @@ document.addEventListener('DOMContentLoaded', function() {
     // Apply saved language immediately when page loads
     switchLanguage(currentLang);
     
-    // Language switcher event listeners - works on all pages
+    // Language switcher event listeners - use event delegation for reliability
+    console.log('Setting up language switcher...'); // Debug
+    
+    // Use event delegation on document to catch all clicks
+    document.addEventListener('click', function(e) {
+        const langLink = e.target.closest('.lang-link');
+        if (langLink) {
+            e.preventDefault();
+            e.stopPropagation();
+            const lang = langLink.getAttribute('data-lang');
+            console.log('Language link clicked:', lang, 'Current lang:', currentLang); // Debug
+            if (lang) {
+                switchLanguage(lang);
+            }
+            return false;
+        }
+    }, true); // Use capture phase
+    
+    // Also handle touch events for mobile
+    document.addEventListener('touchend', function(e) {
+        const langLink = e.target.closest('.lang-link');
+        if (langLink) {
+            e.preventDefault();
+            e.stopPropagation();
+            const lang = langLink.getAttribute('data-lang');
+            console.log('Language link touched:', lang); // Debug
+            if (lang) {
+                switchLanguage(lang);
+            }
+            return false;
+        }
+    }, true);
+    
+    // Also set inline styles on all language links
     const langLinks = document.querySelectorAll('.lang-link');
     console.log('Found', langLinks.length, 'language links'); // Debug
-    
     langLinks.forEach(link => {
-        // Make sure link is clickable
         link.style.pointerEvents = 'auto';
         link.style.cursor = 'pointer';
         link.style.zIndex = '1002';
         link.style.position = 'relative';
-        
-        // Remove any existing listeners by using once or replacing
-        const newLink = link.cloneNode(true);
-        link.parentNode.replaceChild(newLink, link);
-        
-        // Add click listener to new link
-        newLink.addEventListener('click', function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-            const lang = this.getAttribute('data-lang');
-            console.log('Language link clicked:', lang, 'Current lang:', currentLang); // Debug
-            if (lang && lang !== currentLang) {
-                switchLanguage(lang);
-                // Language is now saved in localStorage and will persist across pages
-            }
-            return false;
-        });
-        
-        // Also add touch event for mobile
-        newLink.addEventListener('touchend', function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-            const lang = this.getAttribute('data-lang');
-            console.log('Language link touched:', lang); // Debug
-            if (lang && lang !== currentLang) {
-                switchLanguage(lang);
-            }
-            return false;
-        });
+        link.style.userSelect = 'none';
     });
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
     const navMenu = document.querySelector('.nav-menu');
