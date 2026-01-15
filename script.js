@@ -3,42 +3,36 @@ let currentLang = localStorage.getItem('language') || 'en';
 
 // Language switching function - works across all pages
 function switchLanguage(lang) {
+    console.log('switchLanguage called with:', lang); // Debug
     currentLang = lang;
     localStorage.setItem('language', lang);
     
-    // Update all elements with data attributes (process leaf nodes first to avoid overwriting)
-    // Get all elements with translations, sort by depth (deepest first)
-    const allElements = Array.from(document.querySelectorAll('[data-en][data-zh]'));
-    const elementsByDepth = allElements.map(el => ({
-        element: el,
-        depth: (el.parentElement ? el.parentElement.querySelectorAll('[data-en][data-zh]').length : 0)
-    }));
-    
-    // Sort by depth descending (process children before parents)
-    elementsByDepth.sort((a, b) => {
-        const aChildren = a.element.querySelectorAll('[data-en][data-zh]').length;
-        const bChildren = b.element.querySelectorAll('[data-en][data-zh]').length;
-        return bChildren - aChildren;
-    });
+    // Get all elements with translation attributes
+    const allElements = document.querySelectorAll('[data-en][data-zh]');
+    console.log('Found', allElements.length, 'elements with translations'); // Debug
     
     // Update each element
-    elementsByDepth.forEach(({ element }) => {
-        // Skip if this element has translatable children (they will be handled separately)
+    allElements.forEach(element => {
+        // Check if element has translatable children - if so, skip parent
         const hasTranslatableChildren = Array.from(element.children).some(child => 
             child.hasAttribute('data-en') && child.hasAttribute('data-zh')
         );
         
         if (!hasTranslatableChildren) {
             // This is a leaf node, safe to update
-            // But check if element contains HTML content (like news items) - preserve it
-            const hasHtmlContent = element.querySelector('div, p, a, img, ul, ol, li, strong, em, i, b') !== null;
-            if (!hasHtmlContent) {
-                // Only use textContent for plain text elements
-                if (lang === 'zh') {
-                    element.textContent = element.getAttribute('data-zh');
-                } else {
-                    element.textContent = element.getAttribute('data-en');
-                }
+            const newText = lang === 'zh' ? element.getAttribute('data-zh') : element.getAttribute('data-en');
+            
+            // Check if element has complex HTML structure (like news items with divs)
+            const hasComplexHtml = element.querySelector('div, section, article, header, footer') !== null;
+            
+            if (hasComplexHtml) {
+                // For complex HTML, don't update (preserve structure)
+                return;
+            }
+            
+            // Update the text content
+            if (newText) {
+                element.textContent = newText;
             }
         }
     });
@@ -54,6 +48,8 @@ function switchLanguage(lang) {
             link.classList.remove('active');
         }
     });
+    
+    console.log('Language switched to:', lang); // Debug
 }
 
 // Mobile Menu Toggle
