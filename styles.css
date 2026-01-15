@@ -2605,13 +2605,18 @@ body {
     }
 
     .navbar-container {
-        flex-direction: column;
+        flex-direction: row;
         padding: 0;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .language-switcher-top {
-        align-self: flex-end;
         padding: 10px 15px;
+        position: relative;
+        z-index: 1;
+        flex-shrink: 0;
     }
 
     .nav-menu {
@@ -2623,7 +2628,8 @@ body {
         left: 0;
         right: 0;
         background-color: var(--primary-color);
-        z-index: 999;
+        z-index: 1000;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
 
     .nav-menu.active {
@@ -2638,10 +2644,10 @@ body {
 
     .mobile-menu-toggle {
         display: flex;
-        position: absolute;
-        right: 0;
-        top: 50%;
-        transform: translateY(-50%);
+        position: relative;
+        z-index: 2;
+        margin-left: auto;
+        padding: 10px 15px;
     }
 
     /* Removed .pub-stats - statistics section removed */
