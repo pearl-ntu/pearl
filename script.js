@@ -144,7 +144,17 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     if (mobileMenuToggle && navMenu && mobileNavOverlay) {
-        console.log('Mobile menu elements found:', { mobileMenuToggle, navMenu, mobileNavOverlay }); // Debug
+        // Force clickability with inline styles
+        mobileMenuToggle.style.pointerEvents = 'auto';
+        mobileMenuToggle.style.cursor = 'pointer';
+        mobileMenuToggle.style.zIndex = '1001';
+        mobileMenuToggle.style.position = 'relative';
+        
+        console.log('Mobile menu elements found:', { 
+            mobileMenuToggle: !!mobileMenuToggle, 
+            navMenu: !!navMenu, 
+            mobileNavOverlay: !!mobileNavOverlay 
+        }); // Debug
         
         // Open menu when hamburger is clicked
         mobileMenuToggle.addEventListener('click', function(e) {
