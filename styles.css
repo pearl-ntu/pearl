@@ -2631,6 +2631,9 @@ body {
         cursor: pointer;
         z-index: 1002;
         position: relative;
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: transparent;
+        user-select: none;
     }
 
     /* Mobile Navigation Overlay */
