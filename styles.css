@@ -2621,19 +2621,23 @@ body {
     .language-switcher-top {
         padding: 10px 15px;
         position: relative;
-        z-index: 1001;
+        z-index: 9999;
         flex-shrink: 0;
         pointer-events: auto;
     }
 
     .language-switcher-top .lang-link {
-        pointer-events: auto;
+        pointer-events: auto !important;
         cursor: pointer;
-        z-index: 1002;
+        z-index: 9999;
         position: relative;
         touch-action: manipulation;
         -webkit-tap-highlight-color: transparent;
         user-select: none;
+        display: inline-block;
+        min-width: 30px;
+        min-height: 30px;
+        padding: 5px;
     }
 
     /* Mobile Navigation Overlay */
@@ -2698,18 +2702,20 @@ body {
     }
 
     .mobile-menu-toggle {
-        display: flex;
+        display: flex !important;
         position: relative;
-        z-index: 1001;
+        z-index: 9999;
         margin-left: auto;
         padding: 10px 15px;
-        pointer-events: auto;
+        pointer-events: auto !important;
         cursor: pointer;
         background: transparent;
         border: none;
         touch-action: manipulation;
         -webkit-tap-highlight-color: transparent;
         user-select: none;
+        min-width: 44px;
+        min-height: 44px;
     }
 
     .mobile-menu-toggle:active {

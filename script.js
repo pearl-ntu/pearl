@@ -52,68 +52,85 @@ function switchLanguage(lang) {
     console.log('Language switched to:', lang); // Debug
 }
 
-// Mobile Menu Toggle
-document.addEventListener('DOMContentLoaded', function() {
-    // Get current language from localStorage (persists across all pages)
-    currentLang = localStorage.getItem('language') || 'en';
-    
-    // Apply saved language immediately when page loads
-    switchLanguage(currentLang);
-    
-    // Language switcher event listeners - use event delegation for reliability
-    console.log('Setting up language switcher...'); // Debug
-    
-    // Function to handle language switch
-    function handleLanguageSwitch(e, lang) {
-        e.preventDefault();
-        e.stopPropagation();
-        console.log('Language switch triggered:', lang, 'Current lang:', currentLang); // Debug
-        if (lang && lang !== currentLang) {
-            switchLanguage(lang);
-        }
-        return false;
-    }
-    
-    // Use event delegation on document to catch all clicks and touches
-    // Handle click events
-    document.addEventListener('click', function(e) {
-        const langLink = e.target.closest('.lang-link');
-        if (langLink) {
-            const lang = langLink.getAttribute('data-lang');
-            handleLanguageSwitch(e, lang);
-        }
-    }, true); // Use capture phase
-    
-    // Handle touchstart for mobile (more reliable than touchend)
-    document.addEventListener('touchstart', function(e) {
-        const langLink = e.target.closest('.lang-link');
-        if (langLink) {
-            const lang = langLink.getAttribute('data-lang');
-            handleLanguageSwitch(e, lang);
-        }
-    }, true);
-    
-    // Also handle touchend as backup
-    document.addEventListener('touchend', function(e) {
-        const langLink = e.target.closest('.lang-link');
-        if (langLink) {
-            const lang = langLink.getAttribute('data-lang');
-            handleLanguageSwitch(e, lang);
-        }
-    }, true);
-    
-    // Also set inline styles on all language links
+// Function to setup language switcher - called immediately and on DOM ready
+function setupLanguageSwitcher() {
     const langLinks = document.querySelectorAll('.lang-link');
-    console.log('Found', langLinks.length, 'language links'); // Debug
+    console.log('Setting up', langLinks.length, 'language links'); // Debug
+    
     langLinks.forEach(link => {
-        link.style.pointerEvents = 'auto';
-        link.style.cursor = 'pointer';
-        link.style.zIndex = '1002';
-        link.style.position = 'relative';
-        link.style.userSelect = 'none';
-        link.style.touchAction = 'manipulation'; // Better touch handling
-        link.style.webkitTapHighlightColor = 'transparent'; // Remove tap highlight
+        // Remove all existing event listeners by cloning
+        const newLink = link.cloneNode(true);
+        link.parentNode.replaceChild(newLink, link);
+        
+        // Make absolutely sure it's clickable
+        newLink.style.pointerEvents = 'auto';
+        newLink.style.cursor = 'pointer';
+        newLink.style.zIndex = '9999';
+        newLink.style.position = 'relative';
+        newLink.style.userSelect = 'none';
+        newLink.style.touchAction = 'manipulation';
+        newLink.style.webkitTapHighlightColor = 'transparent';
+        newLink.style.display = 'inline-block';
+        newLink.style.minWidth = '30px';
+        newLink.style.minHeight = '30px';
+        newLink.style.padding = '5px';
+        
+        // Remove href to prevent navigation
+        newLink.href = 'javascript:void(0);';
+        
+        // Add multiple event handlers
+        const lang = newLink.getAttribute('data-lang');
+        
+        // Click handler
+        newLink.onclick = function(e) {
+            console.log('LANGUAGE CLICKED:', lang);
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            switchLanguage(lang);
+            return false;
+        };
+        
+        // Touch handlers
+        newLink.ontouchstart = function(e) {
+            console.log('LANGUAGE TOUCHSTART:', lang);
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            switchLanguage(lang);
+            return false;
+        };
+        
+        newLink.ontouchend = function(e) {
+            console.log('LANGUAGE TOUCHEND:', lang);
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            switchLanguage(lang);
+            return false;
+        };
+        
+        // Also add event listeners as backup
+        newLink.addEventListener('click', function(e) {
+            console.log('LANGUAGE CLICK LISTENER:', lang);
+            e.preventDefault();
+            e.stopPropagation();
+            switchLanguage(lang);
+            return false;
+        }, false);
+        
+        newLink.addEventListener('touchstart', function(e) {
+            console.log('LANGUAGE TOUCHSTART LISTENER:', lang);
+            e.preventDefault();
+            e.stopPropagation();
+            switchLanguage(lang);
+            return false;
+        }, false);
     });
+}
+
+// Function to setup mobile menu - called immediately and on DOM ready
+function setupMobileMenu() {
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
     const navMenu = document.querySelector('.nav-menu');
     
@@ -126,11 +143,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function openMobileMenu() {
-        if (!navMenu || !mobileNavOverlay || !mobileMenuToggle) return;
-        
+        if (!navMenu || !mobileNavOverlay || !mobileMenuToggle) {
+            console.log('Cannot open menu - missing elements');
+            return;
+        }
+        console.log('OPENING MENU');
         navMenu.classList.add('active');
         mobileNavOverlay.classList.add('active');
-        document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        document.body.style.overflow = 'hidden';
         
         // Animate hamburger icon
         const spans = mobileMenuToggle.querySelectorAll('span');
@@ -143,10 +163,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function closeMobileMenu() {
         if (!navMenu || !mobileNavOverlay || !mobileMenuToggle) return;
-        
+        console.log('CLOSING MENU');
         navMenu.classList.remove('active');
         mobileNavOverlay.classList.remove('active');
-        document.body.style.overflow = ''; // Restore scrolling
+        document.body.style.overflow = '';
         
         // Reset hamburger icon
         const spans = mobileMenuToggle.querySelectorAll('span');
@@ -158,71 +178,100 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     if (mobileMenuToggle && navMenu && mobileNavOverlay) {
-        // Force clickability with inline styles
+        console.log('Setting up mobile menu');
+        
+        // Make absolutely sure it's clickable
         mobileMenuToggle.style.pointerEvents = 'auto';
         mobileMenuToggle.style.cursor = 'pointer';
-        mobileMenuToggle.style.zIndex = '1001';
+        mobileMenuToggle.style.zIndex = '9999';
         mobileMenuToggle.style.position = 'relative';
         mobileMenuToggle.style.userSelect = 'none';
-        mobileMenuToggle.style.touchAction = 'manipulation'; // Better touch handling
-        mobileMenuToggle.style.webkitTapHighlightColor = 'transparent'; // Remove tap highlight
+        mobileMenuToggle.style.touchAction = 'manipulation';
+        mobileMenuToggle.style.webkitTapHighlightColor = 'transparent';
+        mobileMenuToggle.style.display = 'flex';
+        mobileMenuToggle.style.minWidth = '44px';
+        mobileMenuToggle.style.minHeight = '44px';
         
-        console.log('Mobile menu elements found:', { 
-            mobileMenuToggle: !!mobileMenuToggle, 
-            navMenu: !!navMenu, 
-            mobileNavOverlay: !!mobileNavOverlay 
-        }); // Debug
+        // Remove all existing listeners by cloning
+        const newToggle = mobileMenuToggle.cloneNode(true);
+        mobileMenuToggle.parentNode.replaceChild(newToggle, mobileMenuToggle);
         
-        // Also add direct listeners as backup
-        mobileMenuToggle.addEventListener('click', function(e) {
+        // Add multiple event handlers
+        newToggle.onclick = function(e) {
+            console.log('MENU BUTTON CLICKED');
             e.preventDefault();
             e.stopPropagation();
-            console.log('Hamburger clicked directly!'); // Debug
+            e.stopImmediatePropagation();
             if (navMenu.classList.contains('active')) {
                 closeMobileMenu();
             } else {
                 openMobileMenu();
             }
             return false;
-        }, true);
+        };
         
-        // Add touchstart for mobile (more reliable than touchend)
-        mobileMenuToggle.addEventListener('touchstart', function(e) {
+        newToggle.ontouchstart = function(e) {
+            console.log('MENU BUTTON TOUCHSTART');
             e.preventDefault();
             e.stopPropagation();
-            console.log('Hamburger touched (touchstart)!'); // Debug
+            e.stopImmediatePropagation();
             if (navMenu.classList.contains('active')) {
                 closeMobileMenu();
             } else {
                 openMobileMenu();
             }
             return false;
-        }, true);
+        };
         
-        // Also try touchend as backup
-        mobileMenuToggle.addEventListener('touchend', function(e) {
+        newToggle.ontouchend = function(e) {
+            console.log('MENU BUTTON TOUCHEND');
             e.preventDefault();
             e.stopPropagation();
-            console.log('Hamburger touched (touchend)!'); // Debug
+            e.stopImmediatePropagation();
             if (navMenu.classList.contains('active')) {
                 closeMobileMenu();
             } else {
                 openMobileMenu();
             }
             return false;
-        }, true);
+        };
+        
+        // Also add event listeners as backup
+        newToggle.addEventListener('click', function(e) {
+            console.log('MENU BUTTON CLICK LISTENER');
+            e.preventDefault();
+            e.stopPropagation();
+            if (navMenu.classList.contains('active')) {
+                closeMobileMenu();
+            } else {
+                openMobileMenu();
+            }
+            return false;
+        }, false);
+        
+        newToggle.addEventListener('touchstart', function(e) {
+            console.log('MENU BUTTON TOUCHSTART LISTENER');
+            e.preventDefault();
+            e.stopPropagation();
+            if (navMenu.classList.contains('active')) {
+                closeMobileMenu();
+            } else {
+                openMobileMenu();
+            }
+            return false;
+        }, false);
 
         // Close menu when clicking overlay
-        mobileNavOverlay.addEventListener('click', function() {
+        mobileNavOverlay.onclick = function() {
             closeMobileMenu();
-        });
+        };
 
         // Close menu when clicking on a link
         const navLinks = document.querySelectorAll('.nav-link');
         navLinks.forEach(link => {
-            link.addEventListener('click', function() {
+            link.onclick = function() {
                 closeMobileMenu();
-            });
+            };
         });
 
         // Close menu on escape key
@@ -231,9 +280,39 @@ document.addEventListener('DOMContentLoaded', function() {
                 closeMobileMenu();
             }
         });
+    } else {
+        console.error('Mobile menu elements not found:', {
+            toggle: !!mobileMenuToggle,
+            menu: !!navMenu,
+            overlay: !!mobileNavOverlay
+        });
     }
+}
 
-    // Contact Form Handling
+// Run setup functions immediately if DOM is ready, otherwise wait
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+        currentLang = localStorage.getItem('language') || 'en';
+        switchLanguage(currentLang);
+        setupLanguageSwitcher();
+        setupMobileMenu();
+    });
+} else {
+    // DOM is already ready
+    currentLang = localStorage.getItem('language') || 'en';
+    switchLanguage(currentLang);
+    setupLanguageSwitcher();
+    setupMobileMenu();
+}
+
+// Also run after a short delay to catch any late-loading elements
+setTimeout(function() {
+    setupLanguageSwitcher();
+    setupMobileMenu();
+}, 100);
+
+// Contact Form Handling
+document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.querySelector('.contact-form');
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
@@ -354,4 +433,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-
