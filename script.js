@@ -69,7 +69,33 @@ document.addEventListener('click', function(e) {
         return false;
     }
     
-    // Mobile bottom nav items are just regular links, no special handling needed
+    // Handle mobile menu toggle
+    const menuToggle = e.target.closest('.mobile-menu-toggle');
+    if (menuToggle) {
+        e.preventDefault();
+        e.stopPropagation();
+        e.stopImmediatePropagation();
+        console.log('MENU TOGGLE CLICKED via delegation');
+        
+        const navMenu = document.querySelector('.nav-menu');
+        const mobileNavOverlay = document.querySelector('.mobile-nav-overlay');
+        
+        if (!mobileNavOverlay) {
+            const overlay = document.createElement('div');
+            overlay.className = 'mobile-nav-overlay';
+            document.body.appendChild(overlay);
+            overlay.onclick = function() {
+                closeMobileMenu();
+            };
+        }
+        
+        if (navMenu && navMenu.classList.contains('active')) {
+            closeMobileMenu();
+        } else {
+            openMobileMenu();
+        }
+        return false;
+    }
 }, true); // Use capture phase for maximum reliability
 
 // Also handle touch events
@@ -88,7 +114,33 @@ document.addEventListener('touchstart', function(e) {
         return false;
     }
     
-    // Mobile bottom nav items are just regular links, no special handling needed
+    // Handle mobile menu toggle
+    const menuToggle = e.target.closest('.mobile-menu-toggle');
+    if (menuToggle) {
+        e.preventDefault();
+        e.stopPropagation();
+        e.stopImmediatePropagation();
+        console.log('MENU TOGGLE TOUCHED via delegation');
+        
+        const navMenu = document.querySelector('.nav-menu');
+        const mobileNavOverlay = document.querySelector('.mobile-nav-overlay');
+        
+        if (!mobileNavOverlay) {
+            const overlay = document.createElement('div');
+            overlay.className = 'mobile-nav-overlay';
+            document.body.appendChild(overlay);
+            overlay.onclick = function() {
+                closeMobileMenu();
+            };
+        }
+        
+        if (navMenu && navMenu.classList.contains('active')) {
+            closeMobileMenu();
+        } else {
+            openMobileMenu();
+        }
+        return false;
+    }
 }, true);
 
 // Mobile menu functions
