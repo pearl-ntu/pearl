@@ -49,6 +49,14 @@ function switchLanguage(lang) {
         }
     });
     
+    // Update mobile bottom nav text
+    document.querySelectorAll('.mobile-nav-item').forEach(item => {
+        const textElement = item.querySelector('.mobile-nav-text');
+        if (textElement && item.hasAttribute('data-en') && item.hasAttribute('data-zh')) {
+            textElement.textContent = lang === 'zh' ? item.getAttribute('data-zh') : item.getAttribute('data-en');
+        }
+    });
+    
     console.log('Language switched to:', lang); // Debug
 }
 
@@ -69,33 +77,7 @@ document.addEventListener('click', function(e) {
         return false;
     }
     
-    // Handle mobile menu toggle
-    const menuToggle = e.target.closest('.mobile-menu-toggle');
-    if (menuToggle) {
-        e.preventDefault();
-        e.stopPropagation();
-        e.stopImmediatePropagation();
-        console.log('MENU TOGGLE CLICKED via delegation');
-        
-        const navMenu = document.querySelector('.nav-menu');
-        const mobileNavOverlay = document.querySelector('.mobile-nav-overlay');
-        
-        if (!mobileNavOverlay) {
-            const overlay = document.createElement('div');
-            overlay.className = 'mobile-nav-overlay';
-            document.body.appendChild(overlay);
-            overlay.onclick = function() {
-                closeMobileMenu();
-            };
-        }
-        
-        if (navMenu && navMenu.classList.contains('active')) {
-            closeMobileMenu();
-        } else {
-            openMobileMenu();
-        }
-        return false;
-    }
+    // Mobile bottom nav items are just regular links, no special handling needed
 }, true); // Use capture phase for maximum reliability
 
 // Also handle touch events
@@ -114,80 +96,10 @@ document.addEventListener('touchstart', function(e) {
         return false;
     }
     
-    // Handle mobile menu toggle
-    const menuToggle = e.target.closest('.mobile-menu-toggle');
-    if (menuToggle) {
-        e.preventDefault();
-        e.stopPropagation();
-        e.stopImmediatePropagation();
-        console.log('MENU TOGGLE TOUCHED via delegation');
-        
-        const navMenu = document.querySelector('.nav-menu');
-        const mobileNavOverlay = document.querySelector('.mobile-nav-overlay');
-        
-        if (!mobileNavOverlay) {
-            const overlay = document.createElement('div');
-            overlay.className = 'mobile-nav-overlay';
-            document.body.appendChild(overlay);
-            overlay.onclick = function() {
-                closeMobileMenu();
-            };
-        }
-        
-        if (navMenu && navMenu.classList.contains('active')) {
-            closeMobileMenu();
-        } else {
-            openMobileMenu();
-        }
-        return false;
-    }
+    // Mobile bottom nav items are just regular links, no special handling needed
 }, true);
 
-// Mobile menu functions
-function openMobileMenu() {
-    const navMenu = document.querySelector('.nav-menu');
-    const mobileNavOverlay = document.querySelector('.mobile-nav-overlay');
-    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-    
-    if (!navMenu || !mobileNavOverlay || !mobileMenuToggle) {
-        console.log('Cannot open menu - missing elements');
-        return;
-    }
-    
-    console.log('OPENING MENU');
-    navMenu.classList.add('active');
-    mobileNavOverlay.classList.add('active');
-    document.body.style.overflow = 'hidden';
-    
-    // Animate hamburger icon
-    const spans = mobileMenuToggle.querySelectorAll('span');
-    if (spans.length >= 3) {
-        spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
-        spans[1].style.opacity = '0';
-        spans[2].style.transform = 'rotate(-45deg) translate(7px, -6px)';
-    }
-}
-
-function closeMobileMenu() {
-    const navMenu = document.querySelector('.nav-menu');
-    const mobileNavOverlay = document.querySelector('.mobile-nav-overlay');
-    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-    
-    if (!navMenu || !mobileNavOverlay || !mobileMenuToggle) return;
-    
-    console.log('CLOSING MENU');
-    navMenu.classList.remove('active');
-    mobileNavOverlay.classList.remove('active');
-    document.body.style.overflow = '';
-    
-    // Reset hamburger icon
-    const spans = mobileMenuToggle.querySelectorAll('span');
-    if (spans.length >= 3) {
-        spans[0].style.transform = 'none';
-        spans[1].style.opacity = '1';
-        spans[2].style.transform = 'none';
-    }
-}
+// Mobile bottom nav - no special functions needed, just regular links
 
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', function() {
@@ -197,18 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Apply saved language immediately when page loads
     switchLanguage(currentLang);
     
-    // Create mobile nav overlay if it doesn't exist
-    let mobileNavOverlay = document.querySelector('.mobile-nav-overlay');
-    if (!mobileNavOverlay) {
-        mobileNavOverlay = document.createElement('div');
-        mobileNavOverlay.className = 'mobile-nav-overlay';
-        document.body.appendChild(mobileNavOverlay);
-        mobileNavOverlay.onclick = function() {
-            closeMobileMenu();
-        };
-    }
-    
-    // Make sure language links and menu button are clickable
+    // Make sure language links are clickable
     const langLinks = document.querySelectorAll('.lang-link');
     langLinks.forEach(link => {
         link.style.pointerEvents = 'auto';
@@ -223,32 +124,20 @@ document.addEventListener('DOMContentLoaded', function() {
         link.setAttribute('role', 'button');
     });
     
-    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-    if (mobileMenuToggle) {
-        mobileMenuToggle.style.pointerEvents = 'auto';
-        mobileMenuToggle.style.cursor = 'pointer';
-        mobileMenuToggle.style.zIndex = '9999';
-        mobileMenuToggle.style.position = 'relative';
-        mobileMenuToggle.style.userSelect = 'none';
-        mobileMenuToggle.style.touchAction = 'manipulation';
-        mobileMenuToggle.style.webkitTapHighlightColor = 'transparent';
-    }
-    
-    // Close menu when clicking on nav links
-    const navLinks = document.querySelectorAll('.nav-link');
-    navLinks.forEach(link => {
-        link.addEventListener('click', function() {
-            closeMobileMenu();
-        });
-    });
-    
-    // Close menu on escape key
-    document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') {
-            const navMenu = document.querySelector('.nav-menu');
-            if (navMenu && navMenu.classList.contains('active')) {
-                closeMobileMenu();
-            }
+    // Set active state for mobile bottom nav items
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    const mobileNavItems = document.querySelectorAll('.mobile-nav-item');
+    mobileNavItems.forEach(item => {
+        const href = item.getAttribute('href');
+        if (href === currentPage || (currentPage === '' && href === 'index.html')) {
+            item.classList.add('active');
+        }
+        
+        // Update text for language
+        const textElement = item.querySelector('.mobile-nav-text');
+        if (textElement && item.hasAttribute('data-en') && item.hasAttribute('data-zh')) {
+            const lang = localStorage.getItem('language') || 'en';
+            textElement.textContent = lang === 'zh' ? item.getAttribute('data-zh') : item.getAttribute('data-en');
         }
     });
 });
