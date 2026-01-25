@@ -223,9 +223,11 @@ function setupMobileMenu() {
         // Add multiple event handlers
         newToggle.onclick = function(e) {
             console.log('MENU BUTTON CLICKED');
-            e.preventDefault();
-            e.stopPropagation();
-            e.stopImmediatePropagation();
+            if (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                e.stopImmediatePropagation();
+            }
             if (navMenu.classList.contains('active')) {
                 closeMobileMenu();
             } else {
@@ -234,11 +236,21 @@ function setupMobileMenu() {
             return false;
         };
         
+        // Also prevent default on mousedown
+        newToggle.onmousedown = function(e) {
+            if (e) {
+                e.preventDefault();
+            }
+            return false;
+        };
+        
         newToggle.ontouchstart = function(e) {
             console.log('MENU BUTTON TOUCHSTART');
-            e.preventDefault();
-            e.stopPropagation();
-            e.stopImmediatePropagation();
+            if (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                e.stopImmediatePropagation();
+            }
             if (navMenu.classList.contains('active')) {
                 closeMobileMenu();
             } else {
@@ -249,13 +261,23 @@ function setupMobileMenu() {
         
         newToggle.ontouchend = function(e) {
             console.log('MENU BUTTON TOUCHEND');
-            e.preventDefault();
-            e.stopPropagation();
-            e.stopImmediatePropagation();
+            if (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                e.stopImmediatePropagation();
+            }
             if (navMenu.classList.contains('active')) {
                 closeMobileMenu();
             } else {
                 openMobileMenu();
+            }
+            return false;
+        };
+        
+        // Also handle touchmove to prevent scrolling
+        newToggle.ontouchmove = function(e) {
+            if (e) {
+                e.preventDefault();
             }
             return false;
         };
