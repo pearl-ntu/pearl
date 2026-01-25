@@ -163,6 +163,9 @@ document.addEventListener('DOMContentLoaded', function() {
         mobileMenuToggle.style.cursor = 'pointer';
         mobileMenuToggle.style.zIndex = '1001';
         mobileMenuToggle.style.position = 'relative';
+        mobileMenuToggle.style.userSelect = 'none';
+        mobileMenuToggle.style.touchAction = 'manipulation'; // Better touch handling
+        mobileMenuToggle.style.webkitTapHighlightColor = 'transparent'; // Remove tap highlight
         
         console.log('Mobile menu elements found:', { 
             mobileMenuToggle: !!mobileMenuToggle, 
