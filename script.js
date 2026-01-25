@@ -63,33 +63,42 @@ document.addEventListener('DOMContentLoaded', function() {
     // Language switcher event listeners - use event delegation for reliability
     console.log('Setting up language switcher...'); // Debug
     
-    // Use event delegation on document to catch all clicks
+    // Function to handle language switch
+    function handleLanguageSwitch(e, lang) {
+        e.preventDefault();
+        e.stopPropagation();
+        console.log('Language switch triggered:', lang, 'Current lang:', currentLang); // Debug
+        if (lang && lang !== currentLang) {
+            switchLanguage(lang);
+        }
+        return false;
+    }
+    
+    // Use event delegation on document to catch all clicks and touches
+    // Handle click events
     document.addEventListener('click', function(e) {
         const langLink = e.target.closest('.lang-link');
         if (langLink) {
-            e.preventDefault();
-            e.stopPropagation();
             const lang = langLink.getAttribute('data-lang');
-            console.log('Language link clicked:', lang, 'Current lang:', currentLang); // Debug
-            if (lang) {
-                switchLanguage(lang);
-            }
-            return false;
+            handleLanguageSwitch(e, lang);
         }
     }, true); // Use capture phase
     
-    // Also handle touch events for mobile
+    // Handle touchstart for mobile (more reliable than touchend)
+    document.addEventListener('touchstart', function(e) {
+        const langLink = e.target.closest('.lang-link');
+        if (langLink) {
+            const lang = langLink.getAttribute('data-lang');
+            handleLanguageSwitch(e, lang);
+        }
+    }, true);
+    
+    // Also handle touchend as backup
     document.addEventListener('touchend', function(e) {
         const langLink = e.target.closest('.lang-link');
         if (langLink) {
-            e.preventDefault();
-            e.stopPropagation();
             const lang = langLink.getAttribute('data-lang');
-            console.log('Language link touched:', lang); // Debug
-            if (lang) {
-                switchLanguage(lang);
-            }
-            return false;
+            handleLanguageSwitch(e, lang);
         }
     }, true);
     
@@ -102,6 +111,8 @@ document.addEventListener('DOMContentLoaded', function() {
         link.style.zIndex = '1002';
         link.style.position = 'relative';
         link.style.userSelect = 'none';
+        link.style.touchAction = 'manipulation'; // Better touch handling
+        link.style.webkitTapHighlightColor = 'transparent'; // Remove tap highlight
     });
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
     const navMenu = document.querySelector('.nav-menu');
@@ -172,11 +183,24 @@ document.addEventListener('DOMContentLoaded', function() {
             return false;
         }, true);
         
-        // Also try touch events for mobile
+        // Add touchstart for mobile (more reliable than touchend)
+        mobileMenuToggle.addEventListener('touchstart', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            console.log('Hamburger touched (touchstart)!'); // Debug
+            if (navMenu.classList.contains('active')) {
+                closeMobileMenu();
+            } else {
+                openMobileMenu();
+            }
+            return false;
+        }, true);
+        
+        // Also try touchend as backup
         mobileMenuToggle.addEventListener('touchend', function(e) {
             e.preventDefault();
             e.stopPropagation();
-            console.log('Hamburger touched directly!'); // Debug
+            console.log('Hamburger touched (touchend)!'); // Debug
             if (navMenu.classList.contains('active')) {
                 closeMobileMenu();
             } else {

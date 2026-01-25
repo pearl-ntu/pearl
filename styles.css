@@ -2704,6 +2704,9 @@ body {
         cursor: pointer;
         background: transparent;
         border: none;
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: transparent;
+        user-select: none;
     }
 
     .mobile-menu-toggle:active {
