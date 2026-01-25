@@ -75,38 +75,62 @@ function setupLanguageSwitcher() {
         newLink.style.minHeight = '30px';
         newLink.style.padding = '5px';
         
-        // Remove href to prevent navigation
-        newLink.href = 'javascript:void(0);';
+        // Remove href to prevent navigation - do this FIRST
+        newLink.removeAttribute('href');
+        newLink.setAttribute('role', 'button');
+        newLink.setAttribute('tabindex', '0');
         
         // Add multiple event handlers
         const lang = newLink.getAttribute('data-lang');
         
-        // Click handler
+        // Click handler - MUST prevent default FIRST
         newLink.onclick = function(e) {
             console.log('LANGUAGE CLICKED:', lang);
-            e.preventDefault();
-            e.stopPropagation();
-            e.stopImmediatePropagation();
+            if (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                e.stopImmediatePropagation();
+            }
             switchLanguage(lang);
+            return false;
+        };
+        
+        // Also prevent default on mousedown (happens before click)
+        newLink.onmousedown = function(e) {
+            if (e) {
+                e.preventDefault();
+            }
             return false;
         };
         
         // Touch handlers
         newLink.ontouchstart = function(e) {
             console.log('LANGUAGE TOUCHSTART:', lang);
-            e.preventDefault();
-            e.stopPropagation();
-            e.stopImmediatePropagation();
+            if (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                e.stopImmediatePropagation();
+            }
             switchLanguage(lang);
             return false;
         };
         
         newLink.ontouchend = function(e) {
             console.log('LANGUAGE TOUCHEND:', lang);
-            e.preventDefault();
-            e.stopPropagation();
-            e.stopImmediatePropagation();
+            if (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                e.stopImmediatePropagation();
+            }
             switchLanguage(lang);
+            return false;
+        };
+        
+        // Also handle touchmove to prevent scrolling
+        newLink.ontouchmove = function(e) {
+            if (e) {
+                e.preventDefault();
+            }
             return false;
         };
         
