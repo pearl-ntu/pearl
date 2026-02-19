@@ -36,7 +36,7 @@ const peopleData = {
         {
             name: "Zhiyuan Yuan",
             title: "PhD Student",
-            email: "zyyuan@zju.edu.cn",
+            email: "yuan0177@e.ntu.edu.sg",
             image: "images/people/zhiyuan-yuan.jpg",  // Add photo later
             research: ""  // Add research interests if needed
         }
@@ -51,14 +51,14 @@ const peopleData = {
             research: ""  // Add research interests if needed
         },
         {
-            name: "Qitong",
+            name: "Qitong Chen",
             title: "Masters Student",
             email: "WANG2333@e.ntu.edu.sg",
             image: "images/people/qitong.jpg",  // Add photo later
             research: ""  // Add research interests if needed
         },
         {
-            name: "Junxian",
+            name: "Junxiang Wang",
             title: "Masters Student",
             email: "CHEN1932@e.ntu.edu.sg",
             image: "images/people/junxian.jpg",  // Add photo later

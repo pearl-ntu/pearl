@@ -4,7 +4,7 @@ const publicationsData = [
     {
         title: "Bright, Robust and Readily Accessible Fluorophore Family for NIR-II Bioimaging",
         authors: "H Bian, D Ma, X Zhang, Y Qiu, X Wu, M Jia, X Zhang, X Liu, Y Yang, ...",
-        journal: "Journal of the American Chemical Society",
+        journal: "Journal of the American Chemical Society 147 (43), 39936–39952",
         year: 2025,
         citations: 0,
         url: "https://pubs.acs.org/doi/10.1021/jacs.5c15490",
@@ -31,7 +31,7 @@ const publicationsData = [
     {
         title: "Oxazolidine-Caged Heptamethine Cyanine Switch Exhibits High Photostability for Bioimaging via Buffering Fluorogenicity",
         authors: "Q Qi, J Li, Q Qiao, C Yan, M Izadyar, C Wang, SAA Abedi, X Liu, Z Guo, ...",
-        journal: "CCS Chemistry, 1-12",
+        journal: "CCS Chemistry 7 (11), 3409-3420",
         year: 2025,
         citations: 3,
         url: "https://www.chinesechemsoc.org/doi/full/10.31635/ccschem.025.202405383",
@@ -49,7 +49,7 @@ const publicationsData = [
     {
         title: "Ether Rhodamines with Enhanced Hydrophilicity, Fluorogenicity, and Brightness for Super-Resolution Imaging",
         authors: "X Fang, Q Qiao, Z Li, HK Li, Y Huang, D Hou, J Chen, N Xu, K An, W Jiang, ...",
-        journal: "Journal of the American Chemical Society",
+        journal: "Journal of the American Chemical Society 147 (25), 22253–22267",
         year: 2025,
         citations: 9,
         url: "https://pubs.acs.org/doi/abs/10.1021/jacs.5c08833",
@@ -269,7 +269,8 @@ const publicationsData = [
         journal: "Physical Chemistry Chemical Physics 25 (15), 10599-10603",
         year: 2023,
         citations: 1,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2023/cp/d3cp00123g",
+        tocImage: "images/publications/Ground-state intramolecular proton transfer inhibits the selective methylation on quinoline and pyridine derivatives.png"
     },
     {
         title: "Constructing D-π-A-π dye to obtain red-emission fluorescent probe for structured illumination microscopy imaging of lipid droplet dynamics",
@@ -277,7 +278,8 @@ const publicationsData = [
         journal: "Green Chemical Engineering 4 (4), 387-392",
         year: 2023,
         citations: 2,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/pii/S2666952822000577",
+        tocImage: "images/publications/Constructing D-π-A-π dye to obtain red-emission fluorescent probe for structured illumination microscopy imaging of lipid droplet dynamics.jpg"
     },
     {
         title: "Molecular design of dual-emission rhodamine analogs",
@@ -285,7 +287,8 @@ const publicationsData = [
         journal: "Materials Chemistry Frontiers 7 (6), 1137-1145",
         year: 2023,
         citations: 4,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2023/qm/d2qm01351g",
+        tocImage: "images/publications/Molecular design of dual-emission rhodamine analogs.png"
     },
     {
         title: "Visualizing Drug Release from a Stimuli-Responsive Soft Material Based on Amine–Thiol Displacement",
@@ -293,7 +296,8 @@ const publicationsData = [
         journal: "ACS Applied Materials & Interfaces 15 (19), 22967-22976",
         year: 2023,
         citations: 6,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/acsami.3c02720",
+        tocImage: "images/publications/Visualizing Drug Release from a Stimuli-Responsive Soft Material Based on Amine–Thiol Displacement.jpeg"
     },
     {
         title: "Restriction of intramolecular bending (RIB) enables the quantitative design of AIEgens",
@@ -301,7 +305,8 @@ const publicationsData = [
         journal: "Journal of Materials Chemistry C 11 (30), 10205-10214",
         year: 2023,
         citations: 6,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2023/tc/d3tc01481a",
+        tocImage: "images/publications/Restriction of intramolecular bending (RIB) enables the quantitative design of AIEgens.png"
     },
     {
         title: "Rational design of supramolecular self-assembly sensor for living cell imaging of HDAC1 and its application in high-throughput screening",
@@ -309,7 +314,8 @@ const publicationsData = [
         journal: "Biosensors and Bioelectronics 242, 115716",
         year: 2023,
         citations: 11,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0956566323006589",
+        tocImage: "images/publications/Rational design of supramolecular self-assembly sensor for living cell imaging of HDAC1 and its application in high-throughput screening.jpg"
     },
     {
         title: "Fluorescent Janus ring siloxanes for detection of Au (III) and L-cysteine",
@@ -317,7 +323,8 @@ const publicationsData = [
         journal: "Dyes and Pigments 208, 110793",
         year: 2023,
         citations: 11,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S014372082200715X",
+        tocImage: "images/publications/Fluorescent Janus ring siloxanes for detection of Au(III) and l-cysteine.jpg"
     },
     {
         title: "A unique NIR dye constructed mitochondrial anchoring fluorescent probe for highly selective selenocysteine detection and imaging in living cells and mice",
@@ -325,7 +332,8 @@ const publicationsData = [
         journal: "Sensors and Actuators B: Chemical 375, 132944",
         year: 2023,
         citations: 12,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0925400522015878",
+        tocImage: "images/publications/A unique NIR dye constructed mitochondrial anchoring fluorescent probe for highly selective selenocysteine detection and imaging in living cells and mice.jpg"
     },
     {
         title: "Shining light on plant health: Detecting salt stress with a near-infrared fluorescent probe",
@@ -333,7 +341,8 @@ const publicationsData = [
         journal: "Advanced Agrochem 2 (1), 1-2",
         year: 2023,
         citations: 13,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/pii/S2773237123000072",
+        tocImage: "images/publications/Shining light on plant health - Detecting salt stress with a near-infrared fluorescent probe.jpg"
     },
     {
         title: "Selective fluorescent sensors for copper (II) ion from julolidine hydrazone derivatives",
@@ -341,7 +350,8 @@ const publicationsData = [
         journal: "Journal of Photochemistry and Photobiology A: Chemistry 437, 114422",
         year: 2023,
         citations: 14,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S1010603022006451",
+        tocImage: "images/publications/Selective fluorescent sensors for copper(II) ion from julolidine hydrazone derivatives.jpg"
     },
     {
         title: "The fluorescence quenching mechanism of tetrazine-functionalized fluorogenic labels with integrated π-conjugations: internal conversion to a dark state",
@@ -349,7 +359,8 @@ const publicationsData = [
         journal: "Materials Chemistry Frontiers 7 (6), 1082-1092",
         year: 2023,
         citations: 23,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2023/qm/d2qm01264b",
+        tocImage: "images/publications/The fluorescence quenching mechanism of tetrazine-functionalized fluorogenic labels with integrated π-conjugations - internal conversion to a dark state.png"
     },
     {
         title: "Ratiometric quantification and visual detection of sulfur dioxide residues using a coumarin-derived fluorescent probe",
@@ -357,15 +368,8 @@ const publicationsData = [
         journal: "Sensors and Actuators B: Chemical 395, 134459",
         year: 2023,
         citations: 24,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
-    },
-    {
-        title: "Photoacoustic Imaging Agents",
-        authors: "L Yu, SA Abbas Abedi, J Lee, Y Xu, S Son, W Chi, M Li, X Liu, JH Park, ...",
-        journal: "Angewandte Chemie International Edition 62 (32), e202307797",
-        year: 2023,
-        citations: 25,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0925400523011747",
+        tocImage: "images/publications/Ratiometric quantification and visual detection of sulfur dioxide residues using a coumarin-derived fluorescent probe.jpg"
     },
     {
         title: "Blending Low‐Frequency Vibrations and Push–Pull Effects Affords Superior Photoacoustic Imaging Agents",
@@ -373,7 +377,8 @@ const publicationsData = [
         journal: "Angewandte Chemie International Edition 62 (32), e202307797",
         year: 2023,
         citations: 25,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/10.1002/anie.202307797",
+        tocImage: "images/publications/Blending Low-Frequency Vibrations and Push–Pull Effects Affords Superior Photoacoustic Imaging Agents.jpg"
     },
     {
         title: "1, 2, 4, 5-Tetrazine-tethered probes for fluorogenically imaging superoxide in live cells with ultrahigh specificity",
@@ -381,7 +386,8 @@ const publicationsData = [
         journal: "Nature Communications 14 (1), 1401",
         year: 2023,
         citations: 27,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.nature.com/articles/s41467-023-37121-8",
+        tocImage: "images/publications/1,2,4,5-Tetrazine-tethered probes for fluorogenically imaging superoxide in live cells with ultrahigh specificity.webp"
     },
     {
         title: "Modulation of dynamic aggregation in fluorogenic SNAP‐tag probes for long‐term super‐resolution imaging",
@@ -389,7 +395,8 @@ const publicationsData = [
         journal: "Aggregate 4 (2), e258",
         year: 2023,
         citations: 28,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/full/10.1002/agt2.258",
+        tocImage: "images/publications/Modulation of dynamic aggregation in fluorogenic SNAP-tag probes for long-term super-resolution imaging.jpg"
     },
     {
         title: "Visible light-induced switching of soft matter materials properties based on thioindigo photoswitches",
@@ -397,7 +404,8 @@ const publicationsData = [
         journal: "Nature Communications 14 (1), 8298",
         year: 2023,
         citations: 30,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.nature.com/articles/s41467-023-44128-8",
+        tocImage: "images/publications/Visible light-induced switching of soft matter materials properties based on thioindigo photoswitches.webp"
     },
     {
         title: "Synergistic effects of multiple rotors and hydrogen-bond interactions lead to sensitive near-infrared viscosity probes for live-cell microscopy",
@@ -405,15 +413,8 @@ const publicationsData = [
         journal: "Science China Chemistry 66 (8), 2329-2338",
         year: 2023,
         citations: 35,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
-    },
-    {
-        title: "Hydrogen-bonding Selectivity",
-        authors: "Y Chen, S Lu, SA Abbas Abedi, M Jeong, H Li, M Hwa Kim, S Park, X Liu, ...",
-        journal: "Angewandte Chemie International Edition 62 (40), e202311543",
-        year: 2023,
-        citations: 36,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://link.springer.com/article/10.1007/s11426-023-1661-6",
+        tocImage: "images/publications/Synergistic effects of multiple rotors and hydrogen-bond interactions lead to sensitive near-infrared viscosity probes for live-cell microscopy.webp"
     },
     {
         title: "Janus‐Type ESIPT Chromophores with Distinctive Intramolecular Hydrogen‐bonding Selectivity",
@@ -421,7 +422,8 @@ const publicationsData = [
         journal: "Angewandte Chemie International Edition 62 (40), e202311543",
         year: 2023,
         citations: 36,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202311543",
+        tocImage: "images/publications/Janus-Type ESIPT Chromophores with Distinctive Intramolecular Hydrogen-bonding Selectivity.jpg"
     },
     {
         title: "Spontaneously Blinking Rhodamine Dyes for Single‐Molecule Localization Microscopy",
@@ -429,7 +431,8 @@ const publicationsData = [
         journal: "Angewandte Chemie International Edition 62 (39), e202306061",
         year: 2023,
         citations: 46,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202306061",
+        tocImage: "images/publications/Spontaneously Blinking Rhodamine Dyes for Single-Molecule Localization Microscopy.jpg"
     },
     {
         title: "Monitoring amyloid aggregation via a twisted intramolecular charge transfer (TICT)-based fluorescent sensor array",
@@ -437,7 +440,8 @@ const publicationsData = [
         journal: "Chemical Science 14 (18), 4786-4795",
         year: 2023,
         citations: 65,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2023/sc/d2sc06710b",
+        tocImage: "images/publications/Monitoring amyloid aggregation via a twisted intramolecular charge transfer (TICT)-based fluorescent sensor array.png"
     },
     {
         title: "Recent advances in aggregation-induced emission (AIE)-based chemosensors for the detection of organic small molecules",
@@ -445,7 +449,8 @@ const publicationsData = [
         journal: "Materials Chemistry Frontiers 7 (22), 5561-5660",
         year: 2023,
         citations: 72,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2023/qm/d3qm00679d",
+        tocImage: "images/publications/Recent advances in aggregation-induced emission (AIE)-based chemosensors for the detection of organic small molecules.png"
     },
     {
         title: "Stepwise on-demand functionalization of multihydrosilanes enabled by a hydrogen-atom-transfer photocatalyst based on eosin Y",
@@ -453,7 +458,8 @@ const publicationsData = [
         journal: "Nature Chemistry 15 (5), 666-676",
         year: 2023,
         citations: 77,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.nature.com/articles/s41557-023-01155-8",
+        tocImage: "images/publications/Stepwise on-demand functionalization of multihydrosilanes enabled by a hydrogen-atom-transfer photocatalyst based on eosin Y.webp"
     },
     {
         title: "An Oily Endeavor: Teaching Excitation–Emission Matrix Using the Fluorescence Fingerprints of Olive Oils",
@@ -461,7 +467,8 @@ const publicationsData = [
         journal: "Journal of Chemical Education 100 (1), 178-185",
         year: 2022,
         citations: 3,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00619",
+        tocImage: "images/publications/An Oily Endeavor - Teaching Excitation–Emission Matrix Using the Fluorescence Fingerprints of Olive Oils.jpeg"
     },
     {
         title: "Molecular origins of the multi-donor strategy in inducing bathochromic shifts and enlarging Stokes shifts of fluorescent proteins",
@@ -469,7 +476,8 @@ const publicationsData = [
         journal: "Physical Chemistry Chemical Physics 24 (26), 15937-15944",
         year: 2022,
         citations: 9,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2022/cp/d2cp00759b",
+        tocImage: "images/publications/Molecular origins of the multi-donor strategy in inducing bathochromic shifts and enlarging Stokes shifts of fluorescent proteins.png"
     },
     {
         title: "Rapid quantification of ethanol content in aqueous solutions using a ratiometric fluorescent sensor",
@@ -477,7 +485,8 @@ const publicationsData = [
         journal: "Sensors & Diagnostics 1 (4), 714-718",
         year: 2022,
         citations: 9,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2022/sd/d2sd00063f",
+        tocImage: "images/publications/Rapid quantification of ethanol content in aqueous solutions using a ratiometric fluorescent sensor.png"
     },
     {
         title: "A PET-based fluorescent probe for monitoring labile Fe (ii) pools in macrophage activations and ferroptosis",
@@ -485,15 +494,8 @@ const publicationsData = [
         journal: "Chemical Communications 58 (18), 2979-2982",
         year: 2022,
         citations: 26,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
-    },
-    {
-        title: "Alzheimer's Disease",
-        authors: "R Tao, N Wang, T Shen, Y Tan, Y Ren, W Wei, M Liao, D Tan, C Tang, ...",
-        journal: "Theranostics 12 (6), 2549",
-        year: 2022,
-        citations: 28,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2022/cc/d1cc06611k",
+        tocImage: "images/publications/A PET-based fluorescent probe for monitoring labile Fe(ii) pools in macrophage activations and ferroptosis.png"
     },
     {
         title: "High-fidelity imaging of amyloid-beta deposits with an ultrasensitive fluorescent probe facilitates the early diagnosis and treatment of Alzheimer's Disease",
@@ -501,7 +503,8 @@ const publicationsData = [
         journal: "Theranostics 12 (6), 2549",
         year: 2022,
         citations: 28,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.thno.org/v12p2549.htm",
+        tocImage: "images/publications/High-fidelity imaging of amyloid-beta deposits with an ultrasensitive fluorescent probe facilitates the early diagnosis and treatment of Alzheimer's Disease.jpg"
     },
     {
         title: "Unique assembly of carbonylpyridinium and chromene reveals mitochondrial thiol starvation under ferroptosis and novel ferroptosis inducer",
@@ -509,7 +512,8 @@ const publicationsData = [
         journal: "Chemical Science 13 (13), 3706-3712",
         year: 2022,
         citations: 29,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2022/sc/d2sc00328g",
+        tocImage: "images/publications/Unique assembly of carbonylpyridinium and chromene reveals mitochondrial thiol starvation under ferroptosis and novel ferroptosis inducer.png"
     },
     {
         title: "An Approach to Developing Cyanines with Upconverted Photosensitive Efficiency Enhancement for Highly Efficient NIR Tumor Phototheranostics",
@@ -517,15 +521,8 @@ const publicationsData = [
         journal: "Advanced Science 9 (31), 2202885",
         year: 2022,
         citations: 30,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
-    },
-    {
-        title: "Room-Temperature Phosphorescence in Guest Emitters",
-        authors: "S Chanmungkalakul, C Wang, R Miao, W Chi, D Tan, Q Qiao, ECX Ang, ...",
-        journal: "Angewandte Chemie International Edition 61 (14), e202200546",
-        year: 2022,
-        citations: 39,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202202885",
+        tocImage: "images/publications/An Approach to Developing Cyanines with Upconverted Photosensitive Efficiency Enhancement for Highly Efficient NIR Tumor Phototheranostics.jpg"
     },
     {
         title: "A Descriptor for Accurate Predictions of Host Molecules Enabling Ultralong Room‐Temperature Phosphorescence in Guest Emitters",
@@ -533,7 +530,8 @@ const publicationsData = [
         journal: "Angewandte Chemie International Edition 61 (14), e202200546",
         year: 2022,
         citations: 39,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202200546",
+        tocImage: "images/publications/A Descriptor for Accurate Predictions of Host Molecules Enabling Ultralong Room-Temperature Phosphorescence in Guest Emitters.jpg"
     },
     {
         title: "A TICS-fluorophore based probe for dual-color GSH imaging",
@@ -541,15 +539,8 @@ const publicationsData = [
         journal: "Chinese Chemical Letters 33 (11), 4943-4947",
         year: 2022,
         citations: 53,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
-    },
-    {
-        title: "Enabling Wide-Range Excitation-Dependent Emissions",
-        authors: "R Huang, C Wang, D Tan, K Wang, B Zou, Y Shao, T Liu, H Peng, X Liu, ...",
-        journal: "Angewandte Chemie International Edition 61 (41), e202211106",
-        year: 2022,
-        citations: 59,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S1001841722003382",
+        tocImage: "images/publications/A TICS-fluorophore based probe for dual-color GSH imaging.jpg"
     },
     {
         title: "Single‐Fluorophore‐Based Organic Crystals with Distinct Conformers Enabling Wide‐Range Excitation‐Dependent Emissions",
@@ -557,7 +548,8 @@ const publicationsData = [
         journal: "Angewandte Chemie International Edition 61 (41), e202211106",
         year: 2022,
         citations: 59,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202211106",
+        tocImage: "images/publications/Single-Fluorophore-Based Organic Crystals with Distinct Conformers Enabling Wide-Range Excitation-Dependent Emissions.jpg"
     },
     {
         title: "Overcoming the Spectral Dependence: A General Strategy for Developing Far‐Red and Near‐Infrared Ultra‐Fluorogenic Tetrazine Bioorthogonal Probes",
@@ -565,15 +557,8 @@ const publicationsData = [
         journal: "Angewandte Chemie International Edition 61 (22), e202117386",
         year: 2022,
         citations: 67,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
-    },
-    {
-        title: "Passivation for Efficient Blue Light-Emitting Diodes",
-        authors: "W Zhang, Y Tan, X Duan, F Zhao, H Liu, W Chen, P Liu, X Liu, K Wang, ...",
-        journal: "Advanced Optical Materials 10 (15), 2200685",
-        year: 2022,
-        citations: 68,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202117386",
+        tocImage: "images/publications/Overcoming Spectral Dependence - A General Strategy for Developing Far-Red and Near-Infrared Ultra-Fluorogenic Tetrazine Bioorthogonal Probes.jpg"
     },
     {
         title: "Brønsted acid-enhanced direct hydrogen atom transfer photocatalysis for selective functionalization of unactivated C (sp3)–H bonds",
@@ -581,7 +566,8 @@ const publicationsData = [
         journal: "Nature Synthesis 1 (10), 794-803",
         year: 2022,
         citations: 68,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.nature.com/articles/s44160-022-00125-1",
+        tocImage: "images/publications/Brønsted acid-enhanced direct hydrogen atom transfer photocatalysis for selective functionalization of unactivated C(sp3)–H bonds.webp"
     },
     {
         title: "High Quantum Yield Blue InP/ZnS/ZnS Quantum Dots Based on Bromine Passivation for Efficient Blue Light‐Emitting Diodes",
@@ -589,15 +575,17 @@ const publicationsData = [
         journal: "Advanced Optical Materials 10 (15), 2200685",
         year: 2022,
         citations: 68,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adom.202200685",
+        tocImage: "images/publications/High Quantum Yield Blue InP-ZnS-ZnS Quantum Dots Based on Bromine Passivation for Efficient Blue Light-Emitting Diodes.jpg"
     },
     {
         title: "A General Method to Develop Highly Environmentally Sensitive Fluorescent Probes and AIEgens",
         authors: "R Miao, J Li, C Wang, X Jiang, Y Gao, X Liu, D Wang, X Li, X Liu, Y Fang",
-        journal: "Advanced Science, 2104609",
+        journal: "Advanced Science 9 (5), 2104609",
         year: 2022,
         citations: 71,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202104609",
+        tocImage: "images/publications/A General Method to Develop Highly Environmentally Sensitive Fluorescent Probes and AIEgens.jpg"
     },
     {
         title: "Design of an HPPD fluorescent probe and visualization of plant responses to abiotic stress",
@@ -605,15 +593,8 @@ const publicationsData = [
         journal: "Advanced Agrochem 1 (1), 73-84",
         year: 2022,
         citations: 72,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
-    },
-    {
-        title: "Cell Lysosomes with Long-Term Nanoscopy",
-        authors: "Q Qiao, W Liu, J Chen, X Wu, F Deng, X Fang, N Xu, W Zhou, S Wu, W Yin, ...",
-        journal: "Angewandte Chemie International Edition 61 (21), e202202961",
-        year: 2022,
-        citations: 77,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/pii/S2773237122000028",
+        tocImage: "images/publications/Design of an HPPD fluorescent probe and visualization of plant responses to abiotic stress.jpg"
     },
     {
         title: "An Acid‐Regulated Self‐Blinking Fluorescent Probe for Resolving Whole‐Cell Lysosomes with Long‐Term Nanoscopy",
@@ -621,7 +602,8 @@ const publicationsData = [
         journal: "Angewandte Chemie International Edition 61 (21), e202202961",
         year: 2022,
         citations: 77,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202202961",
+        tocImage: "images/publications/An Acid-Regulated Self-Blinking Fluorescent Probe for Resolving Whole-Cell Lysosomes with Long-Term Nanoscopy.jpg"
     },
     {
         title: "Rational design and application of an indolium-derived heptamethine cyanine with record-long second near-infrared emission",
@@ -629,7 +611,8 @@ const publicationsData = [
         journal: "CCS Chemistry 4 (6), 1961-1976",
         year: 2022,
         citations: 85,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.chinesechemsoc.org/doi/10.31635/ccschem.021.202101630",
+        tocImage: "images/publications/Rational Design and Application of an Indolium-Derived Heptamethine Cyanine with Record-Long Second Near-Infrared Emission.jpg"
     },
     {
         title: "Theoretical studies on triplet formations in nitrobenzoxadiazole (NBD) derivatives: The impact of donor group and heteroatom substitution",
@@ -637,15 +620,16 @@ const publicationsData = [
         journal: "Results in Chemistry 3, 100116",
         year: 2021,
         citations: 3,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/pii/S2211715621000217",
+        tocImage: "images/publications/Theoretical studies on triplet formations in nitrobenzoxadiazole (NBD) derivatives - The impact of donor group and heteroatom substitution.jpg"
     },
     {
         title: "A Personalized Online Homework System in a Freshman Engineering Linear Algebra Course",
         authors: "K Kang, WP Wong, X Liu, S Kushnarev, DY Tan, O Ortiz, S Goyal, ...",
-        journal: "2021 IEEE International Conference on Engineering, Technology & Education …",
+        journal: "2021 IEEE International Conference on Engineering, Technology & Education (TALE)",
         year: 2021,
         citations: 4,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://ieeexplore.ieee.org/document/9678890"
     },
     {
         title: "Thermal equilibria between conformers enable highly reliable single-fluorophore ratiometric thermometers",
@@ -653,7 +637,8 @@ const publicationsData = [
         journal: "Analyst 146 (13), 4219-4225",
         year: 2021,
         citations: 6,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2021/an/d1an00741f",
+        tocImage: "images/publications/Thermal equilibria between conformers enable highly reliable single-fluorophore ratiometric thermometers.png"
     },
     {
         title: "A systematic study on the relationship between viscosity sensitivity and temperature dependency of BODIPY rotors",
@@ -661,7 +646,8 @@ const publicationsData = [
         journal: "Bulletin of the Korean Chemical Society 42 (1), 91-94",
         year: 2021,
         citations: 6,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/bkcs.12110",
+        tocImage: "images/publications/A Systematic Study on the Relationship Between Viscosity Sensitivity and Temperature Dependency of BODIPY Rotors.jpg"
     },
     {
         title: "State-crossing from a Locally Excited to an Electron Transfer State (SLEET) Model Rationalizing the Aggregation-induced Emission Mechanism of (Bi) piperidylanthracenes",
@@ -669,7 +655,8 @@ const publicationsData = [
         journal: "Chemical Research in Chinese Universities 37, 157-161",
         year: 2021,
         citations: 9,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://link.springer.com/article/10.1007/s40242-021-0397-y",
+        tocImage: "images/publications/State-crossing from a Locally Excited to an Electron Transfer State(SLEET) Model Rationalizing the Aggregation-induced Emission Mechanism of (Bi)piperidylanthracenes.png"
     },
     {
         title: "Methine-Quinoidal Fragment Induces Significant Bathochromic Shifts in Organic Dyes",
@@ -677,7 +664,8 @@ const publicationsData = [
         journal: "The Journal of Physical Chemistry B 125 (5), 1447-1452",
         year: 2021,
         citations: 11,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/acs.jpcb.0c10752",
+        tocImage: "images/publications/Methine-Quinoidal Fragment Induces Significant Bathochromic Shifts in Organic Dyes.jpeg"
     },
     {
         title: "Construction and regulation of imidazo [1, 5-a] pyridines with AIE characteristics via iodine mediated Csp2− H or Csp− H amination",
@@ -685,7 +673,8 @@ const publicationsData = [
         journal: "Chinese Chemical Letters 32 (10), 3083-3086",
         year: 2021,
         citations: 16,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S1001841721003302",
+        tocImage: "images/publications/Construction and regulation of imidazo[1,5-a]pyridines with AIE characteristics via iodine mediated Csp2−H or Csp−H amination.jpg"
     },
     {
         title: "Energy transfer followed by electron transfer (ETET) endows a TPE-NBD dyad with enhanced environmental sensitivity",
@@ -693,15 +682,8 @@ const publicationsData = [
         journal: "Chinese Chemical Letters 32 (6), 1937-1941",
         year: 2021,
         citations: 16,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
-    },
-    {
-        title: "Oxide Dynamics in Live Cells",
-        authors: "RY Guo, YT Zhang, S Chanmungkalakul, HR Guo, Y Hu, J Li, X Liu, ...",
-        journal: "CCS Chemistry 3 (10), 116-128",
-        year: 2021,
-        citations: 19,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S1001841720307610",
+        tocImage: "images/publications/Energy transfer followed by electron transfer (ETET) endows a TPE-NBD dyad with enhanced environmental sensitivity.jpg"
     },
     {
         title: "Bioinspired Design of Reversible Fluorescent Probes for Tracking Nitric Oxide Dynamics in Live Cells",
@@ -709,7 +691,8 @@ const publicationsData = [
         journal: "CCS Chemistry 3 (10), 116-128",
         year: 2021,
         citations: 19,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.chinesechemsoc.org/doi/10.31635/ccschem.021.202000501",
+        tocImage: "images/publications/Bioinspired Design of Reversible Fluorescent Probes for Tracking Nitric Oxide Dynamics in Live Cells.jpg"
     },
     {
         title: "One-step condensation synthesis and characterizations of indocyanine green",
@@ -717,7 +700,8 @@ const publicationsData = [
         journal: "Results in Chemistry 3, 100092",
         year: 2021,
         citations: 19,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/pii/S2211715620300709",
+        tocImage: "images/publications/One-step condensation synthesis and characterizations of indocyanine green.jpg"
     },
     {
         title: "Restriction of Twisted Intramolecular Charge Transfer Enables the Aggregation-Induced Emission of 1-(N,N-Dialkylamino)-naphthalene Derivatives",
@@ -725,7 +709,8 @@ const publicationsData = [
         journal: "The Journal of Physical Chemistry A 125 (38), 8397-8403",
         year: 2021,
         citations: 26,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/acs.jpca.1c06263",
+        tocImage: "images/publications/Restriction of Twisted Intramolecular Charge Transfer Enables the Aggregation-Induced Emission of 1-(N,N-Dialkylamino)-naphthalene Derivatives.jpeg"
     },
     {
         title: "A smart TP-FRET-based ratiometric fluorescent sensor for bisulfite/formaldehyde detection and its imaging application",
@@ -733,15 +718,8 @@ const publicationsData = [
         journal: "Sensors and Actuators B: Chemical 345, 130331",
         year: 2021,
         citations: 29,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
-    },
-    {
-        title: "Pyrene vs. anthracene",
-        authors: "C Pherkkhuntod, V Ervithayasuporn, S Chanmungkalakul, C Wang, X Liu, ...",
-        journal: "Sensors and Actuators B: Chemical 330, 129287",
-        year: 2021,
-        citations: 36,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0925400521008996",
+        tocImage: "images/publications/A smart TP-FRET-based ratiometric fluorescent sensor for bisulfite-formaldehyde detection and its imaging application.jpg"
     },
     {
         title: "Water-soluble polyaromatic-based imidazolium for detecting picric acid: Pyrene vs. anthracene",
@@ -749,7 +727,8 @@ const publicationsData = [
         journal: "Sensors and Actuators B: Chemical 330, 129287",
         year: 2021,
         citations: 36,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0925400520316270",
+        tocImage: "images/publications/Water-soluble polyaromatic-based imidazolium for detecting picric acid - Pyrene vs. anthracene.jpg"
     },
     {
         title: "A unified fluorescence quenching mechanism of tetrazine-based fluorogenic dyes: energy transfer to a dark state",
@@ -757,7 +736,8 @@ const publicationsData = [
         journal: "Materials Chemistry Frontiers 5 (18), 7012-7021",
         year: 2021,
         citations: 42,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2021/qm/d1qm00852h",
+        tocImage: "images/publications/A unified fluorescence quenching mechanism of tetrazine-based fluorogenic dyes - energy transfer to a dark state.png"
     },
     {
         title: "Molecular-Dimension-Dependent ESIPT Break for Specific Reversible Response to GSH and Its Real-Time Bioimaging",
@@ -765,7 +745,8 @@ const publicationsData = [
         journal: "Analytical Chemistry 93 (37), 12801-12807",
         year: 2021,
         citations: 43,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/acs.analchem.1c03376",
+        tocImage: "images/publications/Molecular-Dimension-Dependent ESIPT Break for Specific Reversible Response to GSH and Its Real-Time Bioimaging.jpeg"
     },
     {
         title: "An Edaravone-Guided Design of a Rhodamine-Based Turn-on Fluorescent Probe for Detecting Hydroxyl Radicals in Living Systems",
@@ -773,7 +754,8 @@ const publicationsData = [
         journal: "Analytical chemistry 93 (42), 14343-14350",
         year: 2021,
         citations: 56,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/acs.analchem.1c03877",
+        tocImage: "images/publications/An Edaravone-Guided Design of a Rhodamine-Based Turn-on Fluorescent Probe for Detecting Hydroxyl Radicals in Living Systems.jpeg"
     },
     {
         title: "Force-Induced Near-Infrared Chromism of Mechanophore-Linked Polymers",
@@ -781,7 +763,8 @@ const publicationsData = [
         journal: "Journal of the American Chemical Society 143 (42), 17337-17343",
         year: 2021,
         citations: 67,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/jacs.1c05923",
+        tocImage: "images/publications/Force-Induced Near-Infrared Chromism of Mechanophore-Linked Polymers.jpeg"
     },
     {
         title: "An ESIPT-induced NIR fluorescent probe to visualize mitochondrial sulfur dioxide during oxidative stress in vivo",
@@ -789,7 +772,8 @@ const publicationsData = [
         journal: "Chemical Communications 57 (5), 655-658",
         year: 2021,
         citations: 69,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2021/cc/d0cc07398a",
+        tocImage: "images/publications/An ESIPT-induced NIR fluorescent probe to visualize mitochondrial sulfur dioxide during oxidative stress in vivo.png"
     },
     {
         title: "Aggregation-induced emission or aggregation-caused quenching? Impact of covalent bridge between tetraphenylethene and naphthalimide",
@@ -797,7 +781,8 @@ const publicationsData = [
         journal: "Chinese Chemical Letters 32 (5), 1790-1794",
         year: 2021,
         citations: 84,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S1001841720307464",
+        tocImage: "images/publications/Aggregation-induced emission or aggregation-caused quenching - Impact of covalent bridge between tetraphenylethene and naphthalimide.jpg"
     },
     {
         title: "Fluorescence umpolung enables light-up sensing of N-acetyltransferases and nerve agents",
@@ -805,15 +790,8 @@ const publicationsData = [
         journal: "Nature Communications 12 (1), 3869",
         year: 2021,
         citations: 102,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
-    },
-    {
-        title: "Cell and Super-resolution Microscopy",
-        authors: "P Werther, K Yserentant, F Braun, K Grußmayer, V Navikas, M Yu, ...",
-        journal: "ACS central science 7 (9), 1561-1571",
-        year: 2021,
-        citations: 106,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.nature.com/articles/s41467-021-24187-5",
+        tocImage: "images/publications/Fluorescence umpolung enables light-up sensing of N-acetyltransferases and nerve agents.webp"
     },
     {
         title: "Bio-orthogonal Red and Far-Red Fluorogenic Probes for Wash-Free Live-Cell and Super-resolution Microscopy",
@@ -821,7 +799,8 @@ const publicationsData = [
         journal: "ACS central science 7 (9), 1561-1571",
         year: 2021,
         citations: 106,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/acscentsci.1c00703",
+        tocImage: "images/publications/Bio-orthogonal Red and Far-Red Fluorogenic Probes for Wash-Free Live-Cell and Super-resolution Microscopy.jpeg"
     },
     {
         title: "Stable super‐resolution imaging of lipid droplet dynamics through a buffer strategy with a hydrogen‐bond sensitive fluorogenic probe",
@@ -829,7 +808,8 @@ const publicationsData = [
         journal: "Angewandte Chemie International Edition 60 (47), 25104-25113",
         year: 2021,
         citations: 127,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202111052",
+        tocImage: "images/publications/Stable Super-Resolution Imaging of Lipid Droplet Dynamics through a Buffer Strategy with a Hydrogen-Bond Sensitive Fluorogenic Probe.jpg"
     },
     {
         title: "An Approach to Developing Cyanines with Simultaneous Intersystem Crossing Enhancement and Excited-State Lifetime Elongation for Photodynamic Antitumor Metastasis",
@@ -837,7 +817,8 @@ const publicationsData = [
         journal: "Journal of the American Chemical Society 143 (31), 12345-12354",
         year: 2021,
         citations: 165,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/jacs.1c06275",
+        tocImage: "images/publications/An Approach to Developing Cyanines with Simultaneous Intersystem Crossing Enhancement and Excited-State Lifetime Elongation for Photodynamic Antitumor Metastasis.jpeg"
     },
     {
         title: "Twisted intramolecular charge transfer (TICT) and twists beyond TICT: from mechanisms to rational designs of bright and sensitive fluorophores",
@@ -845,7 +826,8 @@ const publicationsData = [
         journal: "Chemical Society Reviews 50 (22), 12656-12678",
         year: 2021,
         citations: 560,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2021/cs/d1cs00239b",
+        tocImage: "images/publications/Twisted intramolecular charge transfer (TICT) and twists beyond TICT - from mechanisms to rational designs of bright and sensitive fluorophores.png"
     },
     {
         title: "Activatable selenium-containing fluorescent apoptotic agent for biosensing and tracing cancer cell apoptosis",
@@ -853,15 +835,17 @@ const publicationsData = [
         journal: "Sensors and Actuators B: Chemical 311, 127915",
         year: 2020,
         citations: 10,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S092540052030263X",
+        tocImage: "images/publications/Activatable selenium-containing fluorescent apoptotic agent for biosensing and tracing cancer cell apoptosis.jpg"
     },
     {
         title: "Molecular Origins of Heteroatom Engineering on the Emission Wavelength Tuning, Quantum Yield Variations and Fluorogenicity of NBD‐like SCOTfluors",
         authors: "Y Gao, C Wang, W Chi, X Liu",
-        journal: "Chemistry–An Asian Journal",
+        journal: "Chemistry–An Asian Journal 15 (23), 4082-4086",
         year: 2020,
         citations: 14,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://aces.onlinelibrary.wiley.com/doi/10.1002/asia.202000966",
+        tocImage: "images/publications/Molecular Origins of Heteroatom Engineering on the Emission Wavelength Tuning, Quantum Yield Variations and Fluorogenicity of NBD-like SCOTfluors.jpg"
     },
     {
         title: "Multiple Factors Regulate the Spirocyclization Equilibrium of Si-Rhodamines",
@@ -869,15 +853,8 @@ const publicationsData = [
         journal: "The Journal of Physical Chemistry B 124 (34), 7467-7474",
         year: 2020,
         citations: 17,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
-    },
-    {
-        title: "Ring Cyclization for Selective and Dynamic Tracking of Labile Glyoxals",
-        authors: "H Xu, Q Liu, X Song, C Wang, X Wang, S Ma, X Wang, Y Feng, X Meng, ...",
-        journal: "Analytical Chemistry 92 (20), 13829-13838",
-        year: 2020,
-        citations: 26,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/acs.jpcb.0c05642",
+        tocImage: "images/publications/Multiple Factors Regulate the Spirocyclization Equilibrium of Si-Rhodamines.jpeg"
     },
     {
         title: "Fluorophore-Promoted Facile Deprotonation and Exocyclic Five-Membered Ring Cyclization for Selective and Dynamic Tracking of Labile Glyoxals",
@@ -885,15 +862,17 @@ const publicationsData = [
         journal: "Analytical Chemistry 92 (20), 13829-13838",
         year: 2020,
         citations: 26,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/acs.analchem.0c02447",
+        tocImage: "images/publications/Fluorophore-Promoted Facile Deprotonation and Exocyclic Five-Membered Ring Cyclization for Selective and Dynamic Tracking of Labile Glyoxals.jpeg"
     },
     {
         title: "Efficient and Stable Organic Light-Emitting Diodes Employing Indolo [2, 3-b] indole-Based Thermally Activated Delayed Fluorescence Emitters",
         authors: "Q Ai, J Chai, W Lou, T Liu, D Wang, C Deng, C Wang, G Li, X Liu, Z Liu, ...",
-        journal: "ACS Applied Materials & Interfaces",
+        journal: "ACS Applied Materials & Interfaces 12 (5), 6127-6136",
         year: 2020,
         citations: 32,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/full/10.1021/acsami.9b19474",
+        tocImage: "images/publications/Efficient and Stable Organic Light-Emitting Diodes Employing Indolo[2,3-b]indole-Based Thermally Activated Delayed Fluorescence Emitters.jpeg"
     },
     {
         title: "Towards tetrazine-based near-infrared fluorogenic dyes: Is there a wavelength limit?",
@@ -901,7 +880,8 @@ const publicationsData = [
         journal: "Dyes and Pigments 177, 108313",
         year: 2020,
         citations: 34,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S014372081932707X",
+        tocImage: "images/publications/Towards tetrazine-based near-infrared fluorogenic dyes - Is there a wavelength limit.jpg"
     },
     {
         title: "Molecular Origins of Photoinduced Backward Intramolecular Charge Transfer",
@@ -909,7 +889,8 @@ const publicationsData = [
         journal: "The Journal of Physical Chemistry C 124 (31), 16820-16826",
         year: 2020,
         citations: 37,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/acs.jpcc.0c04218",
+        tocImage: "images/publications/Molecular Origins of Photoinduced Backward Intramolecular Charge Transfer.jpeg"
     },
     {
         title: "Descriptor ΔGC-O Enables the Quantitative Design of Spontaneously Blinking Rhodamines for Live-Cell Super-Resolution Imaging",
@@ -917,7 +898,8 @@ const publicationsData = [
         journal: "Angewandte Chemie International Edition 59 (45), 20215-20223",
         year: 2020,
         citations: 78,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202010169",
+        tocImage: "images/publications/Descriptor ΔGC-O Enables the Quantitative Design of Spontaneously Blinking Rhodamines for Live-Cell Super-Resolution Imaging.jpg"
     },
     {
         title: "A Unified Push–Pull Model for Understanding the Ring-Opening Mechanism of Rhodamine Dyes",
@@ -925,15 +907,8 @@ const publicationsData = [
         journal: "The Journal of Physical Chemistry C 124 (6), 3793-3801",
         year: 2020,
         citations: 89,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
-    },
-    {
-        title: "Excitation Wavelength-Tunable Circularly Polarized Luminescence",
-        authors: "JG Yang, K Li, J Wang, S Sun, W Chi, C Wang, X Chang, C Zou, WP To, ...",
-        journal: "Angewandte Chemie International Edition 59 (17), 6915-6922",
-        year: 2020,
-        citations: 90,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/acs.jpcc.9b11673",
+        tocImage: "images/publications/A Unified Push–Pull Model for Understanding the Ring-Opening Mechanism of Rhodamine Dyes.jpeg"
     },
     {
         title: "Controlling Metallophilic Interactions in Chiral Gold (I) Double Salts towards Excitation Wavelength‐Tunable Circularly Polarized Luminescence",
@@ -941,7 +916,8 @@ const publicationsData = [
         journal: "Angewandte Chemie International Edition 59 (17), 6915-6922",
         year: 2020,
         citations: 90,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202000792",
+        tocImage: "images/publications/Controlling Metallophilic Interactions in Chiral Gold(I) Double Salts towards Excitation Wavelength-Tunable Circularly Polarized Luminescence.jpg"
     },
     {
         title: "De novo strategy with engineering anti-Kasha/Kasha fluorophores enables reliable ratiometric quantification of biomolecules",
@@ -949,7 +925,8 @@ const publicationsData = [
         journal: "Nature Communications 11 (1), 793",
         year: 2020,
         citations: 105,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.nature.com/articles/s41467-020-14615-3",
+        tocImage: "images/publications/De novo strategy with engineering anti-Kasha-Kasha fluorophores enables reliable ratiometric quantification of biomolecules.webp"
     },
     {
         title: "A Sequential Dual‐Lock Strategy for Photoactivatable Chemiluminescent Probes Enabling Bright Duplex Optical Imaging",
@@ -957,7 +934,8 @@ const publicationsData = [
         journal: "Angewandte Chemie International Edition 59 (23), 9059-9066",
         year: 2020,
         citations: 135,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202000165",
+        tocImage: "images/publications/A Sequential Dual-Lock Strategy for Photoactivatable Chemiluminescent Probes Enabling Bright Duplex Optical Imaging.jpg"
     },
     {
         title: "Molecular Mechanism of Viscosity Sensitivity in BODIPY Rotors and Application to Motion-Based Fluorescent Sensors",
@@ -965,7 +943,8 @@ const publicationsData = [
         journal: "ACS sensors 5 (3), 731-739",
         year: 2020,
         citations: 135,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/acssensors.9b01951",
+        tocImage: "images/publications/Molecular Mechanism of Viscosity Sensitivity in BODIPY Rotors and Application to Motion-Based Fluorescent Sensors.jpeg"
     },
     {
         title: "A General Descriptor ΔE Enables the Quantitative Development of Luminescent Materials Based on Photoinduced Electron Transfer",
@@ -973,7 +952,8 @@ const publicationsData = [
         journal: "Journal of the American Chemical Society 142 (14), 6777-6785",
         year: 2020,
         citations: 183,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/jacs.0c01473",
+        tocImage: "images/publications/A General Descriptor ΔE Enables the Quantitative Development of Luminescent Materials Based on Photoinduced Electron Transfer.jpeg"
     },
     {
         title: "Quantitative Design of Bright Fluorophores and AIEgens via the Accurate Prediction of Twisted Intramolecular Charge Transfer (TICT)",
@@ -981,7 +961,8 @@ const publicationsData = [
         journal: "Angewandte Chemie International Edition 59 (25), 10160-10172",
         year: 2020,
         citations: 239,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.201916357",
+        tocImage: "images/publications/Quantitative Design of Bright Fluorophores and AIEgens by the Accurate Prediction of Twisted Intramolecular Charge Transfer (TICT).jpg"
     },
     {
         title: "Strong π-π stacking interactions led to the mis-assignment of dimer emissions to the monomers of 1-acetylpyrene",
@@ -989,7 +970,8 @@ const publicationsData = [
         journal: "Chinese Chemical Letters 30 (3), 601-604",
         year: 2019,
         citations: 9,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S1001841718304686",
+        tocImage: "images/publications/Strong π-π stacking interactions led to the mis-assignment of dimer emissions to the monomers of 1-acetylpyrene.jpg"
     },
     {
         title: "A ruthenium bisoxazoline complex as a photoredox catalyst for nitro compound reduction under visible light",
@@ -997,7 +979,8 @@ const publicationsData = [
         journal: "Dalton Transactions 48 (27), 9949-9953",
         year: 2019,
         citations: 16,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2019/dt/c9dt00428a",
+        tocImage: "images/publications/A ruthenium bisoxazoline complex as a photoredox catalyst for nitro compound reduction under visible light.png"
     },
     {
         title: "Regulation of aggregation-induced emission behaviours and mechanofluorochromism of tetraphenylethene through different oxidation states of sulphur moieties",
@@ -1005,7 +988,8 @@ const publicationsData = [
         journal: "Journal of Materials Chemistry C 7 (27), 8244-8249",
         year: 2019,
         citations: 24,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2019/tc/c9tc01848d",
+        tocImage: "images/publications/Regulation of aggregation-induced emission behaviours and mechanofluorochromism of tetraphenylethene through different oxidation states of sulphur moieties.png"
     },
     {
         title: "Revealing the switching mechanisms of an off–on–off fluorescent logic gate system",
@@ -1013,7 +997,8 @@ const publicationsData = [
         journal: "Physical Chemistry Chemical Physics 21 (30), 16798-16803",
         year: 2019,
         citations: 26,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2019/cp/c9cp01401b",
+        tocImage: "images/publications/Revealing the switching mechanisms of an off–on–off fluorescent logic gate system.png"
     },
     {
         title: "Rhodamine-naphthalimide demonstrated a distinct aggregation-induced emission mechanism: elimination of dark-states via dimer interactions (EDDI)",
@@ -1021,7 +1006,8 @@ const publicationsData = [
         journal: "Chemical Communications 55 (10), 1446-1449",
         year: 2019,
         citations: 37,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2019/cc/c8cc09212e",
+        tocImage: "images/publications/Rhodamine-naphthalimide demonstrated a distinct aggregation-induced emission mechanism - elimination of dark-states via dimer interactions (EDDI).png"
     },
     {
         title: "Visualizing Microglia with a Fluorescence Turn‐On Ugt1a7c Substrate",
@@ -1029,7 +1015,8 @@ const publicationsData = [
         journal: "Angewandte Chemie International Edition 58 (24), 7972-7976",
         year: 2019,
         citations: 39,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/10.1002/anie.201903058",
+        tocImage: "images/publications/Visualizing Microglia with a Fluorescence Turn-On Ugt1a7c Substrate.jpg"
     },
     {
         title: "Rapid Identification of Bacteria by Membrane-Responsive Aggregation of a Pyrene Derivative",
@@ -1037,7 +1024,8 @@ const publicationsData = [
         journal: "ACS sensors 4 (2), 281-285",
         year: 2019,
         citations: 45,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/acssensors.8b01466",
+        tocImage: "images/publications/Rapid Identification of Bacteria by Membrane-Responsive Aggregation of a Pyrene Derivative.jpeg"
     },
     {
         title: "A dual-site modulated FRET-based two-photon ratiometric fluorescent probe for tracking lysosomal pH changes in living cells, tissues and zebrafish",
@@ -1045,7 +1033,8 @@ const publicationsData = [
         journal: "Sensors and Actuators B: Chemical 290, 79-86",
         year: 2019,
         citations: 51,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S0925400519304885",
+        tocImage: "images/publications/A dual-site modulated FRET-based two-photon ratiometric fluorescent probe for tracking lysosomal pH changes in living cells, tissues and zebrafish.jpg"
     },
     {
         title: "A H-bond strategy to develop acid-resistant photoswitchable rhodamine spirolactams for super-resolution single-molecule localization microscopy",
@@ -1053,7 +1042,8 @@ const publicationsData = [
         journal: "Chemical Science 10 (18), 4914-4922",
         year: 2019,
         citations: 92,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2019/sc/c9sc01284b",
+        tocImage: "images/publications/A H-bond strategy to develop acid-resistant photoswitchable rhodamine spirolactams for super-resolution single-molecule localization microscopy.png"
     },
     {
         title: "A Photoexcitation-Induced Twisted Intramolecular Charge Shuttle (TICS)",
@@ -1061,7 +1051,8 @@ const publicationsData = [
         journal: "Angewandte Chemie International Edition 58 (21), 7073-7077",
         year: 2019,
         citations: 110,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.201902766",
+        tocImage: "images/publications/A Photoexcitation-Induced Twisted Intramolecular Charge Shuttle.jpg"
     },
     {
         title: "Crystal multi‐conformational control through deformable carbon‐sulfur bond for singlet‐triplet emissive tuning",
@@ -1069,7 +1060,8 @@ const publicationsData = [
         journal: "Angewandte Chemie International Edition 58 (13), 4328-4333",
         year: 2019,
         citations: 117,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.201900703",
+        tocImage: "images/publications/Crystal Multi-Conformational Control Through Deformable Carbon-Sulfur Bond for Singlet-Triplet Emissive Tuning.jpg"
     },
     {
         title: "Quaternary Piperazine-Substituted Rhodamines with Enhanced Brightness for Super-Resolution Imaging",
@@ -1077,7 +1069,8 @@ const publicationsData = [
         journal: "Journal of the American Chemical Society 141 (37), 14491-14495",
         year: 2019,
         citations: 184,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/jacs.9b04893",
+        tocImage: "images/publications/Quaternary Piperazine-Substituted Rhodamines with Enhanced Brightness for Super-Resolution Imaging.jpeg"
     },
     {
         title: "Achieving amorphous ultralong room temperature phosphorescence by coassembling planar small organic molecules with polyvinyl alcohol",
@@ -1085,7 +1078,8 @@ const publicationsData = [
         journal: "Advanced Functional Materials 29 (10), 1807243",
         year: 2019,
         citations: 204,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adfm.201807243",
+        tocImage: "images/publications/Achieving Amorphous Ultralong Room Temperature Phosphorescence by Coassembling Planar Small Organic Molecules with Polyvinyl Alcohol.jpg"
     },
     {
         title: "Development of 4-hydrazinyl-7-nitrobenzofurazan as a fluorogenic probe for detecting malondialdehyde in biological samples",
@@ -1093,7 +1087,8 @@ const publicationsData = [
         journal: "Sensors and Actuators B: Chemical 254, 248-254",
         year: 2018,
         citations: 19,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0925400517312832",
+        tocImage: "images/publications/Development of 4-hydrazinyl-7-nitrobenzofurazan as a fluorogenic probe for detecting malondialdehyde in biological samples.jpg"
     },
     {
         title: "Unusual intermolecular charge transfer enables supramolecular fluorescent viscosity sensors",
@@ -1101,7 +1096,8 @@ const publicationsData = [
         journal: "Sensors and Actuators B: Chemical 277, 55-61",
         year: 2018,
         citations: 22,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0925400518315478",
+        tocImage: "images/publications/Unusual intermolecular charge transfer enables supramolecular fluorescent viscosity sensors.jpg"
     },
     {
         title: "A Highly Reversible Mechanochromic Difluorobenzothiadiazole Dye with Near‐Infrared Emission",
@@ -1109,7 +1105,8 @@ const publicationsData = [
         journal: "Chemistry–A European Journal 24 (15), 3671-3676",
         year: 2018,
         citations: 51,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/chem.201705780",
+        tocImage: "images/publications/A Highly Reversible Mechanochromic Difluorobenzothiadiazole Dye with Near-Infrared Emission.jpg"
     },
     {
         title: "Interactions between molecules and perovskites in halide perovskite solar cells",
@@ -1117,7 +1114,8 @@ const publicationsData = [
         journal: "Solar Energy Materials and Solar Cells 175, 1-19",
         year: 2018,
         citations: 83,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0927024817305275",
+        tocImage: "images/publications/Interactions between molecules and perovskites in halide perovskite solar cells.jpg"
     },
     {
         title: "Modulating aggregation-induced emission via a non-conjugated linkage of fluorophores to tetraphenylethenes",
@@ -1125,7 +1123,8 @@ const publicationsData = [
         journal: "Journal of Materials Chemistry B 5 (26), 5096-5100",
         year: 2017,
         citations: 22,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2017/tb/c7tb00623c",
+        tocImage: "images/publications/Modulating aggregation-induced emission via a non-conjugated linkage of fluorophores to tetraphenylethenes.png"
     },
     {
         title: "Ground-state conformers enable bright single-fluorophore ratiometric thermometers with positive temperature coefficients",
@@ -1133,7 +1132,8 @@ const publicationsData = [
         journal: "Materials Chemistry Frontiers 1 (11), 2383-2390",
         year: 2017,
         citations: 24,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2017/qm/c7qm00345e",
+        tocImage: "images/publications/Ground-state conformers enable bright single-fluorophore ratiometric thermometers with positive temperature coefficients.png"
     },
     {
         title: "Rational Development of Near‐Infrared Fluorophores with Large Stokes Shifts, Bright One‐Photon and Two‐Photon Emissions for Bioimaging and Biosensing",
@@ -1141,7 +1141,8 @@ const publicationsData = [
         journal: "Chemistry - A European Journal 23 (36), 8736-8740",
         year: 2017,
         citations: 66,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/chem.201701365",
+        tocImage: "images/publications/Rational Development of Near-Infrared Fluorophores with Large Stokes Shifts, Bright One-Photon, and Two-Photon Emissions for Bioimaging and Biosensing Applications.jpg"
     },
     {
         title: "Substantial Intramolecular Charge Transfer Induces Long Emission Wavelengths and Mega Stokes Shifts in 6-Aminocoumarins",
@@ -1149,7 +1150,8 @@ const publicationsData = [
         journal: "The Journal of Physical Chemistry C 121 (24), 13274-13279",
         year: 2017,
         citations: 81,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/acs.jpcc.7b04176",
+        tocImage: "images/publications/Substantial Intramolecular Charge Transfer Induces Long Emission Wavelengths and Mega Stokes Shifts in 6-Aminocoumarins.jpeg"
     },
     {
         title: "Motion-induced change in emission (MICE) for developing fluorescent probes",
@@ -1157,7 +1159,8 @@ const publicationsData = [
         journal: "Chemical Society Reviews 46 (16), 4833-4844",
         year: 2017,
         citations: 218,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2017/cs/c7cs00018a",
+        tocImage: "images/publications/Motion-induced change in emission (MICE) for developing fluorescent probes.png"
     },
     {
         title: "Solid-State Photoinduced Luminescence Switch for Advanced Anticounterfeiting and Super-Resolution Imaging Applications",
@@ -1165,7 +1168,8 @@ const publicationsData = [
         journal: "Journal of the American Chemical Society 139 (45), 16036-16039",
         year: 2017,
         citations: 404,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/jacs.7b07738",
+        tocImage: "images/publications/Solid-State Photoinduced Luminescence Switch for Advanced Anticounterfeiting and Super-Resolution Imaging Applications.jpeg"
     },
     {
         title: "First-Principles Study of Molecular Adsorption on Lead Iodide Perovskite Surface: A Case Study of Halogen Bond Passivation for Solar Cell Application",
@@ -1173,7 +1177,8 @@ const publicationsData = [
         journal: "The Journal of Physical Chemistry C 120 (41), 23536-23541",
         year: 2016,
         citations: 38,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/acs.jpcc.6b07011",
+        tocImage: "images/publications/First-Principles Study of Molecular Adsorption on Lead Iodide Perovskite Surface - A Case Study of Halogen Bond Passivation for Solar Cell Application.jpeg"
     },
     {
         title: "Multilayer Dye Aggregation at Dye/TiO2 Interface via π… π Stacking and Hydrogen Bond and Its Impact on Solar Cell Performance: A DFT Analysis",
@@ -1181,7 +1186,8 @@ const publicationsData = [
         journal: "Scientific reports 6, 35893",
         year: 2016,
         citations: 54,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.nature.com/articles/srep35893",
+        tocImage: "images/publications/Multilayer Dye Aggregation at Dye-TiO2 Interface via π…π Stacking and Hydrogen Bond and Its Impact on Solar Cell Performance - A DFT Analysis.webp"
     },
     {
         title: "Aziridinyl fluorophores demonstrate bright fluorescence and superior photostability by effectively inhibiting twisted intramolecular charge transfer",
@@ -1189,7 +1195,8 @@ const publicationsData = [
         journal: "Journal of the American Chemical Society 138 (22), 6960-6963",
         year: 2016,
         citations: 329,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/jacs.6b03924",
+        tocImage: "images/publications/Aziridinyl Fluorophores Demonstrate Bright Fluorescence and Superior Photostability by Effectively Inhibiting Twisted Intramolecular Charge Transfer.jpeg"
     },
     {
         title: "Coumarin 545: an emission reference dye with a record-low temperature coefficient for ratiometric fluorescence based temperature measurements",
@@ -1197,7 +1204,8 @@ const publicationsData = [
         journal: "Analyst 140 (4), 1008-1013",
         year: 2015,
         citations: 19,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2015/an/c4an02075h",
+        tocImage: "images/publications/Coumarin 545 - an emission reference dye with a record-low temperature coefficient for ratiometric fluorescence based temperature measurements.png"
     },
     {
         title: "Rationalizing the photophysical properties of BODIPY laser dyes via aromaticity and electron-donor-based structural perturbations",
@@ -1205,7 +1213,8 @@ const publicationsData = [
         journal: "Dyes and Pigments 116, 74-81",
         year: 2015,
         citations: 24,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0143720815000133",
+        tocImage: "images/publications/Rationalizing the photophysical properties of BODIPY laser dyes via aromaticity and electron-donor-based structural perturbations.jpg"
     },
     {
         title: "Temperature insensitive fluorescence intensity in a coumarin monomer–aggregate coupled system",
@@ -1213,7 +1222,8 @@ const publicationsData = [
         journal: "Chemical Communications 50 (66), 9329-9332",
         year: 2014,
         citations: 18,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2014/cc/c4cc04245j",
+        tocImage: "images/publications/Temperature insensitive fluorescence intensity in a coumarin monomer–aggregate coupled system.png"
     },
     {
         title: "Predicting Solar-Cell Dyes for Cosensitization",
@@ -1221,7 +1231,8 @@ const publicationsData = [
         journal: "The Journal of Physical Chemistry C 118 (26), 14082-14090",
         year: 2014,
         citations: 23,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/jp501159g",
+        tocImage: "images/publications/Predicting Solar-Cell Dyes for Cosensitization.jpeg"
     },
     {
         title: "Dye Aggregation and Complex Formation Effects in 7-(Diethylamino)-coumarin-3-carboxylic Acid",
@@ -1229,7 +1240,8 @@ const publicationsData = [
         journal: "The Journal of Physical Chemistry C 118 (24), 13042-13051",
         year: 2014,
         citations: 48,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/jp409435v",
+        tocImage: "images/publications/Dye Aggregation and Complex Formation Effects in 7-(Diethylamino)-coumarin-3-carboxylic Acid.jpeg"
     },
     {
         title: "A twisted-intramolecular-charge-transfer (TICT) based ratiometric fluorescent thermometer with a mega-Stokes shift and a positive temperature coefficient",
@@ -1237,7 +1249,8 @@ const publicationsData = [
         journal: "Chemical Communications 50 (99), 15811-15814",
         year: 2014,
         citations: 164,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2014/cc/c4cc08010f",
+        tocImage: "images/publications/A twisted-intramolecular-charge-transfer (TICT) based ratiometric fluorescent thermometer with a mega-Stokes shift and a positive temperature coefficient.png"
     },
     {
         title: "Quantitatively mapping cellular viscosity with detailed organelle information via a designed PET fluorescent probe",
@@ -1245,7 +1258,8 @@ const publicationsData = [
         journal: "Scientific reports 4, 5418",
         year: 2014,
         citations: 171,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.nature.com/articles/srep05418",
+        tocImage: "images/publications/Quantitatively Mapping Cellular Viscosity with Detailed Organelle Information via a Designed PET Fluorescent Probe.webp"
     },
     {
         title: "Black silicon: fabrication methods, properties and solar energy applications",
@@ -1253,7 +1267,8 @@ const publicationsData = [
         journal: "Energy & Environmental Science 7 (10), 3223-3263",
         year: 2014,
         citations: 638,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2014/ee/c4ee01152j",
+        tocImage: "images/publications/Black silicon - fabrication methods, properties and solar energy applications.png"
     },
     {
         title: "Molecular Origins of Optoelectronic Properties in Coumarins 343, 314T, 445, and 522B",
@@ -1261,7 +1276,8 @@ const publicationsData = [
         journal: "The Journal of Physical Chemistry C 117 (27), 14130-14141",
         year: 2013,
         citations: 48,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/jp400614e",
+        tocImage: "images/publications/Molecular Origins of Optoelectronic Properties in Coumarins 343, 314T, 445, and 522B.jpeg"
     },
     {
         title: "Tuning Solvatochromism of Azo Dyes with Intramolecular Hydrogen Bonding in Solution and on Titanium Dioxide Nanoparticles",
@@ -1269,7 +1285,8 @@ const publicationsData = [
         journal: "The Journal of Physical Chemistry C 117 (49), 26316-26323",
         year: 2013,
         citations: 53,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/jp4088783",
+        tocImage: "images/publications/Tuning Solvatochromism of Azo Dyes with Intramolecular Hydrogen Bonding in Solution and on Titanium Dioxide Nanoparticles.jpeg"
     },
     {
         title: "Molecular origins of dye aggregation and complex formation effects in coumarin 343",
@@ -1277,7 +1294,8 @@ const publicationsData = [
         journal: "The Journal of Physical Chemistry C 117 (28), 14723-14730",
         year: 2013,
         citations: 55,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/jp4024266",
+        tocImage: "images/publications/Molecular Origins of Dye Aggregation and Complex Formation Effects in Coumarin 343.jpeg"
     },
     {
         title: "Relating Electron Donor and Carboxylic Acid Anchoring Substitution Effects in Azo Dyes to Dye-Sensitized Solar Cell Performance",
@@ -1285,7 +1303,8 @@ const publicationsData = [
         journal: "ACS Sustainable Chemistry & Engineering 1 (11), 1440-1452",
         year: 2013,
         citations: 116,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/sc400183t",
+        tocImage: "images/publications/Relating Electron Donor and Carboxylic Acid Anchoring Substitution Effects in Azo Dyes to Dye-Sensitized Solar Cell Performance.jpeg"
     },
     {
         title: "Solvent Effects on the UV–vis Absorption and Emission of Optoelectronic Coumarins: a Comparison of Three Empirical Solvatochromic Models",
@@ -1293,7 +1312,8 @@ const publicationsData = [
         journal: "The Journal of Physical Chemistry C 117 (28), 14731-14741",
         year: 2013,
         citations: 118,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/jp310397z",
+        tocImage: "images/publications/Solvent Effects on the UV–vis Absorption and Emission of Optoelectronic Coumarins - a Comparison of Three Empirical Solvatochromic Models.jpeg"
     },
     {
         title: "Molecular Design of UV–vis Absorption and Emission Properties in Organic Fluorophores: Toward Larger Bathochromic Shifts, Enhanced Molar Extinction Coefficients, and Greater …",
@@ -1301,7 +1321,8 @@ const publicationsData = [
         journal: "The Journal of Physical Chemistry C 117 (32), 16584-16595",
         year: 2013,
         citations: 310,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/jp404170w",
+        tocImage: "images/publications/Molecular Design of UV–vis Absorption and Emission Properties in Organic Fluorophores - Toward Larger Bathochromic Shifts, Enhanced Molar Extinction Coefficients, and Greater Stokes Shifts.jpeg"
     },
     {
         title: "Molecular origins of optoelectronic properties in coumarin dyes: toward designer solar cell and laser applications",
@@ -1309,7 +1330,8 @@ const publicationsData = [
         journal: "The Journal of Physical Chemistry A 116 (1), 727-737",
         year: 2012,
         citations: 328,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/jp209925y",
+        tocImage: "images/publications/Molecular Origins of Optoelectronic Properties in Coumarin Dyes - Toward Designer Solar Cell and Laser Applications.jpeg"
     },
     {
         title: "Molecular origins of commercial laser dye functionality in azacoumarins and 2-quinolones: LD 425, LD 489 and LD 473",
@@ -1317,7 +1339,7 @@ const publicationsData = [
         journal: "Acta Crystallographica Section B: Structural Science 67 (6), 560-568",
         year: 2011,
         citations: 9,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://journals.iucr.org/paper?S0108768111037311"
     },
     {
         title: "Macroscopic invisibility cloak for visible light",
@@ -1325,7 +1347,8 @@ const publicationsData = [
         journal: "Physical review letters 106 (3), 33901",
         year: 2011,
         citations: 463,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.106.033901",
+        tocImage: "images/publications/Macroscopic Invisibility Cloak for Visible Light.png"
     },
     {
         title: "麻省理工的领导风范, 管理力和教育",
@@ -1333,12 +1356,12 @@ const publicationsData = [
         journal: "清华大学教育研究, 1-5",
         year: 2009,
         citations: 2,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://ericdata.com/tw/detail.aspx?no=52725"
     },
     {
         title: "Red and Robust: Highly Stable Electrofluorochromic Switching in Cyano‐Substituted Aggregation‐Induced Emission‐Active Conjugated Polymers",
         authors: "BYK Hui, R Tao, KLO Chin, XYD Soo, A Sng, SAA Abedi, KC Chong, ...",
-        journal: "Advanced Optical Materials, e02075",
+        journal: "Advanced Optical Materials 14 (3), e02075",
         year: 2025,
         citations: 0,
         url: "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adom.202502075?af=R",
@@ -1374,7 +1397,7 @@ const publicationsData = [
     {
         title: "Reengineering Cyanine Dyes via Borondifluoro Indolenine: A Tunable Platform for Wash-Free Imaging and Responsive Biosensing",
         authors: "Z Zhan, J Zhang, T Shen, J Li, L Chai, L Pan, H Yang, T Liu, X Liu, W Mao",
-        journal: "Journal of the American Chemical Society",
+        journal: "Journal of the American Chemical Society 147 (26), 22932–22943",
         year: 2025,
         citations: 6,
         url: "https://pubs.acs.org/doi/10.1021/jacs.5c05565",
@@ -1383,7 +1406,7 @@ const publicationsData = [
     {
         title: "A pH-Resilient Fluorogenic Probe for Stable High-Resolution Imaging of Lysosomal Dynamics",
         authors: "X Fang, G Jiang, Q Qiao, X Liu, Z Xu",
-        journal: "Dyes and Pigments, 112872",
+        journal: "Dyes and Pigments 241, 112872",
         year: 2025,
         citations: 1,
         url: "https://www.sciencedirect.com/science/article/abs/pii/S0143720825002426",
@@ -1419,7 +1442,7 @@ const publicationsData = [
     {
         title: "Activity-based trapping for multiplex imaging illuminates the hidden role of endogenous formaldehyde in proinflammatory signaling",
         authors: "Y Pan, X Liang, T Shen, T Fan, H Gao, X Liu, X Li",
-        journal: "Cell Biomaterials",
+        journal: "Cell Biomaterials 1 (5), 100045",
         year: 2025,
         citations: 1,
         url: "https://www.cell.com/cell-biomaterials/fulltext/S3050-5623(25)00036-4",
@@ -1437,7 +1460,7 @@ const publicationsData = [
     {
         title: "Unveiling the Power of Dark State Photocages: An Efficient Pathway to Triplet State under Near‐Infrared Light Irradiation",
         authors: "Q Hu, J Du, SA Abbas Abedi, X Liu, S Long, W Sun, J Fan, X Peng",
-        journal: "Angewandte Chemie International Edition, e202504670",
+        journal: "Angewandte Chemie International Edition 64 (35), e202504670",
         year: 2025,
         citations: 5,
         url: "https://onlinelibrary.wiley.com/doi/10.1002/anie.202504670",
@@ -1491,7 +1514,7 @@ const publicationsData = [
     {
         title: "Moisture Tolerance, Thermally Stable and Light Switchable Adhesives Platform Based on Reversible Redshifted [2+ 2] Photocycloaddition",
         authors: "XY Oh, QV Thi, MML Yu, M Izadyar, SAA Abedi, X Liu, VX Truong",
-        journal: "Advanced Functional Materials, 2421823",
+        journal: "Advanced Functional Materials 35 (24), 2421823",
         year: 2025,
         citations: 2,
         url: "https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adfm.202421823",
@@ -1500,7 +1523,7 @@ const publicationsData = [
     {
         title: "Unveiling the photophysical mechanistic mysteries of tetrazine-functionalized fluorogenic labels",
         authors: "T Shen, X Liu",
-        journal: "Chemical Science",
+        journal: "Chemical Science 16 (11), 4595-4613",
         year: 2025,
         citations: 9,
         url: "https://pubs.rsc.org/en/content/articlelanding/2025/sc/d4sc07018f",
