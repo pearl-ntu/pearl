@@ -70,15 +70,8 @@ const publicationsData = [
         journal: "Journal of Chemical Education 101 (11), 5115-5121",
         year: 2024,
         citations: 0,
-        url: "https://pubs.acs.org/doi/10.1021/acs.jchemed.4c00663"
-    },
-    {
-        title: "Polymers Bearing Pyromellitic Diimide Acceptors",
-        authors: "BYK Hui, KLO Chin, JJL Lim, XYD Soo, X Lu, Q Zhu, X Liu, J Xu, ...",
-        journal: "Chemistry–An Asian Journal 19 (12), e202400236",
-        year: 2024,
-        citations: 1,
-        url: "https://aces.onlinelibrary.wiley.com/doi/10.1002/asia.202400236"
+        url: "https://pubs.acs.org/doi/10.1021/acs.jchemed.4c00663",
+        tocImage: "images/publications/Using Olive Oil as a Pedagogical Medium to Teach Ultraviolet Spectrophotometry.jpeg"
     },
     {
         title: "Strategies to Enhance the Electrochromic Properties of Conjugated Polymers Bearing Pyromellitic Diimide Acceptors",
@@ -86,7 +79,8 @@ const publicationsData = [
         journal: "Chemistry–An Asian Journal 19 (12), e202400236",
         year: 2024,
         citations: 1,
-        url: "https://aces.onlinelibrary.wiley.com/doi/10.1002/asia.202400236"
+        url: "https://aces.onlinelibrary.wiley.com/doi/10.1002/asia.202400236",
+        tocImage: "images/publications/Strategies to Enhance the Electrochromic Properties of Conjugated Polymers Bearing Pyromellitic Diimide Acceptors.jpg"
     },
     {
         title: "Construction of wavelength-tunable DSE quinoline salt derivatives by regulating the hybridization form of the nitrogen atom and intramolecular torsion angle",
@@ -94,7 +88,9 @@ const publicationsData = [
         journal: "Chinese Chemical Letters 35 (10), 109464",
         year: 2024,
         citations: 3,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S1001841723012123",
+        tocImage: "images/publications/Construction of wavelength-tunable DSE quinoline salt derivatives by regulating the hybridization form of the nitrogen atom and intramolecular torsion angle.jpg"
+
     },
     {
         title: "Photoinduced Charge Centralization Quenches the Fluorescence of Conjugation-Fused Tetrazine Labels with Red-to-Near-Infrared Emissions",
@@ -102,23 +98,17 @@ const publicationsData = [
         journal: "Bioconjugate Chemistry 35 (7), 1024-1032",
         year: 2024,
         citations: 3,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/acs.bioconjchem.4c00227",
+        tocImage: "images/publications/Photoinduced Charge Centralization Quenches the Fluorescence of Conjugation-Fused Tetrazine Labels with Red-to-Near-Infrared Emissions.jpeg"
     },
     {
         title: "Brightness-constant solvatochromic dye for ratiometric fluorescent imaging of lipid dynamics in developing zebrafish",
         authors: "G Wang, Q Qiao, N Xu, X Wang, P Bao, Y Zhang, X Liu, Z Xu",
         journal: "Sensors and Actuators B: Chemical 417, 136155",
         year: 2024,
-        citations: 4,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
-    },
-    {
-        title: "Dimerization and Configurational Transformation of a Single Fluorophore",
-        authors: "Y Shao, R Huang, G Jiang, Q Shi, H Wei, G Wang, W Chi, H Peng, X Liu, ...",
-        journal: "Chemistry of Materials 36 (7), 3223-3232",
-        year: 2024,
         citations: 5,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0925400524008852",
+        tocImage: "images/publications/Brightness-constant solvatochromic dye for ratiometric fluorescent imaging of lipid dynamics in developing zebrafish.jpg"
     },
     {
         title: "Unlocking Multicolor Emissions in the Crystalline State through Dimerization and Configurational Transformation of a Single Fluorophore",
@@ -126,7 +116,8 @@ const publicationsData = [
         journal: "Chemistry of Materials 36 (7), 3223-3232",
         year: 2024,
         citations: 5,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/acs.chemmater.3c02993",
+        tocImage: "images/publications/Unlocking Multicolor Emissions in the Crystalline State through Dimerization and Configurational Transformation of a Single Fluorophore.jpeg"
     },
     {
         title: "Conformational Folding Activates Photoinduced Electron Transfer",
@@ -134,7 +125,8 @@ const publicationsData = [
         journal: "CCS Chemistry 6 (11), 2804-2813",
         year: 2024,
         citations: 7,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.chinesechemsoc.org/doi/10.31635/ccschem.024.202404541",
+        tocImage: "images/publications/Conformational Folding Activates Photoinduced Electron Transfer.jpg"
     },
     {
         title: "Fluorogenic Rhodamine Probes with Pyrrole Substitution Enables STED and Lifetime Imaging of Lysosomes in Live Cells",
@@ -142,7 +134,8 @@ const publicationsData = [
         journal: "Chemistry–A European Journal 30 (15), e202303707",
         year: 2024,
         citations: 7,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/chem.202303707",
+        tocImage: "images/publications/Fluorogenic Rhodamine Probes with Pyrrole Substitution Enables STED and Lifetime Imaging of Lysosomes in Live Cells.jpg"
     },
     {
         title: "Photoinduced electron transfer endows fluorogenicity in tetrazine-based near-infrared labels",
@@ -150,7 +143,8 @@ const publicationsData = [
         journal: "Materials Chemistry Frontiers 8 (9), 2135-2141",
         year: 2024,
         citations: 10,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2024/qm/d3qm01217d",
+        tocImage: "images/publications/Photoinduced electron transfer endows fluorogenicity in tetrazine-based near-infrared labels.png"
     },
     {
         title: "Enhanced Reactivity of Acridinium Perchlorate: Harnessing Redox Mediators for Trace Chloride Activation in Hydrogen Atom Transfer Photocatalysis",
@@ -158,7 +152,8 @@ const publicationsData = [
         journal: "ACS Catalysis 14 (12), 9364-9373",
         year: 2024,
         citations: 14,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/acscatal.4c01910",
+        tocImage: "images/publications/Enhanced Reactivity of Acridinium Perchlorate - Harnessing Redox Mediators for Trace Chloride Activation in Hydrogen Atom Transfer Photocatalysis.jpeg"
     },
     {
         title: "A de novo zwitterionic strategy of ultra-stable chemiluminescent probes: highly selective sensing of singlet oxygen in FDA-approved phototherapy",
@@ -166,7 +161,8 @@ const publicationsData = [
         journal: "Chemical Science 15 (31), 12431-12441",
         year: 2024,
         citations: 15,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2024/sc/d4sc01915f",
+        tocImage: "images/publications/A de novo zwitterionic strategy of ultra-stable chemiluminescent probes - highly selective sensing of singlet oxygen in FDA-approved phototherapy.png"
     },
     {
         title: "Matthew effect: General design strategy of ultra‐fluorogenic nanoprobes with amplified dark–bright states in aggregates",
@@ -174,7 +170,8 @@ const publicationsData = [
         journal: "Aggregate 5 (2), e499",
         year: 2024,
         citations: 16,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/full/10.1002/agt2.499",
+        tocImage: "images/publications/Matthew effect - General design strategy of ultra‐fluorogenic nanoprobes with amplified dark–bright states in aggregates.jpg"
     },
     {
         title: "Synergistic Inter-and Intramolecular Aggregation of Dimeric Cyanine Dyes Affords Highly Efficient In Vivo Self-Delivery and Photothermal Therapy",
@@ -182,15 +179,8 @@ const publicationsData = [
         journal: "Advanced Functional Materials 34 (32), 2316452",
         year: 2024,
         citations: 18,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
-    },
-    {
-        title: "Synergistic Inter‐and Intramolecular Aggregation of Dimeric Cyanine Dyes Affords Highly Efficient In Vivo Self‐Delivery and Photothermal Therapy",
-        authors: "Y Hou, J Li, G Jiang, T Xia, Z Li, H Gu, X Liu, Q Yao, C Zhang, W Liu, J Du, ...",
-        journal: "Advanced Functional Materials 34 (32), 2316452",
-        year: 2024,
-        citations: 18,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202316452",
+        tocImage: "images/publications/Synergistic Inter- and Intramolecular Aggregation of Dimeric Cyanine Dyes Affords Highly Efficient In Vivo Self-Delivery and Photothermal Therapy.jpg"
     },
     {
         title: "1,2-BF2 Shift and Photoisomerization Induced Multichromatic Response",
@@ -198,15 +188,8 @@ const publicationsData = [
         journal: "Journal of the American Chemical Society 146 (10), 6471-6475",
         year: 2024,
         citations: 22,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
-    },
-    {
-        title: "Ablation of Resistant Pathogens in Ocular Infections",
-        authors: "C Lochenie, S Duncan, Y Zhou, L Fingerhut, A Kiang, S Benson, G Jiang, ...",
-        journal: "Advanced Materials 36 (31), 2404107",
-        year: 2024,
-        citations: 26,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/jacs.4c00592",
+        tocImage: "images/publications/1,2-BF2 Shift and Photoisomerization Induced Multichromatic Response.jpeg"
     },
     {
         title: "Photosensitizer‐Amplified Antimicrobial Materials for Broad‐Spectrum Ablation of Resistant Pathogens in Ocular Infections",
@@ -214,7 +197,8 @@ const publicationsData = [
         journal: "Advanced Materials 36 (31), 2404107",
         year: 2024,
         citations: 26,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202404107",
+        tocImage: "images/publications/Photosensitizer‐Amplified Antimicrobial Materials for Broad‐Spectrum Ablation of Resistant Pathogens in Ocular Infections.jpg"
     },
     {
         title: "Aryl-Modified Pentamethyl Cyanine Dyes at the C2’Position: A Tunable Platform for Activatable Photosensitizers",
@@ -222,7 +206,8 @@ const publicationsData = [
         journal: "Advanced Science 11 (7), 2305761",
         year: 2024,
         citations: 27,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202305761",
+        tocImage: "images/publications/Aryl-Modified Pentamethyl Cyanine Dyes at the C2’ Position - A Tunable Platform for Activatable Photosensitizers.jpg"
     },
     {
         title: "Tetrazine‐Isonitrile Bioorthogonal Fluorogenic Reactions Enable Multiplex Labeling and Wash‐Free Bioimaging of Live Cells",
@@ -230,15 +215,8 @@ const publicationsData = [
         journal: "Angewandte Chemie International Edition 63 (10), e202319853",
         year: 2024,
         citations: 27,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
-    },
-    {
-        title: "Aryl‐Modified Pentamethyl Cyanine Dyes at the C2'Position: A Tunable Platform for Activatable Photosensitizers",
-        authors: "F Han, SA Abbas Abedi, S He, H Zhang, S Long, X Zhou, ...",
-        journal: "Advanced Science 11 (7), 2305761",
-        year: 2024,
-        citations: 27,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://onlinelibrary.wiley.com/doi/10.1002/anie.202319853",
+        tocImage: "images/publications/Tetrazine-Isonitrile Bioorthogonal Fluorogenic Reactions Enable Multiplex Labeling and Wash-Free Bioimaging of Live Cells.jpg"
     },
     {
         title: "Chromene-derived red-fluorescent probes for sulfite detection in food and living cells based on an integrated ICT&PET platform",
@@ -246,7 +224,8 @@ const publicationsData = [
         journal: "Sensors and Actuators B: Chemical 413, 135864",
         year: 2024,
         citations: 29,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S092540052400594X",
+        tocImage: "images/publications/Chromene-derived red-fluorescent probes for sulfite detection in food and living cells based on an integrated ICT&PET platform.jpg"
     },
     {
         title: "Auxochrome dimethyl-dihydroacridine improves fluorophores for prolonged live-cell super-resolution imaging",
@@ -254,7 +233,8 @@ const publicationsData = [
         journal: "Journal of the American Chemical Society 146 (10), 6566-6579",
         year: 2024,
         citations: 33,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.acs.org/doi/10.1021/jacs.3c11823",
+        tocImage: "images/publications/Auxochrome Dimethyl-Dihydroacridine Improves Fluorophores for Prolonged Live-Cell Super-Resolution Imaging.jpeg"
     },
     {
         title: "Molecular design and architectonics towards film-based fluorescent sensing",
@@ -262,7 +242,8 @@ const publicationsData = [
         journal: "Chemical Society Reviews 53 (13), 6960-6991",
         year: 2024,
         citations: 54,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://pubs.rsc.org/en/content/articlelanding/2024/cs/d4cs00347k",
+        tocImage: "images/publications/Molecular design and architectonics towards film-based fluorescent sensing.png"
     },
     {
         title: "Rational design of an ultrabright quinolinium-fused rhodamine turn-on fluorescent probe for highly sensitive detection of SO2 derivatives: Applications in food safety and …",
@@ -270,7 +251,17 @@ const publicationsData = [
         journal: "Journal of Hazardous Materials 480, 136291",
         year: 2024,
         citations: 58,
-        url: "https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S030438942402870X",
+        tocImage: "images/publications/Rational design of an ultrabright quinolinium-fused rhodamine turn-on fluorescent probe for highly sensitive detection of SO2 derivatives - Applications in food safety and bioimaging.jpg"
+    },
+    {
+        title: "The dark side of cyclooctatetraene (COT): photophysics in the singlet states of \"self-healing\" dyes",
+        authors: "S Chanmungkalakul, SAA Abedi, FJ Hernandez, J Xu, X Liu",
+        journal: "Chinese Chemical Letters 35 (8), 109227",
+        year: 2024,
+        citations: 9,
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S1001841723009786",
+        tocImage: "images/publications/The dark side of cyclooctatetraene (COT) - Photophysics in the singlet states of “self-healing” dyes.jpg"
     },
     {
         title: "Ground-state intramolecular proton transfer inhibits the selective methylation on quinoline and pyridine derivatives",
@@ -1523,12 +1514,5 @@ const publicationsData = [
         citations: 0,
         url: "https://www.sciencedirect.com/science/article/abs/pii/S100184172400305X",
         tocImage: "images/publications/Superimposed spectral characteristics of fluorophores arising from cross-conjugation hybridization.jpg"
-    },
-    {
-        title: "The dark side of cyclooctatetraene (COT): photophysics in the singlet states of \"self-healing\" dyes",
-        authors: "S Chanmungkalakul, SAA Abedi, FJ Hernandez, J Xu, X Liu",
-        journal: "Chinese Chemical Letters 35 (8), 109227",
-        year: 2024,
-        citations: 9
     }
 ];
