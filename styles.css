@@ -1148,8 +1148,9 @@ body {
 
 .alumni-items,
 .urop-items {
-    list-style: none;
-    padding: 0;
+    list-style: disc;
+    list-style-position: outside;
+    padding-left: 20px;
     margin: 0;
     columns: 2;
     column-gap: 40px;
@@ -1158,21 +1159,16 @@ body {
 .alumni-items li,
 .urop-items li {
     margin-bottom: 12px;
-    padding-left: 20px;
-    position: relative;
     break-inside: avoid;
     color: var(--text-color);
     line-height: 1.6;
 }
 
-.alumni-items li::before,
-.urop-items li::before {
-    content: '•';
-    position: absolute;
-    left: 0;
+.alumni-items li::marker,
+.urop-items li::marker {
     color: var(--primary-color);
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 @media (max-width: 768px) {
@@ -3168,4 +3164,3 @@ body {
         padding: 15px;
     }
 }
-
