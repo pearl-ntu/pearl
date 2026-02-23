@@ -4,7 +4,7 @@ const peopleData = {
         {
             name: "Syed Ali Abbas Abedi",
             title: "Postdoctoral Researcher",
-            email: "CS-SYEDALIA.ABEDI@ntu.edu.sg",
+            email: "syedaliabbas.abedi@ntu.edu.sg",
             image: "images/people/syed-ali-abbas-abedi.jpg",  // Add photo later
             research: "",  // Add research interests if needed
             website: "https://abedisyedaliabbas.github.io/abedi-research/"
@@ -12,20 +12,27 @@ const peopleData = {
         {
             name: "RongRong Huang",
             title: "Postdoctoral Researcher",
-            email: "CS-RONGRONG.HUANG@ntu.edu.sg",
+            email: "rongrong.huang@ntu.edu.sg",
             image: "images/people/rongrong-huang.jpg",  // Add photo later
             research: ""  // Add research interests if needed
         },
         {
             name: "Guanyu Jiang",
             title: "Postdoctoral Researcher",
-            email: "CS-GUANYU.JIANG@ntu.edu.sg",
+            email: "guanyu.jiang@ntu.edu.sg",
             image: "images/people/guanyu-jiang.jpg",  // Add photo later
             research: ""  // Add research interests if needed
         }
     ],
     
     phdStudents: [
+        {
+            name: "Bryan Hui",
+            title: "PhD Student",
+            email: "bryan_hui@mymail.sutd.edu.sg",
+            image: "images/people/bryan-hui.jpg",  // Add photo later
+            research: ""  // Add research interests if needed
+        },
         {
             name: "Lovelesh",
             title: "PhD Student",
@@ -44,23 +51,23 @@ const peopleData = {
     
     mastersStudents: [
         {
-            name: "Ban Hao",
-            title: "Masters Student",
+            name: "Hao Ban",
+            title: "Master's Student",
             email: "BANH0002@e.ntu.edu.sg",
             image: "images/people/ban-hao.jpg",  // Add photo later
             research: ""  // Add research interests if needed
         },
         {
             name: "Qitong Chen",
-            title: "Masters Student",
-            email: "WANG2333@e.ntu.edu.sg",
+            title: "Master's Student",
+            email: "CHEN1932@e.ntu.edu.sg",
             image: "images/people/qitong.jpg",  // Add photo later
             research: ""  // Add research interests if needed
         },
         {
             name: "Junxiang Wang",
-            title: "Masters Student",
-            email: "CHEN1932@e.ntu.edu.sg",
+            title: "Master's Student",
+            email: "WANG2333@e.ntu.edu.sg",
             image: "images/people/junxian.jpg",  // Add photo later
             research: ""  // Add research interests if needed
         }
@@ -68,7 +75,12 @@ const peopleData = {
     
     alumni: [
         { name: "Tianruo Shen", role: "Master's and PhD student", years: "2020-2025" },
+        { name: "Shanmugham Meyammai", role: "PhD student", years: "2021-2025", currentPosition: "Currently a research fellow at the Stony Brook University, USA" },
         { name: "Richmond Lee Zhong Han", role: "Visiting Scholar", years: "2024-2025" },
+        { name: "Lingya Peng", role: "Postdoctoral Research Fellow", years: "2024-2025", currentPosition: "Currently a lecturer at Shaanxi Normal University, China" },
+        { name: "Geraldine Goie Shi Min", role: "Research Assistant", years: "2024-2025" },
+        { name: "Shurui Hu", role: "Visiting Research", years: "2024-2025" },
+        { name: "Zhimin Wu", role: "Visiting Researcher", years: "2024-2025" },
         { name: "Mohammad Izadyar", role: "Postdoctoral Research Fellow II", years: "2023-2024" },
         { name: "Esther Ang", role: "Research Assistant", years: "2023-2024" },
         { name: "Syed Ali Abbas Abedi", role: "PhD student", years: "2020-2024" },
@@ -91,7 +103,11 @@ const peopleData = {
     ],
     
     uropStudents: [
+        { name: "Goy Kai Xuan", year: "2024" },
         { name: "Yang Zhonghao", year: "2021" },
+        { name: "Leow Jing Ting", year: "2021" },
+        { name: "Ashley Tan Jie Ni", year: "2021" },
+        { name: "Tom Manuel Opalla Piccio", year: "2021" },
         { name: "Li Xingyun", year: "2020" },
         { name: "Alyanna Gertes Martinez", year: "2020" },
         { name: "Sim Lewin", year: "2020" },
@@ -99,6 +115,7 @@ const peopleData = {
         { name: "Ethan Tan Xin Kai", year: "2020" },
         { name: "Chen Xinpeng", year: "2019", institution: "NUS High School" },
         { name: "Kim Chunghwan", year: "2019", institution: "POSTECH" },
+        { name: "Lee Jia Fang Rachel", year: "2019" },
         { name: "Dong Yizhi", year: "2019" },
         { name: "Jiang Chenxi", year: "2019" },
         { name: "Chen Hongfang", year: "2019" },
@@ -106,4 +123,3 @@ const peopleData = {
         { name: "Tan Tee Meng", year: "2018" }
     ]
 };
-
