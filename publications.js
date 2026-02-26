@@ -26,117 +26,28 @@ function initializePublications() {
         return;
     }
     
-    // Function to identify selected publications
-    // Selected: Specific publications + JACS/Nature/Angewandte with X Liu as last author + Review papers by Weijie/Wangchao
+    // Fixed selected publications list (displayed in this exact order)
     function getSelectedPublications() {
-        const targetJournals = [
-            'Journal of the American Chemical Society',
-            'Nature',
-            'Nature Methods',
-            'Nature Chemistry',
-            'Nature Communications',
-            'Angewandte Chemie International Edition'
+        const selectedTitlePatterns = [
+            /Precision Molecular Engineering of Compact Near[-‐‑ ]Infrared Fluorophores/i,
+            /Unveiling the Photophysical Mechanistic Mysteries of Tetrazine[-‐‑ ]Functionalized Fluorogenic Labels/i,
+            /Single[-‐‑ ]Fluorophore[-‐‑ ]Based Organic Crystals with Distinct Conformers Enabling Wide[-‐‑ ]Range Excitation[-‐‑ ]Dependent Emissions/i,
+            /Twisted Intramolecular Charge Transfer \(TICT\) and Twists beyond TICT/i,
+            /Descriptor\s*Δ?\s*GC[-‐‑ ]O Enables the Quantitative Design of Spontaneously Blinking Rhodamines for Live[-‐‑ ]Cell Super[-‐‑ ]Resolution Imaging/i,
+            /A General Descriptor\s*Δ?\s*E Enables the Quantitative Development of Luminescent Materials Based on Photoinduced Electron Transfer/i,
+            /Quantitative Design of Bright Fluorophores and AIEgens via the Accurate Prediction of Twisted Intramolecular Charge Transfer \(TICT\)/i,
+            /A Photoexcitation[-‐‑ ]Induced Twisted Intramolecular Charge Shuttle \(TICS\)/i
         ];
-        
-        // Manual list of specific publications to include
-        const specificTitles = [
-            'Precision Molecular Engineering of Compact Near-Infrared Fluorophores',
-            'Conformational Folding Activates Photoinduced Electron Transfer',
-            'Twisted intramolecular charge transfer (TICT) and twists beyond TICT'
-        ];
-        
-        // Titles to exclude (exact or partial matches)
-        const excludeTitles = [
-            'Hydrogen-bonding Selectivity',
-            'Hydrogen-bonding.*Selective',
-            'Janus',
-            'Enabling Wide',
-            'enabling.*wide',
-            'conformation.*selective',
-            'Crystal multi.*conformational'
-        ];
-        
-        const selected = publicationsData.filter(pub => {
-            // Exclude specific publications (check both exact and pattern matches)
-            const titleLower = pub.title.toLowerCase();
-            const titleExact = pub.title;
-            
-            for (const excludePattern of excludeTitles) {
-                // Check exact match first (case-insensitive)
-                if (titleExact.toLowerCase().includes(excludePattern.toLowerCase())) {
-                    return false;
-                }
-                // Then check pattern match (for regex patterns)
-                if (excludePattern.includes('.*') || excludePattern.includes('*')) {
-                    const regex = new RegExp(excludePattern, 'i');
-                    if (regex.test(titleLower)) {
-                        return false;
-                    }
-                }
-            }
-            
-            // Include specific titles
-            for (const specificTitle of specificTitles) {
-                if (pub.title.includes(specificTitle)) {
-                    return true;
-                }
-            }
-            
-            // Include review papers by Weijie or Wangchao
-            const authors = pub.authors;
-            const isReview = pub.journal.toLowerCase().includes('review') || 
-                           pub.journal.toLowerCase().includes('chemical society reviews') ||
-                           pub.title.toLowerCase().includes('review');
-            
-            // Check for Weijie (W Chi, W Chi, etc.) or Wangchao (W Qiao, Q Qiao, etc.)
-            // Common patterns: W Chi, W Qiao, Q Qiao
-            if (isReview && (authors.includes('W Chi') || authors.includes('W Qiao') || 
-                            authors.includes('Q Qiao') || authors.includes('Weijie') || 
-                            authors.includes('Wangchao'))) {
-                return true;
-            }
-            
-            // Check if journal is one of the target journals
-            const isTargetJournal = targetJournals.some(journal => 
-                pub.journal.includes(journal)
-            );
-            
-            if (!isTargetJournal) return false;
-            
-            // Check for Xiaogang Liu or X Liu patterns
-            const xiaogangPattern = /Xiaogang Liu/i;
-            const xLiuPattern = /X Liu/i;
-            
-            // Must have either pattern
-            if (!xiaogangPattern.test(authors) && !xLiuPattern.test(authors)) {
-                return false;
-            }
-            
-            // Split authors by comma, handling "..." at the end
-            let authorsList = authors.split(',').map(a => a.trim());
-            
-            // Remove "..." if present
-            if (authorsList[authorsList.length - 1] === '...') {
-                authorsList = authorsList.slice(0, -1);
-            }
-            
-            // Check if X Liu or Xiaogang Liu is the LAST author (corresponding author)
-            const lastAuthor = authorsList[authorsList.length - 1];
-            
-            // X Liu or Xiaogang Liu must be the last author
-            if (lastAuthor && (xLiuPattern.test(lastAuthor) || xiaogangPattern.test(lastAuthor))) {
-                return true;
-            }
-            
-            return false;
-        }).sort((a, b) => {
-            // Sort by year (newest first), then by citations
-            if (b.year !== a.year) return b.year - a.year;
-            return b.citations - a.citations;
-        });
-        
-        // Return only top 5-8 publications
-        return selected.slice(0, 8);
+
+        const selected = selectedTitlePatterns
+            .map((pattern) => publicationsData.find((pub) => pattern.test(pub.title)))
+            .filter(Boolean);
+
+        if (selected.length !== selectedTitlePatterns.length) {
+            console.warn(`Selected publications matched ${selected.length}/${selectedTitlePatterns.length}.`);
+        }
+
+        return selected;
     }
     
     // Display selected publications
