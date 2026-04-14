@@ -68,7 +68,7 @@ const peopleData = {
             name: "Junxiang Wang",
             title: "Master's Student",
             email: "WANG2333@e.ntu.edu.sg",
-            image: "images/people/junxian.jpg",  // Add photo later
+            image: "images/people/junxiang.jpg",  // Add photo later
             research: ""  // Add research interests if needed
         }
     ],
