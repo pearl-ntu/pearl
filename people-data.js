@@ -22,6 +22,13 @@ const peopleData = {
             email: "guanyu.jiang@ntu.edu.sg",
             image: "images/people/guanyu-jiang.jpg",  // Add photo later
             research: ""  // Add research interests if needed
+        },
+        {
+            name: "Takuya Tanaka",
+            title: "Postdoctoral Researcher",
+            email: "takuya.tanaka@ntu.edu.sg",
+            image: "images/people/takuya-tanaka.jpg",  // Add photo later
+            research: ""  // Add research interests if needed
         }
     ],
     

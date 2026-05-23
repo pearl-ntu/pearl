@@ -2,6 +2,14 @@
 // Profile: https://scholar.google.com/citations?user=giWn_7cAAAAJ&hl=en
 const publicationsData = [
 {
+        title: "Mechanistic insights into the design of fluorogenic molecules for wash-free biological applications",
+        authors: "Huang, R.; Abedi, S. A. A.; Jiang, G.; Wang, C.; Peng, L.; Shen, T.; Mroweh, N.; Fang, Y.; Liu, X.",
+        journal: "Chemical Society Reviews",
+        year: 2026,
+        citations: 1,
+        url: "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=giWn_7cAAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=giWn_7cAAAAJ:AXkvAH5U_nMC"
+    },
+{
         title: "Sensight enables quantitative multivariate engineering of high-performance chemical imaging tools",
         authors: "Wen, C.; Jiang, Y.; Shen, T.; Jiang, X.; Fan, S.; Yang, T.; Liu, X.; Luo, Q.; Li, X.",
         journal: "Nature Communications",
@@ -14,7 +22,7 @@ const publicationsData = [
         authors: "Yu, A.; He, X.; Shen, T.; Yu, X.; Mao, W.; Chi, W.; Liu, X.; Wu, H.",
         journal: "Chemical Society Reviews 54 (6), 2984-3016",
         year: 2025,
-        citations: 48,
+        citations: 63,
         url: "https://pubs.rsc.org/en/content/articlelanding/2025/cs/d3cs00520h",
         tocImage: "images/publications/Design strategies for tetrazine fluorogenic probes for bioorthogonal imaging.png"
     },
@@ -23,7 +31,7 @@ const publicationsData = [
         authors: "Fang, X.; Qiao, Q.; Li, Z.; Li, H.; Huang, Y.; Hou, D.; Chen, J.; Xu, N.; An, K.; Jiang, W.; Tao, Y.; Bao, P.; Zhang, Y.; Wu, Z.; Liu, X.; Xu, Z.",
         journal: "Journal of the American Chemical Society 147 (25), 22253–22267",
         year: 2025,
-        citations: 22,
+        citations: 33,
         url: "https://pubs.acs.org/doi/abs/10.1021/jacs.5c08833",
         tocImage: "images/publications/Ether Rhodamines with Enhanced Hydrophilicity, Fluorogenicity, and Brightness for Super-Resolution Imaging.webp"
     },
@@ -32,7 +40,7 @@ const publicationsData = [
         authors: "Kim, D. H.; Triet, H. M.; Lee, S. H.; Jazani, S.; Jang, S.; Abedi, S. A. A.; Liu, X.; Seo, J.; Ha, T.; Chang, Y. T.; Ryu, S. H.",
         journal: "Nature Methods 22 (3), 550-558",
         year: 2025,
-        citations: 21,
+        citations: 27,
         url: "https://www.nature.com/articles/s41592-024-02584-0",
         tocImage: "images/publications/Super-photostable organic dye for long-term live-cell single-protein imaging.png"
     },
@@ -41,7 +49,7 @@ const publicationsData = [
         authors: "Qiao, Q.; Wang, C.; Wang, H.; Ruan, Y.; Liu, W.; Chen, J.; Wu, Z.; Liu, X.; Xu, Z.",
         journal: "Journal of the American Chemical Society 147 (18), 15602-15613",
         year: 2025,
-        citations: 20,
+        citations: 28,
         url: "https://pubs.acs.org/doi/10.1021/jacs.5c02725",
         tocImage: "images/publications/Tail-Assisted Excited-State Intramolecular Proton Transfer (ta-ESIPT) Fluorophores A Universal Ratiometric Platform for Hydration-Sensitive Biomolecular Imaging and Sensing.webp"
     },
@@ -50,7 +58,7 @@ const publicationsData = [
         authors: "Huang, R.; Qiao, Q.; Seah, D.; Shen, T.; Wu, X.; De Moliner, F.; Wang, C.; Ding, N.; Chi, W.; Sun, H.; Vendrell, M.; Xu, Z.; Fang, Y.; Liu, X.",
         journal: "Journal of the American Chemical Society 147 (6), 5258-5268",
         year: 2025,
-        citations: 12,
+        citations: 18,
         url: "https://pubs.acs.org/doi/abs/10.1021/jacs.4c16087",
         tocImage: "images/publications/Precision Molecular Engineering of Compact Near-Infrared Fluorophores.webp"
     },
@@ -59,7 +67,7 @@ const publicationsData = [
         authors: "Qiao, Q.; Yin, W.; Wu, X.; Wu, S.; Ruan, Y.; Xu, N.; Li, J.; Wu, Z. S.; Liu, X.; Xu, Z.",
         journal: "Angewandte Chemie International Edition 64 (21), e202503916",
         year: 2025,
-        citations: 10,
+        citations: 13,
         url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202503916",
         tocImage: "images/publications/Two-Color Single-Molecule Blinking Ratiometricity A Functional Super-Resolution Imaging Approach for Resolving Lysosomal pH and Dynamics.webp"
     },
@@ -68,7 +76,7 @@ const publicationsData = [
         authors: "Shen, T.; Liu, X.",
         journal: "Chemical Science 16 (11), 4595-4613",
         year: 2025,
-        citations: 10,
+        citations: 11,
         url: "https://pubs.rsc.org/en/content/articlelanding/2025/sc/d4sc07018f",
         tocImage: "images/publications/Unveiling the photophysical mechanistic mysteries of tetrazine-functionalized fluorogenic labels.png"
     },
@@ -77,7 +85,7 @@ const publicationsData = [
         authors: "An, K.; Qiao, Q.; Abedi, S. A. A.; Liu, X.; Xu, Z.",
         journal: "Chinese Chemical Letters 36 (1), 109786",
         year: 2025,
-        citations: 8,
+        citations: 12,
         url: "https://www.sciencedirect.com/science/article/abs/pii/S100184172400305X",
         tocImage: "images/publications/Superimposed spectral characteristics of fluorophores arising from cross-conjugation hybridization.jpg"
     },
@@ -95,7 +103,7 @@ const publicationsData = [
         authors: "Xu, N.; Qiao, Q.; Wang, C.; Zhou, W.; Bao, P.; Li, J.; Wu, S.; Liu, X.; Xu, Z.",
         journal: "Angewandte Chemie International Edition 64 (23), e202505579",
         year: 2025,
-        citations: 7,
+        citations: 13,
         url: "https://onlinelibrary.wiley.com/doi/10.1002/anie.202505579",
         tocImage: "images/publications/Bright and Versatile Azetidinecarboxamide-Based Fluorophore–Ligand Conjugates for High-Resolution Cell Imaging.webp"
     },
@@ -104,7 +112,7 @@ const publicationsData = [
         authors: "Zhan, Z.; Zhang, J.; Shen, T.; Li, J.; Chai, L.; Pan, L.; Yang, H.; Liu, T.; Liu, X.; Mao, W.",
         journal: "Journal of the American Chemical Society 147 (26), 22932–22943",
         year: 2025,
-        citations: 7,
+        citations: 13,
         url: "https://pubs.acs.org/doi/10.1021/jacs.5c05565",
         tocImage: "images/publications/Reengineering Cyanine Dyes via Borondifluoro Indolenine A Tunable Platform for Wash-Free Imaging and Responsive Biosensing.webp"
     },
@@ -113,7 +121,7 @@ const publicationsData = [
         authors: "Hu, Q.; Du, J.; Abbas Abedi, S. A.; Liu, X.; Long, S.; Sun, W.; Fan, J.; Peng, X.",
         journal: "Angewandte Chemie International Edition 64 (35), e202504670",
         year: 2025,
-        citations: 7,
+        citations: 10,
         url: "https://onlinelibrary.wiley.com/doi/10.1002/anie.202504670",
         tocImage: "images/publications/Unveiling the Power of Dark State Photocages An Efficient Pathway to Triplet State Under Near-Infrared Light Irradiation.webp"
     },
@@ -122,7 +130,7 @@ const publicationsData = [
         authors: "Qiao, Q.; Song, A.; Jiang, G.; Zhou, Y.; Ruan, Y.; Jia, W.; Liu, X.; Xu, Z.",
         journal: "Angewandte Chemie International Edition 64 (28), e202503177",
         year: 2025,
-        citations: 7,
+        citations: 12,
         url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202503177",
         tocImage: "images/publications/Whole-Cell Lysosome SMLM Imaging as Indicators for Functional Diagnostics with a Low-Phototoxic Spontaneously Blinking Probe.webp"
     },
@@ -131,7 +139,7 @@ const publicationsData = [
         authors: "Sosnin, D.; Izadyar, M.; Abedi, S. A. A.; Liu, X.; Aprahamian, I.",
         journal: "Journal of the American Chemical Society 147 (18), 14930-14935",
         year: 2025,
-        citations: 7,
+        citations: 13,
         url: "https://pubs.acs.org/doi/10.1021/jacs.5c02183",
         tocImage: "images/publications/Clicked Hydrazone Photoswitches.webp"
     },
@@ -140,7 +148,7 @@ const publicationsData = [
         authors: "Tao, R.; Hui, B. Y. K.; Chin, K. L. O.; Soo, X. Y. D.; Zhang, D.; Abedi, S. A. A.; Bi, P.; Liu, X.; Xu, J.; Chua, M. H.",
         journal: "Materials Chemistry Frontiers 9 (9), 1410-1420",
         year: 2025,
-        citations: 5,
+        citations: 6,
         url: "https://pubs.rsc.org/en/content/articlelanding/2025/qm/d5qm00035a",
         tocImage: "images/publications/Red and Robust Highly Stable Electrofluorochromic Switching in Cyano-Substituted Aggregation-Induced Emission-Active Conjugated Polymers.webp"
     },
@@ -149,7 +157,7 @@ const publicationsData = [
         authors: "Qi, Q.; Li, J.; Qiao, Q.; Yan, C.; Izadyar, M.; Wang, C.; Abedi, S. A. A.; Liu, X.; Guo, Z.; Xu, Z.",
         journal: "CCS Chemistry 7 (11), 3409-3420",
         year: 2025,
-        citations: 4,
+        citations: 6,
         url: "https://www.chinesechemsoc.org/doi/full/10.31635/ccschem.025.202405383",
         tocImage: "images/publications/Oxazolidine-Caged Heptamethine Cyanine Switch Exhibits High Photostability for Bioimaging via Buffering Fluorogenicity.webp"
     },
@@ -158,7 +166,7 @@ const publicationsData = [
         authors: "Yu, X.; Liu, X.; Sun, H.; Shen, T.; Deng, Y.; Ren, H.; Zou, P.; Zheng, Y.; Xiao, P.; Gong, Q.; Qin, M.; Liu, X.; Wu, H.",
         journal: "Angewandte Chemie International Edition 64 (40), e202511705",
         year: 2025,
-        citations: 3,
+        citations: 10,
         url: "https://onlinelibrary.wiley.com/doi/10.1002/anie.202511705",
         tocImage: "images/publications/Bioorthogonal In Situ Formation of AIE Luminogens for Imaging Disease Progression via Sigmoidal Signal Amplification.webp"
     },
@@ -167,7 +175,7 @@ const publicationsData = [
         authors: "Bian, H.; Ma, D.; Zhang, X.; Qiu, Y.; Wu, X.; Jia, M.; Zhang, X.; Liu, X.; Yang, Y.; Peng, X.; Yoon, J.; Xiao, Y.",
         journal: "Journal of the American Chemical Society 147 (43), 39936–39952",
         year: 2025,
-        citations: 5,
+        citations: 12,
         url: "https://pubs.acs.org/doi/10.1021/jacs.5c15490",
         tocImage: "images/publications/Bright, Robust and Readily Accessible Fluorophore Family for NIR-II Bioimaging.jpg"
     },
@@ -176,7 +184,7 @@ const publicationsData = [
         authors: "Sosnin, D.; Abedi, S. A. A.; Izadyar, M.; Ünal, Y.; Liu, X.; Aprahamian, I.",
         journal: "Angewandte Chemie International Edition 64 (44), e202515136",
         year: 2025,
-        citations: 3,
+        citations: 7,
         url: "https://onlinelibrary.wiley.com/doi/10.1002/anie.202515136",
         tocImage: "images/publications/Hetero-Hydrazone Photoswitches.webp",
     },
@@ -185,7 +193,7 @@ const publicationsData = [
         authors: "Oh, X. Y.; Thi, Q. V.; Yu, M. M. L.; Izadyar, M.; Abedi, S. A. A.; Liu, X.; Truong, V. X.",
         journal: "Advanced Functional Materials 35 (24), 2421823",
         year: 2025,
-        citations: 3,
+        citations: 5,
         url: "https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adfm.202421823",
         tocImage: "images/publications/Moisture Tolerance, Thermally Stable and Light Switchable Adhesives Platform Based on Reversible Redshifted [2 + 2] Photocycloaddition.png"
     },
@@ -203,7 +211,7 @@ const publicationsData = [
         authors: "Pan, Y.; Liang, X.; Shen, T.; Fan, T.; Gao, H.; Liu, X.; Li, X.",
         journal: "Cell Biomaterials 1 (5), 100045",
         year: 2025,
-        citations: 2,
+        citations: 3,
         url: "https://www.cell.com/cell-biomaterials/fulltext/S3050-5623(25)00036-4",
         tocImage: "images/publications/Activity-based trapping for multiplex imaging illuminates the hidden role of endogenous formaldehyde in proinflammatory signaling.jpg"
     },
@@ -212,7 +220,7 @@ const publicationsData = [
         authors: "Wei, H.; Shao, Y.; Wang, X.; Luo, Y.; Ji, M.; Wen, R.; Huang, R.; Liu, X.; Fang, Y.",
         journal: "Analytical Chemistry 97 (46), 25725-25732",
         year: 2025,
-        citations: 1,
+        citations: 2,
         url: "https://pubs.acs.org/doi/10.1021/acs.analchem.5c05140",
         tocImage: "images/publications/Photostable o-Carborane-DAPA Hybrids for On-Site Nitrite Screening Dual-Mode Detection Achieving Sub-100 nM Sensitivity in Complex Food Matrices.webp"
     },
@@ -239,7 +247,7 @@ const publicationsData = [
         authors: "Tao, R.; Chen, Y.; Yang, T.; Hu, S.; Lv, W.; Li, X.; Wang, Z.; Zhang, R.; Wu, Z.; Hou, T.; Xu, Z.; Wang, Y.; Liu, X.; Li, X.",
         journal: "Journal of the American Chemical Society 147 (45), 41768-41778",
         year: 2025,
-        citations: 1,
+        citations: 2,
         url: "https://pubs.acs.org/doi/10.1021/jacs.5c13638",
         tocImage: "images/publications/Precision Design of Fluorogenic Probes via Orthogonal Tuning of Binding and Photophysics for Isoform-Selective ALDH2 Imaging.webp"
     },
@@ -248,7 +256,7 @@ const publicationsData = [
         authors: "Hui, B. Y. K.; Tao, R.; Chin, K. L. O.; Soo, X. Y. D.; Sng, A.; Abedi, S. A. A.; Chong, K. C.; Liu, X.; Xu, J.; Chua, M. H.",
         journal: "Advanced Optical Materials 14 (3), e02075",
         year: 2025,
-        citations: 0,
+        citations: 1,
         url: "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adom.202502075?af=R",
         tocImage: "images/publications/Red and Robust Highly Stable Electrofluorochromic Switching in Cyano-Substituted Aggregation-Induced Emission-Active Conjugated Polymers.webp"
     },
@@ -266,7 +274,7 @@ const publicationsData = [
         authors: "Huang, R.; Liu, T.; Peng, H.; Liu, J.; Liu, X.; Ding, L.; Fang, Y.",
         journal: "Chemical Society Reviews 53 (13), 6960-6991",
         year: 2024,
-        citations: 72,
+        citations: 90,
         url: "https://pubs.rsc.org/en/content/articlelanding/2024/cs/d4cs00347k",
         tocImage: "images/publications/Molecular design and architectonics towards film-based fluorescent sensing.png"
     },
@@ -275,7 +283,7 @@ const publicationsData = [
         authors: "Li, J.; Tian, M.; Shen, T.; Sun, X.; Liang, T.; Tang, L.; Liu, X.; Yan, X.; Zhong, K.",
         journal: "Journal of Hazardous Materials 480, 136291",
         year: 2024,
-        citations: 62,
+        citations: 69,
         url: "https://www.sciencedirect.com/science/article/abs/pii/S030438942402870X",
         tocImage: "images/publications/Rational design of an ultrabright quinolinium-fused rhodamine turn-on fluorescent probe for highly sensitive detection of SO2 derivatives - Applications in food safety and bioimaging.jpg"
     },
@@ -284,7 +292,7 @@ const publicationsData = [
         authors: "Ren, X.; Wang, C.; Wu, X.; Rong, M.; Huang, R.; Liang, Q.; Shen, T.; Sun, H.; Zhang, Z.; Zhang, R.; Liu, X.; Song, X.; Foley, J. W.",
         journal: "Journal of the American Chemical Society 146 (10), 6566-6579",
         year: 2024,
-        citations: 40,
+        citations: 43,
         url: "https://pubs.acs.org/doi/10.1021/jacs.3c11823",
         tocImage: "images/publications/Auxochrome Dimethyl-Dihydroacridine Improves Fluorophores for Prolonged Live-Cell Super-Resolution Imaging.jpeg"
     },
@@ -293,7 +301,7 @@ const publicationsData = [
         authors: "Deng, Y.; Shen, T.; Yu, X.; Li, J.; Zou, P.; Gong, Q.; Zheng, Y.; Sun, H.; Liu, X.; Wu, H.",
         journal: "Angewandte Chemie International Edition 63 (10), e202319853",
         year: 2024,
-        citations: 36,
+        citations: 39,
         url: "https://onlinelibrary.wiley.com/doi/10.1002/anie.202319853",
         tocImage: "images/publications/Tetrazine-Isonitrile Bioorthogonal Fluorogenic Reactions Enable Multiplex Labeling and Wash-Free Bioimaging of Live Cells.jpg"
     },
@@ -302,7 +310,7 @@ const publicationsData = [
         authors: "Han, F.; Abedi, S. A. A.; He, S.; Zhang, H.; Long, S.; Zhou, X.; Chanmungkalakul, S.; Ma, H.; Sun, W.; Liu, X.; Du, J.; Fan, J.; Peng, X.",
         journal: "Advanced Science 11 (7), 2305761",
         year: 2024,
-        citations: 33,
+        citations: 39,
         url: "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202305761",
         tocImage: "images/publications/Aryl-Modified Pentamethyl Cyanine Dyes at the C2’ Position - A Tunable Platform for Activatable Photosensitizers.jpg"
     },
@@ -311,7 +319,7 @@ const publicationsData = [
         authors: "Liang, T.; Liu, S.; Shen, T.; Chen, X.; Li, X.; Yan, X.; Sun, X.; Tian, M.; Wu, C.; Sun, X.; Zhong, K.; Li, Y.; Liu, X.; Tang, L.",
         journal: "Sensors and Actuators B: Chemical 413, 135864",
         year: 2024,
-        citations: 34,
+        citations: 36,
         url: "https://www.sciencedirect.com/science/article/abs/pii/S092540052400594X",
         tocImage: "images/publications/Chromene-derived red-fluorescent probes for sulfite detection in food and living cells based on an integrated ICT&PET platform.jpg"
     },
@@ -320,7 +328,7 @@ const publicationsData = [
         authors: "Lochenie, C.; Duncan, S.; Zhou, Y.; Fingerhut, L.; Kiang, A.; Benson, S.; Jiang, G.; Liu, X.; Mills, B.; Vendrell, M.",
         journal: "Advanced Materials 36 (31), 2404107",
         year: 2024,
-        citations: 30,
+        citations: 34,
         url: "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202404107",
         tocImage: "images/publications/Photosensitizer‐Amplified Antimicrobial Materials for Broad‐Spectrum Ablation of Resistant Pathogens in Ocular Infections.jpg"
     },
@@ -329,7 +337,7 @@ const publicationsData = [
         authors: "Hou, Y.; Li, J.; Jiang, G.; Xia, T.; Li, Z.; Gu, H.; Liu, X.; Yao, Q.; Zhang, C.; Liu, W.; Du, J.; Sun, W.; Fan, J.; Peng, X.",
         journal: "Advanced Functional Materials 34 (32), 2316452",
         year: 2024,
-        citations: 26,
+        citations: 31,
         url: "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202316452",
         tocImage: "images/publications/Synergistic Inter- and Intramolecular Aggregation of Dimeric Cyanine Dyes Affords Highly Efficient In Vivo Self-Delivery and Photothermal Therapy.jpg"
     },
@@ -338,7 +346,7 @@ const publicationsData = [
         authors: "Segawa, S.; Ou, X.; Shen, T.; Ryu, T.; Ishii, Y.; Sung, H. H. Y.; Williams, I. D.; Kwok, R. T. K.; Onda, K.; Miyata, K.; He, X.; Liu, X.; Tang, B. Z.",
         journal: "Aggregate 5 (2), e499",
         year: 2024,
-        citations: 23,
+        citations: 27,
         url: "https://onlinelibrary.wiley.com/doi/full/10.1002/agt2.499",
         tocImage: "images/publications/Matthew effect - General design strategy of ultra‐fluorogenic nanoprobes with amplified dark–bright states in aggregates.jpg"
     },
@@ -356,7 +364,7 @@ const publicationsData = [
         authors: "Wu, M.; Wu, Z.; Ang, H. T.; Wang, B.; Liu, T.; Wu, S.; Lei, Z.; Liaw, M. W.; Chanmungkalakul, S.; Ken Lee, C.; Liu, X.; Lu, Y.; Wu, J.",
         journal: "ACS Catalysis 14 (12), 9364-9373",
         year: 2024,
-        citations: 18,
+        citations: 20,
         url: "https://pubs.acs.org/doi/10.1021/acscatal.4c01910",
         tocImage: "images/publications/Enhanced Reactivity of Acridinium Perchlorate - Harnessing Redox Mediators for Trace Chloride Activation in Hydrogen Atom Transfer Photocatalysis.jpeg"
     },
@@ -365,7 +373,7 @@ const publicationsData = [
         authors: "Lu, Y.; Zhang, Y.; Wu, X.; Pu, R.; Yan, C.; Liu, W.; Liu, X.; Guo, Z.; Zhu, W. H.",
         journal: "Chemical Science 15 (31), 12431-12441",
         year: 2024,
-        citations: 17,
+        citations: 18,
         url: "https://pubs.rsc.org/en/content/articlelanding/2024/sc/d4sc01915f",
         tocImage: "images/publications/A de novo zwitterionic strategy of ultra-stable chemiluminescent probes - highly selective sensing of singlet oxygen in FDA-approved phototherapy.png"
     },
@@ -374,7 +382,7 @@ const publicationsData = [
         authors: "Shen, T.; Li, X.; Liu, X.",
         journal: "Materials Chemistry Frontiers 8 (9), 2135-2141",
         year: 2024,
-        citations: 12,
+        citations: 13,
         url: "https://pubs.rsc.org/en/content/articlelanding/2024/qm/d3qm01217d",
         tocImage: "images/publications/Photoinduced electron transfer endows fluorogenicity in tetrazine-based near-infrared labels.png"
     },
@@ -383,7 +391,7 @@ const publicationsData = [
         authors: "Zhou, Y.; Wang, Q.; Chanmungkalakul, S.; Wu, X.; Xiao, H.; Miao, R.; Liu, X.; Fang, Y.",
         journal: "Chemistry–A European Journal 30 (15), e202303707",
         year: 2024,
-        citations: 10,
+        citations: 11,
         url: "https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/chem.202303707",
         tocImage: "images/publications/Fluorogenic Rhodamine Probes with Pyrrole Substitution Enables STED and Lifetime Imaging of Lysosomes in Live Cells.jpg"
     },
@@ -392,7 +400,7 @@ const publicationsData = [
         authors: "Huang, S.; Abedi, S. A. A.; Li, Z.; Huang, R.; Yan, X.; Izadyar, M.; Qiao, Q.; Fang, Y.; Xu, Z.; Liu, X.",
         journal: "CCS Chemistry 6 (11), 2804-2813",
         year: 2024,
-        citations: 9,
+        citations: 12,
         url: "https://www.chinesechemsoc.org/doi/10.31635/ccschem.024.202404541",
         tocImage: "images/publications/Conformational Folding Activates Photoinduced Electron Transfer.jpg"
     },
@@ -401,7 +409,7 @@ const publicationsData = [
         authors: "Chanmungkalakul, S.; Abedi, S. A. A.; Hernandez, F. J.; Xu, J.; Liu, X.",
         journal: "Chinese Chemical Letters 35 (8), 109227",
         year: 2024,
-        citations: 9,
+        citations: 11,
         url: "https://www.sciencedirect.com/science/article/abs/pii/S1001841723009786",
         tocImage: "images/publications/The dark side of cyclooctatetraene (COT) - Photophysics in the singlet states of “self-healing” dyes.jpg"
     },
@@ -410,7 +418,7 @@ const publicationsData = [
         authors: "Shao, Y.; Huang, R.; Jiang, G.; Shi, Q.; Wei, H.; Wang, G.; Chi, W.; Peng, H.; Liu, X.; Fang, Y.",
         journal: "Chemistry of Materials 36 (7), 3223-3232",
         year: 2024,
-        citations: 8,
+        citations: 10,
         url: "https://pubs.acs.org/doi/10.1021/acs.chemmater.3c02993",
         tocImage: "images/publications/Unlocking Multicolor Emissions in the Crystalline State through Dimerization and Configurational Transformation of a Single Fluorophore.jpeg"
     },
@@ -438,7 +446,7 @@ const publicationsData = [
         authors: "Shen, T.; Liu, X.",
         journal: "Bioconjugate Chemistry 35 (7), 1024-1032",
         year: 2024,
-        citations: 4,
+        citations: 5,
         url: "https://pubs.acs.org/doi/10.1021/acs.bioconjchem.4c00227",
         tocImage: "images/publications/Photoinduced Charge Centralization Quenches the Fluorescence of Conjugation-Fused Tetrazine Labels with Red-to-Near-Infrared Emissions.jpeg"
     },
@@ -447,7 +455,7 @@ const publicationsData = [
         authors: "Hui, B. Y. K.; Chin, K. L. O.; Lim, J. J. L.; Soo, X. Y. D.; Lu, X.; Zhu, Q.; Liu, X.; Xu, J.; Chua, M.",
         journal: "Chemistry–An Asian Journal 19 (12), e202400236",
         year: 2024,
-        citations: 1,
+        citations: 2,
         url: "https://aces.onlinelibrary.wiley.com/doi/10.1002/asia.202400236",
         tocImage: "images/publications/Strategies to Enhance the Electrochromic Properties of Conjugated Polymers Bearing Pyromellitic Diimide Acceptors.jpg"
     },
@@ -465,7 +473,7 @@ const publicationsData = [
         authors: "Fan, X.; Zhang, M.; Gao, Y.; Zhou, Q.; Zhang, Y.; Yu, J.; Xu, W.; Yan, J.; Liu, H.; Lei, Z.; Ter, Y. C.; Chanmungkalakul, S.; Lum, Y.; Liu, X.; Cui, G.; Wu, J.",
         journal: "Nature Chemistry 15 (5), 666-676",
         year: 2023,
-        citations: 87,
+        citations: 94,
         url: "https://www.nature.com/articles/s41557-023-01155-8",
         tocImage: "images/publications/Stepwise on-demand functionalization of multihydrosilanes enabled by a hydrogen-atom-transfer photocatalyst based on eosin Y.webp"
     },
@@ -474,7 +482,7 @@ const publicationsData = [
         authors: "Chua, M. H.; Hui, B. Y. K.; Chin, K. L. O.; Zhu, Q.; Liu, X.; Xu, J.",
         journal: "Materials Chemistry Frontiers 7 (22), 5561-5660",
         year: 2023,
-        citations: 81,
+        citations: 94,
         url: "https://pubs.rsc.org/en/content/articlelanding/2023/qm/d3qm00679d",
         tocImage: "images/publications/Recent advances in aggregation-induced emission (AIE)-based chemosensors for the detection of organic small molecules.png"
     },
@@ -483,7 +491,7 @@ const publicationsData = [
         authors: "Wang, C.; Jiang, W.; Tan, D.; Huang, L.; Li, J.; Qiao, Q.; Yadav, P.; Liu, X.; Xu, Z.",
         journal: "Chemical Science 14 (18), 4786-4795",
         year: 2023,
-        citations: 70,
+        citations: 79,
         url: "https://pubs.rsc.org/en/content/articlelanding/2023/sc/d2sc06710b",
         tocImage: "images/publications/Monitoring amyloid aggregation via a twisted intramolecular charge transfer (TICT)-based fluorescent sensor array.png"
     },
@@ -492,7 +500,7 @@ const publicationsData = [
         authors: "Chi, W.; Tan, D.; Qiao, Q.; Xu, Z.; Liu, X.",
         journal: "Angewandte Chemie International Edition 62 (39), e202306061",
         year: 2023,
-        citations: 50,
+        citations: 59,
         url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202306061",
         tocImage: "images/publications/Spontaneously Blinking Rhodamine Dyes for Single-Molecule Localization Microscopy.jpg"
     },
@@ -501,7 +509,7 @@ const publicationsData = [
         authors: "Chen, Y.; Lu, S.; Abedi, S. A. A.; Jeong, M.; Li, H.; Kim, M. H.; Park, S.; Liu, X.; Yoon, J.; Chen, X.",
         journal: "Angewandte Chemie International Edition 62 (40), e202311543",
         year: 2023,
-        citations: 38,
+        citations: 43,
         url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202311543",
         tocImage: "images/publications/Janus-Type ESIPT Chromophores with Distinctive Intramolecular Hydrogen-bonding Selectivity.jpg"
     },
@@ -510,7 +518,7 @@ const publicationsData = [
         authors: "Li, D.; Shen, T.; Xue, X.; Chen, W.; Tao, W.; Chi, W.; Liu, S. H.; Tan, Y.; Liu, X.; Yin, J.",
         journal: "Science China Chemistry 66 (8), 2329-2338",
         year: 2023,
-        citations: 37,
+        citations: 40,
         url: "https://link.springer.com/article/10.1007/s11426-023-1661-6",
         tocImage: "images/publications/Synergistic effects of multiple rotors and hydrogen-bond interactions lead to sensitive near-infrared viscosity probes for live-cell microscopy.webp"
     },
@@ -519,7 +527,7 @@ const publicationsData = [
         authors: "Walden, S. L.; Nguyen, P. H. D.; Li, H.; Liu, X.; Le, M. T. N.; Loh, X. J.",
         journal: "Nature Communications 14 (1), 8298",
         year: 2023,
-        citations: 35,
+        citations: 37,
         url: "https://www.nature.com/articles/s41467-023-44128-8",
         tocImage: "images/publications/Visible light-induced switching of soft matter materials properties based on thioindigo photoswitches.webp"
     },
@@ -528,7 +536,7 @@ const publicationsData = [
         authors: "Jiang, X.; Li, M.; Wang, Y.; Wang, C.; Wang, Y.; Shen, T.; Shen, L.; Liu, X.; Wang, Y.; Li, X.",
         journal: "Nature Communications 14 (1), 1401",
         year: 2023,
-        citations: 30,
+        citations: 32,
         url: "https://www.nature.com/articles/s41467-023-37121-8",
         tocImage: "images/publications/1,2,4,5-Tetrazine-tethered probes for fluorogenically imaging superoxide in live cells with ultrahigh specificity.webp"
     },
@@ -537,7 +545,7 @@ const publicationsData = [
         authors: "Yu, L.; Abedi, S. A. A.; Lee, J.; Xu, Y.; Son, S.; Chi, W.; Li, M.; Liu, X.; Park, J. H.; Kim, J. S.",
         journal: "Angewandte Chemie International Edition 62 (32), e202307797",
         year: 2023,
-        citations: 30,
+        citations: 32,
         url: "https://onlinelibrary.wiley.com/doi/10.1002/anie.202307797",
         tocImage: "images/publications/Blending Low-Frequency Vibrations and Push–Pull Effects Affords Superior Photoacoustic Imaging Agents.jpg"
     },
@@ -546,7 +554,7 @@ const publicationsData = [
         authors: "Qiao; Q.; Liu; W.; Chi; W.; Chen; J.; Zhou; W.; Xu; N.; Li; J.; Fang; X.; Tao; Y.; Zhang; Y.; Chen; Y.; Miao; L.; Liu; X.; Xu; Z.",
         journal: "Aggregate 4 (2), e258",
         year: 2023,
-        citations: 29,
+        citations: 32,
         url: "https://onlinelibrary.wiley.com/doi/full/10.1002/agt2.258",
         tocImage: "images/publications/Modulation of dynamic aggregation in fluorogenic SNAP-tag probes for long-term super-resolution imaging.jpg"
     },
@@ -555,7 +563,7 @@ const publicationsData = [
         authors: "Shen, T.; Zhang, W.; Yadav, P.; Sun, X. W.; Liu, X.",
         journal: "Materials Chemistry Frontiers 7 (6), 1082-1092",
         year: 2023,
-        citations: 26,
+        citations: 28,
         url: "https://pubs.rsc.org/en/content/articlelanding/2023/qm/d2qm01264b",
         tocImage: "images/publications/The fluorescence quenching mechanism of tetrazine-functionalized fluorogenic labels with integrated π-conjugations - internal conversion to a dark state.png"
     },
@@ -573,7 +581,7 @@ const publicationsData = [
         authors: "Akarasareenon, W.; Chanmungkalakul, S.; Xiaogang, L.; Rashatasakhon, P.",
         journal: "Journal of Photochemistry and Photobiology A: Chemistry 437, 114422",
         year: 2023,
-        citations: 15,
+        citations: 16,
         url: "https://www.sciencedirect.com/science/article/abs/pii/S1010603022006451",
         tocImage: "images/publications/Selective fluorescent sensors for copper(II) ion from julolidine hydrazone derivatives.jpg"
     },
@@ -627,7 +635,7 @@ const publicationsData = [
         authors: "Chi, W.; Dai, J.; Yan, C.; Tan, D.; Guo, Z.; Liu, X.",
         journal: "Journal of Materials Chemistry C 11 (30), 10205-10214",
         year: 2023,
-        citations: 7,
+        citations: 8,
         url: "https://pubs.rsc.org/en/content/articlelanding/2023/tc/d3tc01481a",
         tocImage: "images/publications/Restriction of intramolecular bending (RIB) enables the quantitative design of AIEgens.png"
     },
@@ -636,7 +644,7 @@ const publicationsData = [
         authors: "Jiang, W.; Chen, J.; An, K.; Bao, P.; Qiao, Q.; Liu, X.; Xu, Z.",
         journal: "Green Chemical Engineering 4 (4), 387-392",
         year: 2023,
-        citations: 4,
+        citations: 5,
         url: "https://www.sciencedirect.com/science/article/pii/S2666952822000577",
         tocImage: "images/publications/Constructing D-π-A-π dye to obtain red-emission fluorescent probe for structured illumination microscopy imaging of lipid droplet dynamics.jpg"
     },
@@ -645,7 +653,7 @@ const publicationsData = [
         authors: "Wu, X.; Gao, Y.; Chi, W.; Wang, C.; Xu, Z.; Liu, X.",
         journal: "Materials Chemistry Frontiers 7 (6), 1137-1145",
         year: 2023,
-        citations: 4,
+        citations: 6,
         url: "https://pubs.rsc.org/en/content/articlelanding/2023/qm/d2qm01351g",
         tocImage: "images/publications/Molecular design of dual-emission rhodamine analogs.png"
     },
@@ -663,7 +671,7 @@ const publicationsData = [
         authors: "Ma, X.; Huang, Y.; Abedi, S. A. A.; Kim, H.; Davin, T.; Liu, X.; Yang, W. C.; Sun, Y.; Liu, S. H.; Yin, J.; Yoon, J.; Yang, G. F.",
         journal: "CCS Chemistry 4 (6), 1961-1976",
         year: 2022,
-        citations: 91,
+        citations: 97,
         url: "https://www.chinesechemsoc.org/doi/10.31635/ccschem.021.202101630",
         tocImage: "images/publications/Rational Design and Application of an Indolium-Derived Heptamethine Cyanine with Record-Long Second Near-Infrared Emission.jpg"
     },
@@ -672,7 +680,7 @@ const publicationsData = [
         authors: "Qiao, Q.; Liu, W.; Chen, J.; Wu, X.; Deng, F.; Fang, X.; Xu, N.; Zhou, W.; Wu, S.; Yin, W.; Liu, X.; Xu, Z.",
         journal: "Angewandte Chemie International Edition 61 (21), e202202961",
         year: 2022,
-        citations: 81,
+        citations: 87,
         url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202202961",
         tocImage: "images/publications/An Acid-Regulated Self-Blinking Fluorescent Probe for Resolving Whole-Cell Lysosomes with Long-Term Nanoscopy.jpg"
     },
@@ -681,7 +689,7 @@ const publicationsData = [
         authors: "Zhang, W.; Tan, Y.; Duan, X.; Zhao, F.; Liu, H.; Chen, W.; Liu, P.; Liu, X.; Wang, K.; Zhang, Z.; Sun, X. W.",
         journal: "Advanced Optical Materials 10 (15), 2200685",
         year: 2022,
-        citations: 80,
+        citations: 87,
         url: "https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adom.202200685",
         tocImage: "images/publications/High Quantum Yield Blue InP-ZnS-ZnS Quantum Dots Based on Bromine Passivation for Efficient Blue Light-Emitting Diodes.jpg"
     },
@@ -690,7 +698,7 @@ const publicationsData = [
         authors: "Miao, R.; Li, J.; Wang, C.; Jiang, X.; Gao, Y.; Liu, X.; Wang, D.; Li, X.; Liu, X.; Fang, Y.",
         journal: "Advanced Science 9 (5), 2104609",
         year: 2022,
-        citations: 75,
+        citations: 83,
         url: "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202104609",
         tocImage: "images/publications/A General Method to Develop Highly Environmentally Sensitive Fluorescent Probes and AIEgens.jpg"
     },
@@ -699,7 +707,7 @@ const publicationsData = [
         authors: "Cao, H.; Kong, D.; L., Y.; Chanmungkalakul, S.; Liu, T.; Piper, J. L.; Peng, Z.; Gao, L.; Liu, X.; Hong, X. W. U. J.",
         journal: "Nature Synthesis 1 (10), 794-803",
         year: 2022,
-        citations: 75,
+        citations: 82,
         url: "https://www.nature.com/articles/s44160-022-00125-1",
         tocImage: "images/publications/Brønsted acid-enhanced direct hydrogen atom transfer photocatalysis for selective functionalization of unactivated C(sp3)–H bonds.webp"
     },
@@ -708,7 +716,7 @@ const publicationsData = [
         authors: "Zeng, X.; Huang, Y.; Dong, J.; Ma, X.; Nan, J.; Chen, W.; Lin, H.; Yang, W.; Liu, X.; Yin, J.; G.Yang",
         journal: "Advanced Agrochem 1 (1), 73-84",
         year: 2022,
-        citations: 74,
+        citations: 75,
         url: "https://www.sciencedirect.com/science/article/pii/S2773237122000028",
         tocImage: "images/publications/Design of an HPPD fluorescent probe and visualization of plant responses to abiotic stress.jpg"
     },
@@ -717,7 +725,7 @@ const publicationsData = [
         authors: "Mao, W.; Chi, W.; He, X.; Wang, C.; Wang, X.; Yang, H.; Liu, X.; Wu, H.",
         journal: "Angewandte Chemie International Edition 61 (22), e202117386",
         year: 2022,
-        citations: 73,
+        citations: 82,
         url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202117386",
         tocImage: "images/publications/Overcoming Spectral Dependence - A General Strategy for Developing Far-Red and Near-Infrared Ultra-Fluorogenic Tetrazine Bioorthogonal Probes.jpg"
     },
@@ -726,7 +734,7 @@ const publicationsData = [
         authors: "Huang, R.; Wang, C.; Tan, D.; Wang, K.; Zou, B.; Shao, Y.; Liu, T.; Peng, H.; Liu, X.; Fang, Y.",
         journal: "Angewandte Chemie International Edition 61 (41), e202211106",
         year: 2022,
-        citations: 62,
+        citations: 64,
         url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202211106",
         tocImage: "images/publications/Single-Fluorophore-Based Organic Crystals with Distinct Conformers Enabling Wide-Range Excitation-Dependent Emissions.jpg"
     },
@@ -735,7 +743,7 @@ const publicationsData = [
         authors: "Liu, W.; Chen, J.; Qiao, Q.; Liu, X.; Xu, Z.",
         journal: "Chinese Chemical Letters 33 (11), 4943-4947",
         year: 2022,
-        citations: 53,
+        citations: 61,
         url: "https://www.sciencedirect.com/science/article/abs/pii/S1001841722003382",
         tocImage: "images/publications/A TICS-fluorophore based probe for dual-color GSH imaging.jpg"
     },
@@ -744,7 +752,7 @@ const publicationsData = [
         authors: "Chanmungkalakul, S.; Wang, C.; Miao, R.; Chi, W.; Tan, D.; Qiao, Q.; Ang, E. C. X.; Tan, C.; Fang, Y.; Xu, Z.; Liu, X.",
         journal: "Angewandte Chemie International Edition 61 (14), e202200546",
         year: 2022,
-        citations: 42,
+        citations: 43,
         url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202200546",
         tocImage: "images/publications/A Descriptor for Accurate Predictions of Host Molecules Enabling Ultralong Room-Temperature Phosphorescence in Guest Emitters.jpg"
     },
@@ -762,7 +770,7 @@ const publicationsData = [
         authors: "Zhao, X.; He, S.; Chi, W.; Liu, X.; Chen, P.; Sun, W.; Du, J.; Fan, J.; Peng, X.",
         journal: "Advanced Science 9 (31), 2202885",
         year: 2022,
-        citations: 31,
+        citations: 33,
         url: "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202202885",
         tocImage: "images/publications/An Approach to Developing Cyanines with Upconverted Photosensitive Efficiency Enhancement for Highly Efficient NIR Tumor Phototheranostics.jpg"
     },
@@ -771,7 +779,7 @@ const publicationsData = [
         authors: "Xing, W.; Xu, H.; Ma, H.; Abedi, S. A. A.; Wang, S.; Zhang, X.; Liu, X.; Xu, H.; Wang, W.; Lou, K.",
         journal: "Chemical Communications 58 (18), 2979-2982",
         year: 2022,
-        citations: 30,
+        citations: 31,
         url: "https://pubs.rsc.org/en/content/articlelanding/2022/cc/d1cc06611k",
         tocImage: "images/publications/A PET-based fluorescent probe for monitoring labile Fe(ii) pools in macrophage activations and ferroptosis.png"
     },
@@ -780,7 +788,7 @@ const publicationsData = [
         authors: "Ma, K.; Yang, H.; Shen, T.; Yue, Y.; Zhao, L.; Liu, X.; Huo, F.; Yin, C.",
         journal: "Chemical Science 13 (13), 3706-3712",
         year: 2022,
-        citations: 29,
+        citations: 30,
         url: "https://pubs.rsc.org/en/content/articlelanding/2022/sc/d2sc00328g",
         tocImage: "images/publications/Unique assembly of carbonylpyridinium and chromene reveals mitochondrial thiol starvation under ferroptosis and novel ferroptosis inducer.png"
     },
@@ -789,7 +797,7 @@ const publicationsData = [
         authors: "Zhang, L.; Zhang, Y.; Chi, W.; Yan, C.; Zhao, Z.; Liu, X.; Zhu, W. H.; Guo, Z.",
         journal: "ACS Materials Letters 4 (8), 1493-1502",
         year: 2022,
-        citations: 24,
+        citations: 25,
         url: "https://pubs.acs.org/doi/10.1021/acsmaterialslett.2c00451",
         tocImage: "images/publications/“Crossbreeding” Small-Molecular Weight NIR-II Flavchromenes Endows Activatable Multiplexed In Vivo Imaging.jpeg"
     },
@@ -798,7 +806,7 @@ const publicationsData = [
         authors: "Shen, T.; Tan, D.; Shanmugham, M.; Liu, X.",
         journal: "Sensors & Diagnostics 1 (4), 714-718",
         year: 2022,
-        citations: 10,
+        citations: 11,
         url: "https://pubs.rsc.org/en/content/articlelanding/2022/sd/d2sd00063f",
         tocImage: "images/publications/Rapid quantification of ethanol content in aqueous solutions using a ratiometric fluorescent sensor.png"
     },
@@ -807,7 +815,7 @@ const publicationsData = [
         authors: "Wu, X.; Tan, D.; Qiao, Q.; Yin, W.; Xu, Z.; Liu, X.",
         journal: "Physical Chemistry Chemical Physics 24 (26), 15937-15944",
         year: 2022,
-        citations: 9,
+        citations: 10,
         url: "https://pubs.rsc.org/en/content/articlelanding/2022/cp/d2cp00759b",
         tocImage: "images/publications/Molecular origins of the multi-donor strategy in inducing bathochromic shifts and enlarging Stokes shifts of fluorescent proteins.png"
     },
@@ -825,7 +833,7 @@ const publicationsData = [
         authors: "Wang, C.; Chi, W.; Qiao, Q.; Tan, D.; Xu, Z.; Liu, X.",
         journal: "Chemical Society Reviews 50 (22), 12656-12678",
         year: 2021,
-        citations: 618,
+        citations: 672,
         url: "https://pubs.rsc.org/en/content/articlelanding/2021/cs/d1cs00239b",
         tocImage: "images/publications/Twisted intramolecular charge transfer (TICT) and twists beyond TICT - from mechanisms to rational designs of bright and sensitive fluorophores.png"
     },
@@ -834,7 +842,7 @@ const publicationsData = [
         authors: "Zhao, X.; Yao, Q.; Long, S.; Chi, W.; Yang, Y.; Tan, D.; Liu, X.; Huang, H.; Sun, W.; Du, J.; Fan, J.; Peng, X.",
         journal: "Journal of the American Chemical Society 143 (31), 12345-12354",
         year: 2021,
-        citations: 175,
+        citations: 185,
         url: "https://pubs.acs.org/doi/10.1021/jacs.1c06275",
         tocImage: "images/publications/An Approach to Developing Cyanines with Simultaneous Intersystem Crossing Enhancement and Excited-State Lifetime Elongation for Photodynamic Antitumor Metastasis.jpeg"
     },
@@ -843,7 +851,7 @@ const publicationsData = [
         authors: "Chen, J.; Wang, C.; Liu, W.; Qiao, Q.; Qi, H.; Zhou, W.; Xu, N.; Li, J.; Piao, H.; Tan, D.; Liu, X.; Xu, Z.",
         journal: "Angewandte Chemie International Edition 60 (47), 25104-25113",
         year: 2021,
-        citations: 137,
+        citations: 148,
         url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202111052",
         tocImage: "images/publications/Stable Super-Resolution Imaging of Lipid Droplet Dynamics through a Buffer Strategy with a Hydrogen-Bond Sensitive Fluorogenic Probe.jpg"
     },
@@ -852,7 +860,7 @@ const publicationsData = [
         authors: "Werther, P.; Yserentant, K.; Braun, F.; Grußmayer, K.; Navikas, V.; Yu, M.; Zhang, Z.; Ziegler, M. J.; Mayer, C.; Gralak, A. J.; Busch, M.; Chi, W.; Rominger, F.; Radenovic, A.; Liu, X.; Lemke, E. A.; Buckup, T.; Herten, D.; Wombacher, R.",
         journal: "ACS central science 7 (9), 1561-1571",
         year: 2021,
-        citations: 114,
+        citations: 120,
         url: "https://pubs.acs.org/doi/10.1021/acscentsci.1c00703",
         tocImage: "images/publications/Bio-orthogonal Red and Far-Red Fluorogenic Probes for Wash-Free Live-Cell and Super-resolution Microscopy.jpeg"
     },
@@ -861,7 +869,7 @@ const publicationsData = [
         authors: "Yan, C.; Guo, Z.; Chi, W.; Fu, W.; Abedi, S. A. A.; Liu, X.; Tian, H.; Zhu, W. H.",
         journal: "Nature Communications 12 (1), 3869",
         year: 2021,
-        citations: 114,
+        citations: 122,
         url: "https://www.nature.com/articles/s41467-021-24187-5",
         tocImage: "images/publications/Fluorescence umpolung enables light-up sensing of N-acetyltransferases and nerve agents.webp"
     },
@@ -870,7 +878,7 @@ const publicationsData = [
         authors: "Ma, X.; Chi, W.; Han, X.; Wang, C.; Liu, S.; Liu, X.; Yin, J.",
         journal: "Chinese Chemical Letters 32 (5), 1790-1794",
         year: 2021,
-        citations: 85,
+        citations: 89,
         url: "https://www.sciencedirect.com/science/article/abs/pii/S1001841720307464",
         tocImage: "images/publications/Aggregation-induced emission or aggregation-caused quenching - Impact of covalent bridge between tetraphenylethene and naphthalimide.jpg"
     },
@@ -879,7 +887,7 @@ const publicationsData = [
         authors: "Ren, H.; Huo, F.; Wu, X.; Liu, X.; Yin, C.",
         journal: "Chemical Communications 57 (5), 655-658",
         year: 2021,
-        citations: 73,
+        citations: 74,
         url: "https://pubs.rsc.org/en/content/articlelanding/2021/cc/d0cc07398a",
         tocImage: "images/publications/An ESIPT-induced NIR fluorescent probe to visualize mitochondrial sulfur dioxide during oxidative stress in vivo.png"
     },
@@ -888,7 +896,7 @@ const publicationsData = [
         authors: "Qi, Q.; Sekhon, G.; Chandradat, R.; Ofodum, N. M.; Shen, T.; Scrimgeour, J.; Joy, M.; Wriedt, M.; Jayathirtha, M.; Darie, C. C.; Shipp, D. A.; Liu, X.; Lu, X.",
         journal: "Journal of the American Chemical Society 143 (42), 17337-17343",
         year: 2021,
-        citations: 69,
+        citations: 72,
         url: "https://pubs.acs.org/doi/10.1021/jacs.1c05923",
         tocImage: "images/publications/Force-Induced Near-Infrared Chromism of Mechanophore-Linked Polymers.jpeg"
     },
@@ -897,7 +905,7 @@ const publicationsData = [
         authors: "Chen, L.; Wu, X.; Yu, H.; Wu, L.; Wang, Q.; Zhang, J.; Liu, X.; Li, Z.; Yang, X. F.",
         journal: "Analytical chemistry 93 (42), 14343-14350",
         year: 2021,
-        citations: 61,
+        citations: 64,
         url: "https://pubs.acs.org/doi/10.1021/acs.analchem.1c03877",
         tocImage: "images/publications/An Edaravone-Guided Design of a Rhodamine-Based Turn-on Fluorescent Probe for Detecting Hydroxyl Radicals in Living Systems.jpeg"
     },
@@ -906,7 +914,7 @@ const publicationsData = [
         authors: "Ren, H.; Huo, F.; Shen, T.; Liu, X.; Yin, C.",
         journal: "Analytical Chemistry 93 (37), 12801-12807",
         year: 2021,
-        citations: 45,
+        citations: 47,
         url: "https://pubs.acs.org/doi/10.1021/acs.analchem.1c03376",
         tocImage: "images/publications/Molecular-Dimension-Dependent ESIPT Break for Specific Reversible Response to GSH and Its Real-Time Bioimaging.jpeg"
     },
@@ -915,7 +923,7 @@ const publicationsData = [
         authors: "Chi, W.; Huang, L.; Wang, C.; Tan, D.; Xu, Z.; Liu, X.",
         journal: "Materials Chemistry Frontiers 5 (18), 7012-7021",
         year: 2021,
-        citations: 42,
+        citations: 46,
         url: "https://pubs.rsc.org/en/content/articlelanding/2021/qm/d1qm00852h",
         tocImage: "images/publications/A unified fluorescence quenching mechanism of tetrazine-based fluorogenic dyes - energy transfer to a dark state.png"
     },
@@ -924,7 +932,7 @@ const publicationsData = [
         authors: "Pherkkhuntod, C.; Ervithayasuporn, V.; Chanmungkalakul, S.; Wang, C.; Liu, X.; J.Harding, D.; Kiatkamjornwong, S.",
         journal: "Sensors and Actuators B: Chemical 330, 129287",
         year: 2021,
-        citations: 39,
+        citations: 40,
         url: "https://www.sciencedirect.com/science/article/abs/pii/S0925400520316270",
         tocImage: "images/publications/Water-soluble polyaromatic-based imidazolium for detecting picric acid - Pyrene vs. anthracene.jpg"
     },
@@ -942,7 +950,7 @@ const publicationsData = [
         authors: "Abedi, S. A. A.; Chi, W.; Tan, D.; Shen, T.; Wang, C.; Ang, E. C.; Tan, C. H.; Anariba, F.; Liu, X.",
         journal: "The Journal of Physical Chemistry A 125 (38), 8397-8403",
         year: 2021,
-        citations: 24,
+        citations: 25,
         url: "https://pubs.acs.org/doi/10.1021/acs.jpca.1c06263",
         tocImage: "images/publications/Restriction of Twisted Intramolecular Charge Transfer Enables the Aggregation-Induced Emission of 1-(N,N-Dialkylamino)-naphthalene Derivatives.jpeg"
     },
@@ -951,7 +959,7 @@ const publicationsData = [
         authors: "Fang, X.; Liu, W.; Wu, X.; Zhou, W.; Chen, J.; Liu, X.; Xu, Z.",
         journal: "Results in Chemistry 3, 100092",
         year: 2021,
-        citations: 22,
+        citations: 23,
         url: "https://www.sciencedirect.com/science/article/pii/S2211715620300709",
         tocImage: "images/publications/One-step condensation synthesis and characterizations of indocyanine green.jpg"
     },
@@ -960,7 +968,7 @@ const publicationsData = [
         authors: "Guo, R.; Zhang, Y.; Chanmungkalakul, S.; Guo, H.; Hu, Y.; Li, J.; Liu, X.; Zang, Y.; Li, X.",
         journal: "CCS Chemistry 3 (10), 116-128",
         year: 2021,
-        citations: 20,
+        citations: 21,
         url: "https://www.chinesechemsoc.org/doi/10.31635/ccschem.021.202000501",
         tocImage: "images/publications/Bioinspired Design of Reversible Fluorescent Probes for Tracking Nitric Oxide Dynamics in Live Cells.jpg"
     },
@@ -1005,7 +1013,7 @@ const publicationsData = [
         authors: "Liu, X.; Chi, W.; Gómez‐Infante, A. J.; Peña‐Cabrera, E.; Liu, X.; Chang, Y. T.",
         journal: "Bulletin of the Korean Chemical Society 42 (1), 91-94",
         year: 2021,
-        citations: 6,
+        citations: 7,
         url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/bkcs.12110",
         tocImage: "images/publications/A Systematic Study on the Relationship Between Viscosity Sensitivity and Temperature Dependency of BODIPY Rotors.jpg"
     },
@@ -1031,7 +1039,7 @@ const publicationsData = [
         authors: "Wang, C.; Koh, H. J.; Xu, Z.; Liu, X.",
         journal: "Results in Chemistry 3, 100116",
         year: 2021,
-        citations: 3,
+        citations: 4,
         url: "https://www.sciencedirect.com/science/article/pii/S2211715621000217",
         tocImage: "images/publications/Theoretical studies on triplet formations in nitrobenzoxadiazole (NBD) derivatives - The impact of donor group and heteroatom substitution.jpg"
     },
@@ -1040,7 +1048,7 @@ const publicationsData = [
         authors: "Wang, C.; Qiao, Q.; Chi, W.; Chen, J.; Liu, W.; Tan, D.; McKechnie, S.; Lyu, D.; Jiang, X.; Zhou, W.; Xu, N.; Zhang, Q.; Xu, Z.; Liu, X.",
         journal: "Angewandte Chemie International Edition 59 (25), 10160-10172",
         year: 2020,
-        citations: 248,
+        citations: 266,
         url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.201916357",
         tocImage: "images/publications/Quantitative Design of Bright Fluorophores and AIEgens by the Accurate Prediction of Twisted Intramolecular Charge Transfer (TICT).jpg"
     },
@@ -1049,7 +1057,7 @@ const publicationsData = [
         authors: "Chi, W.; Chen, J.; Liu, W.; Wang, C.; Qi, Q.; Qiao, Q.; Tan, T. M.; Xiong, K.; Liu, X.; Kang, K.; Chang, Y. T.; Xu, Z.; Liu, X.",
         journal: "Journal of the American Chemical Society 142 (14), 6777-6785",
         year: 2020,
-        citations: 193,
+        citations: 203,
         url: "https://pubs.acs.org/doi/10.1021/jacs.0c01473",
         tocImage: "images/publications/A General Descriptor ΔE Enables the Quantitative Development of Luminescent Materials Based on Photoinduced Electron Transfer.jpeg"
     },
@@ -1058,7 +1066,7 @@ const publicationsData = [
         authors: "Zhang, Y.; Yan, C.; Wang, C.; Guo, Z.; Liu, X.; Zhu, W. H.",
         journal: "Angewandte Chemie International Edition 59 (23), 9059-9066",
         year: 2020,
-        citations: 145,
+        citations: 153,
         url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202000165",
         tocImage: "images/publications/A Sequential Dual-Lock Strategy for Photoactivatable Chemiluminescent Probes Enabling Bright Duplex Optical Imaging.jpg"
     },
@@ -1067,7 +1075,7 @@ const publicationsData = [
         authors: "Liu, X.; Chi, W.; Qiao, Q.; Kokate, S. V.; Cabrera, E. P.; Xu, Z.; Liu, X.; Chang, Y. T.",
         journal: "ACS sensors 5 (3), 731-739",
         year: 2020,
-        citations: 138,
+        citations: 146,
         url: "https://pubs.acs.org/doi/10.1021/acssensors.9b01951",
         tocImage: "images/publications/Molecular Mechanism of Viscosity Sensitivity in BODIPY Rotors and Application to Motion-Based Fluorescent Sensors.jpeg"
     },
@@ -1076,7 +1084,7 @@ const publicationsData = [
         authors: "Shi, L.; Yan, C.; Guo, Z.; Chi, W.; Wei, J.; Liu, W.; Liu, X.; Tian, H.; Zhu, W. H.",
         journal: "Nature Communications 11 (1), 793",
         year: 2020,
-        citations: 109,
+        citations: 112,
         url: "https://www.nature.com/articles/s41467-020-14615-3",
         tocImage: "images/publications/De novo strategy with engineering anti-Kasha-Kasha fluorophores enables reliable ratiometric quantification of biomolecules.webp"
     },
@@ -1085,7 +1093,7 @@ const publicationsData = [
         authors: "Chi, W.; Qi, Q.; Lee, R.; Xu, Z.; Liu, X.",
         journal: "The Journal of Physical Chemistry C 124 (6), 3793-3801",
         year: 2020,
-        citations: 97,
+        citations: 104,
         url: "https://pubs.acs.org/doi/10.1021/acs.jpcc.9b11673",
         tocImage: "images/publications/A Unified Push–Pull Model for Understanding the Ring-Opening Mechanism of Rhodamine Dyes.jpeg"
     },
@@ -1094,7 +1102,7 @@ const publicationsData = [
         authors: "Yang, J.; Li, K.; Wang, J.; Sun, S.; Chi, W.; Wang, C.; Chang, X.; Zou, C.; To, W.; Li, M.; Liu, X.; Lu, W.; Zhang, H.; Che, C.; Chen, Y.",
         journal: "Angewandte Chemie International Edition 59 (17), 6915-6922",
         year: 2020,
-        citations: 94,
+        citations: 95,
         url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202000792",
         tocImage: "images/publications/Controlling Metallophilic Interactions in Chiral Gold(I) Double Salts towards Excitation Wavelength-Tunable Circularly Polarized Luminescence.jpg"
     },
@@ -1103,7 +1111,7 @@ const publicationsData = [
         authors: "Chi, W.; Qiao, Q.; Wang, C.; Zheng, J.; Zhou, W.; Xu, N.; Wu, X.; Jiang, X.; Tan, D.; Xu, Z.; Liu, X.",
         journal: "Angewandte Chemie International Edition 59 (45), 20215-20223",
         year: 2020,
-        citations: 80,
+        citations: 84,
         url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202010169",
         tocImage: "images/publications/Descriptor ΔGC-O Enables the Quantitative Design of Spontaneously Blinking Rhodamines for Live-Cell Super-Resolution Imaging.jpg"
     },
@@ -1121,7 +1129,7 @@ const publicationsData = [
         authors: "Hao, M.; Chi, W.; Wang, C.; Xu, Z.; Li, Z.; Liu, X.",
         journal: "The Journal of Physical Chemistry C 124 (31), 16820-16826",
         year: 2020,
-        citations: 35,
+        citations: 37,
         url: "https://pubs.acs.org/doi/10.1021/acs.jpcc.0c04218",
         tocImage: "images/publications/Molecular Origins of Photoinduced Backward Intramolecular Charge Transfer.jpeg"
     },
@@ -1130,7 +1138,7 @@ const publicationsData = [
         authors: "Ai, Q.; Chai, J.; Lou, W.; Liu, T.; Wang, D.; Deng, C.; Wang, C.; Li, G.; Liu, X.; Liu, Z.; Zhang, Q.",
         journal: "ACS Applied Materials & Interfaces 12 (5), 6127-6136",
         year: 2020,
-        citations: 34,
+        citations: 36,
         url: "https://pubs.acs.org/doi/full/10.1021/acsami.9b19474",
         tocImage: "images/publications/Efficient and Stable Organic Light-Emitting Diodes Employing Indolo[2,3-b]indole-Based Thermally Activated Delayed Fluorescence Emitters.jpeg"
     },
@@ -1148,7 +1156,7 @@ const publicationsData = [
         authors: "Deng, F.; Qiao, Q.; Li, J.; Yin, W.; Miao, L.; Liu, X.; Xu, Z.",
         journal: "The Journal of Physical Chemistry B 124 (34), 7467-7474",
         year: 2020,
-        citations: 18,
+        citations: 22,
         url: "https://pubs.acs.org/doi/10.1021/acs.jpcb.0c05642",
         tocImage: "images/publications/Multiple Factors Regulate the Spirocyclization Equilibrium of Si-Rhodamines.jpeg"
     },
@@ -1157,7 +1165,7 @@ const publicationsData = [
         authors: "Gao, Y.; Wang, C.; Chi, W.; Liu, X.",
         journal: "Chemistry–An Asian Journal 15 (23), 4082-4086",
         year: 2020,
-        citations: 14,
+        citations: 15,
         url: "https://aces.onlinelibrary.wiley.com/doi/10.1002/asia.202000966",
         tocImage: "images/publications/Molecular Origins of Heteroatom Engineering on the Emission Wavelength Tuning, Quantum Yield Variations and Fluorogenicity of NBD-like SCOTfluors.jpg"
     },
@@ -1166,7 +1174,7 @@ const publicationsData = [
         authors: "Zhou, L.; Luo, F.; Chi, W.; Tang, Y.; Liu, X.; Lin, Q.",
         journal: "Sensors and Actuators B: Chemical 311, 127915",
         year: 2020,
-        citations: 11,
+        citations: 12,
         url: "https://www.sciencedirect.com/science/article/abs/pii/S092540052030263X",
         tocImage: "images/publications/Activatable selenium-containing fluorescent apoptotic agent for biosensing and tracing cancer cell apoptosis.jpg"
     },
@@ -1175,7 +1183,7 @@ const publicationsData = [
         authors: "Wu, H.; Chi, W.; Chen, Z.; Liu, G.; Gu, L.; Bindra, A. K.; Yang, G.; Liu, X.; Zhao, Y.",
         journal: "Advanced Functional Materials 29 (10), 1807243",
         year: 2019,
-        citations: 205,
+        citations: 210,
         url: "https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adfm.201807243",
         tocImage: "images/publications/Achieving Amorphous Ultralong Room Temperature Phosphorescence by Coassembling Planar Small Organic Molecules with Polyvinyl Alcohol.jpg"
     },
@@ -1184,7 +1192,7 @@ const publicationsData = [
         authors: "Ye, Z.; Yang, W.; Wang, C.; Zheng, Y.; Chi, W.; Liu, X.; Huang, Z.; Li, X.; Xiao, Y.",
         journal: "Journal of the American Chemical Society 141 (37), 14491-14495",
         year: 2019,
-        citations: 191,
+        citations: 198,
         url: "https://pubs.acs.org/doi/10.1021/jacs.9b04893",
         tocImage: "images/publications/Quaternary Piperazine-Substituted Rhodamines with Enhanced Brightness for Super-Resolution Imaging.jpeg"
     },
@@ -1193,7 +1201,7 @@ const publicationsData = [
         authors: "Chi, W.; Qiao, Q.; Lee, R.; Liu, W.; Teo, Y. S.; Gu, D.; Lang, M. J.; Chang, Y.; Xu, Z.; Liu, X.",
         journal: "Angewandte Chemie International Edition 58 (21), 7073-7077",
         year: 2019,
-        citations: 111,
+        citations: 114,
         url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.201902766",
         tocImage: "images/publications/A Photoexcitation-Induced Twisted Intramolecular Charge Shuttle.jpg"
     },
@@ -1202,7 +1210,7 @@ const publicationsData = [
         authors: "Wu, H.; Chi, W.; Baryshnikov, G.; Wu, B.; Gong, Y.; Zheng, D.; Li, X.; Zhao, Y.; Liu, X.; Ågren, H.; Zhu, L.",
         journal: "Angewandte Chemie International Edition 58 (13), 4328-4333",
         year: 2019,
-        citations: 109,
+        citations: 114,
         url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.201900703",
         tocImage: "images/publications/Crystal Multi-Conformational Control Through Deformable Carbon-Sulfur Bond for Singlet-Triplet Emissive Tuning.jpg"
     },
@@ -1211,7 +1219,7 @@ const publicationsData = [
         authors: "Qi, Q.; Chi, W.; Li, Y.; Qiao, Q.; Chen, J.; Miao, L.; Zhang, Y.; Li, J.; Ji, W.; Xu, T.; Liu, X.; Yoon, J.; Xu, Z.",
         journal: "Chemical Science 10 (18), 4914-4922",
         year: 2019,
-        citations: 98,
+        citations: 102,
         url: "https://pubs.rsc.org/en/content/articlelanding/2019/sc/c9sc01284b",
         tocImage: "images/publications/A H-bond strategy to develop acid-resistant photoswitchable rhodamine spirolactams for super-resolution single-molecule localization microscopy.png"
     },
@@ -1229,7 +1237,7 @@ const publicationsData = [
         authors: "Long, S.; Miao, L.; Li, R.; Deng, F.; Qiao, Q.; Liu, X.; Yan, A.; Xu, Z.",
         journal: "ACS sensors 4 (2), 281-285",
         year: 2019,
-        citations: 47,
+        citations: 48,
         url: "https://pubs.acs.org/doi/10.1021/acssensors.8b01466",
         tocImage: "images/publications/Rapid Identification of Bacteria by Membrane-Responsive Aggregation of a Pyrene Derivative.jpeg"
     },
@@ -1238,7 +1246,7 @@ const publicationsData = [
         authors: "Kim, B.; Fukuda, M.; Lee, J.; Su, D.; Sanu, S.; Silvin, A.; Khoo, A. T.; Kwon, T.; Liu, X.; Chi, W.; Liu, X.; Choi, S.; Wan, D. S.; Park, S.; Kim, J.; Ginhoux, F.; Je, H. S.; Chang, Y. T.",
         journal: "Angewandte Chemie International Edition 58 (24), 7972-7976",
         year: 2019,
-        citations: 40,
+        citations: 41,
         url: "https://onlinelibrary.wiley.com/doi/10.1002/anie.201903058",
         tocImage: "images/publications/Visualizing Microglia with a Fluorescence Turn-On Ugt1a7c Substrate.jpg"
     },
@@ -1247,7 +1255,7 @@ const publicationsData = [
         authors: "Qi, Q.; Huang, L.; Yang, R.; Li, J.; Qiao, Q.; Xu, B.; Tian, W.; Liu, X.; Xu, Z.",
         journal: "Chemical Communications 55 (10), 1446-1449",
         year: 2019,
-        citations: 37,
+        citations: 39,
         url: "https://pubs.rsc.org/en/content/articlelanding/2019/cc/c8cc09212e",
         tocImage: "images/publications/Rhodamine-naphthalimide demonstrated a distinct aggregation-induced emission mechanism - elimination of dark-states via dimer interactions (EDDI).png"
     },
@@ -1319,7 +1327,7 @@ const publicationsData = [
         authors: "Wang, X.; Liu, X.; Cheng, T.; Li, H.; Yang, X. F.",
         journal: "Sensors and Actuators B: Chemical 254, 248-254",
         year: 2018,
-        citations: 20,
+        citations: 22,
         url: "https://www.sciencedirect.com/science/article/abs/pii/S0925400517312832",
         tocImage: "images/publications/Development of 4-hydrazinyl-7-nitrobenzofurazan as a fluorogenic probe for detecting malondialdehyde in biological samples.jpg"
     },
@@ -1328,7 +1336,7 @@ const publicationsData = [
         authors: "Qi, Q.; Li, C.; Liu, X.; Jiang, S.; Xu, Z.; Lee, R.; Zhu, M.; Xu, B.; Tian, W.",
         journal: "Journal of the American Chemical Society 139 (45), 16036-16039",
         year: 2017,
-        citations: 408,
+        citations: 421,
         url: "https://pubs.acs.org/doi/10.1021/jacs.7b07738",
         tocImage: "images/publications/Solid-State Photoinduced Luminescence Switch for Advanced Anticounterfeiting and Super-Resolution Imaging Applications.jpeg"
     },
@@ -1337,7 +1345,7 @@ const publicationsData = [
         authors: "Su, D.; Teoh, C. L.; Wang, L.; Liu, X.; Chang, Y. T.",
         journal: "Chemical Society Reviews 46 (16), 4833-4844",
         year: 2017,
-        citations: 225,
+        citations: 233,
         url: "https://pubs.rsc.org/en/content/articlelanding/2017/cs/c7cs00018a",
         tocImage: "images/publications/Motion-induced change in emission (MICE) for developing fluorescent probes.png"
     },
@@ -1346,7 +1354,7 @@ const publicationsData = [
         authors: "Liu, X.; Cole, J. M.; Xu, Z.",
         journal: "The Journal of Physical Chemistry C 121 (24), 13274-13279",
         year: 2017,
-        citations: 83,
+        citations: 85,
         url: "https://pubs.acs.org/doi/10.1021/acs.jpcc.7b04176",
         tocImage: "images/publications/Substantial Intramolecular Charge Transfer Induces Long Emission Wavelengths and Mega Stokes Shifts in 6-Aminocoumarins.jpeg"
     },
@@ -1355,7 +1363,7 @@ const publicationsData = [
         authors: "Liyi, Z.; Wang, Q.; Tan, Y.; Lang, M.; Sun, H.; Liu, X.",
         journal: "Chemistry - A European Journal 23 (36), 8736-8740",
         year: 2017,
-        citations: 65,
+        citations: 66,
         url: "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/chem.201701365",
         tocImage: "images/publications/Rational Development of Near-Infrared Fluorophores with Large Stokes Shifts, Bright One-Photon, and Two-Photon Emissions for Bioimaging and Biosensing Applications.jpg"
     },
@@ -1382,7 +1390,7 @@ const publicationsData = [
         authors: "Liu, X.; Qiao, Q.; Tian, W.; Liu, W.; Chen, J.; Lang, M. J.; Xu, Z.",
         journal: "Journal of the American Chemical Society 138 (22), 6960-6963",
         year: 2016,
-        citations: 336,
+        citations: 344,
         url: "https://pubs.acs.org/doi/10.1021/jacs.6b03924",
         tocImage: "images/publications/Aziridinyl Fluorophores Demonstrate Bright Fluorescence and Superior Photostability by Effectively Inhibiting Twisted Intramolecular Charge Transfer.jpeg"
     },
@@ -1391,7 +1399,7 @@ const publicationsData = [
         authors: "Zhang, L.; Liu, X.; Rao, W.; Li, J.",
         journal: "Scientific reports 6, 35893",
         year: 2016,
-        citations: 54,
+        citations: 57,
         url: "https://www.nature.com/articles/srep35893",
         tocImage: "images/publications/Multilayer Dye Aggregation at Dye-TiO2 Interface via π…π Stacking and Hydrogen Bond and Its Impact on Solar Cell Performance - A DFT Analysis.webp"
     },
@@ -1418,7 +1426,7 @@ const publicationsData = [
         authors: "Mao, D.; Liu, X.; Qiao, Q.; Yin, W.; Zhao, M.; Cole, J. M.; Cui, J.; Xu, Z.",
         journal: "Analyst 140 (4), 1008-1013",
         year: 2015,
-        citations: 19,
+        citations: 20,
         url: "https://pubs.rsc.org/en/content/articlelanding/2015/an/c4an02075h",
         tocImage: "images/publications/Coumarin 545 - an emission reference dye with a record-low temperature coefficient for ratiometric fluorescence based temperature measurements.png"
     },
@@ -1427,7 +1435,7 @@ const publicationsData = [
         authors: "Liu, X.; Coxon, P. R.; Peters, M.; Hoex, B.; Cole, J. M.; Fray, D. J.",
         journal: "Energy & Environmental Science 7 (10), 3223-3263",
         year: 2014,
-        citations: 659,
+        citations: 668,
         url: "https://pubs.rsc.org/en/content/articlelanding/2014/ee/c4ee01152j",
         tocImage: "images/publications/Black silicon - fabrication methods, properties and solar energy applications.png"
     },
@@ -1436,7 +1444,7 @@ const publicationsData = [
         authors: "Liu, T.; Liu, X.; Spring, D. R.; Qian, X.; Cui, J.; Xu, Z.",
         journal: "Scientific reports 4, 5418",
         year: 2014,
-        citations: 173,
+        citations: 179,
         url: "https://www.nature.com/articles/srep05418",
         tocImage: "images/publications/Quantitatively Mapping Cellular Viscosity with Detailed Organelle Information via a Designed PET Fluorescent Probe.webp"
     },
@@ -1454,7 +1462,7 @@ const publicationsData = [
         authors: "Liu, X.; Cole, J. M.; Chow, P. C. Y.; Zhang, L.; Tan, Y.; Zhao, T.",
         journal: "The Journal of Physical Chemistry C 118 (24), 13042-13051",
         year: 2014,
-        citations: 50,
+        citations: 52,
         url: "https://pubs.acs.org/doi/10.1021/jp409435v",
         tocImage: "images/publications/Dye Aggregation and Complex Formation Effects in 7-(Diethylamino)-coumarin-3-carboxylic Acid.jpeg"
     },
@@ -1481,7 +1489,7 @@ const publicationsData = [
         authors: "Liu, X.; Xu, Z.; Cole, J. M.",
         journal: "The Journal of Physical Chemistry C 117 (32), 16584-16595",
         year: 2013,
-        citations: 319,
+        citations: 335,
         url: "https://pubs.acs.org/doi/10.1021/jp404170w",
         tocImage: "images/publications/Molecular Design of UV–vis Absorption and Emission Properties in Organic Fluorophores - Toward Larger Bathochromic Shifts, Enhanced Molar Extinction Coefficients, and Greater Stokes Shifts.jpeg"
     },
@@ -1490,7 +1498,7 @@ const publicationsData = [
         authors: "Liu, X.; Cole, J. M.; Low, K. S.",
         journal: "The Journal of Physical Chemistry C 117 (28), 14731-14741",
         year: 2013,
-        citations: 119,
+        citations: 120,
         url: "https://pubs.acs.org/doi/10.1021/jp310397z",
         tocImage: "images/publications/Solvent Effects on the UV–vis Absorption and Emission of Optoelectronic Coumarins - a Comparison of Three Empirical Solvatochromic Models.jpeg"
     },
@@ -1499,7 +1507,7 @@ const publicationsData = [
         authors: "Zhang, L.; Cole, J. M.; Waddell, P. G.; Low, K. S.; Liu, X.",
         journal: "ACS Sustainable Chemistry & Engineering 1 (11), 1440-1452",
         year: 2013,
-        citations: 107,
+        citations: 109,
         url: "https://pubs.acs.org/doi/10.1021/sc400183t",
         tocImage: "images/publications/Relating Electron Donor and Carboxylic Acid Anchoring Substitution Effects in Azo Dyes to Dye-Sensitized Solar Cell Performance.jpeg"
     },
@@ -1508,7 +1516,7 @@ const publicationsData = [
         authors: "Liu, X.; Cole, J. M.; Low, K. S.",
         journal: "The Journal of Physical Chemistry C 117 (28), 14723-14730",
         year: 2013,
-        citations: 55,
+        citations: 58,
         url: "https://pubs.acs.org/doi/10.1021/jp4024266",
         tocImage: "images/publications/Molecular Origins of Dye Aggregation and Complex Formation Effects in Coumarin 343.jpeg"
     },
@@ -1517,7 +1525,7 @@ const publicationsData = [
         authors: "Zhang, L.; Cole, J. M.; Liu, X.",
         journal: "The Journal of Physical Chemistry C 117 (49), 26316-26323",
         year: 2013,
-        citations: 53,
+        citations: 55,
         url: "https://pubs.acs.org/doi/10.1021/jp4088783",
         tocImage: "images/publications/Tuning Solvatochromism of Azo Dyes with Intramolecular Hydrogen Bonding in Solution and on Titanium Dioxide Nanoparticles.jpeg"
     },
@@ -1526,7 +1534,7 @@ const publicationsData = [
         authors: "Liu, X.; Cole, J. M.; Waddell, P. G.; Lin, T. C.; McKechnie, S.",
         journal: "The Journal of Physical Chemistry C 117 (27), 14130-14141",
         year: 2013,
-        citations: 47,
+        citations: 49,
         url: "https://pubs.acs.org/doi/10.1021/jp400614e",
         tocImage: "images/publications/Molecular Origins of Optoelectronic Properties in Coumarins 343, 314T, 445, and 522B.jpeg"
     },
@@ -1535,7 +1543,7 @@ const publicationsData = [
         authors: "Liu, X.; Cole, J. M.; Waddell, P. G.; Lin, T. C.; Radia, J.; Zeidler, A.",
         journal: "The Journal of Physical Chemistry A 116 (1), 727-737",
         year: 2012,
-        citations: 328,
+        citations: 334,
         url: "https://pubs.acs.org/doi/10.1021/jp209925y",
         tocImage: "images/publications/Molecular Origins of Optoelectronic Properties in Coumarin Dyes - Toward Designer Solar Cell and Laser Applications.jpeg"
     },
@@ -1544,7 +1552,7 @@ const publicationsData = [
         authors: "Zhang, B.; Luo, Y.; Liu, X.; Barbastathis, G.",
         journal: "Physical review letters 106 (3), 33901",
         year: 2011,
-        citations: 468,
+        citations: 470,
         url: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.106.033901",
         tocImage: "images/publications/Macroscopic Invisibility Cloak for Visible Light.png"
     },
