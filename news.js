@@ -1,4 +1,102 @@
 // News page functionality
+
+function parseNewsDate(dateStr) {
+    const parsed = new Date(dateStr);
+    if (!Number.isNaN(parsed.getTime())) {
+        return parsed;
+    }
+
+    const yearMatch = String(dateStr || '').match(/\d{4}/);
+    return yearMatch ? new Date(yearMatch[0]) : new Date(0);
+}
+
+function getCurrentLanguage() {
+    return typeof currentLang !== 'undefined' && currentLang === 'zh' ? 'zh' : 'en';
+}
+
+function getLocalizedValue(item, field) {
+    const localizedField = getCurrentLanguage() === 'zh' ? `${field}Zh` : field;
+    return item[localizedField] || item[field] || '';
+}
+
+function cleanNewsContent(content) {
+    return String(content || '')
+        .replace(/\[siteorigin_widget[\s\S]*?\[\/siteorigin_widget\]/gi, '')
+        .replace(/<input\b[^>]*>/gi, '')
+        .replace(/<a\b[^>]*>\s*<img\b[^>]*>\s*<\/a>/gi, '')
+        .replace(/<img\b[^>]*>/gi, '')
+        .replace(/\[caption[^\]]*\][\s\S]*?\[\/caption\]/gi, '')
+        .replace(/\n{3,}/g, '\n\n')
+        .trim();
+}
+
+function getNewsImages(item) {
+    const values = [item.image, item.images];
+    const images = [];
+
+    values.forEach(value => {
+        (Array.isArray(value) ? value : [value]).forEach(image => {
+            if (image && !images.includes(image)) {
+                images.push(image);
+            }
+        });
+    });
+
+    return images;
+}
+
+function createNewsItem(item) {
+    const newsItem = document.createElement('div');
+    newsItem.className = 'news-item';
+
+    const header = document.createElement('div');
+    header.className = 'news-item-header';
+
+    const titleEl = document.createElement('h3');
+    titleEl.textContent = getLocalizedValue(item, 'title') || 'Untitled';
+
+    const dateEl = document.createElement('span');
+    dateEl.className = 'news-date';
+    dateEl.textContent = getLocalizedValue(item, 'date');
+
+    header.appendChild(titleEl);
+    header.appendChild(dateEl);
+
+    const contentWrapper = document.createElement('div');
+    contentWrapper.className = 'news-item-content-wrapper';
+
+    const contentDiv = document.createElement('div');
+    contentDiv.className = 'news-item-content';
+    contentDiv.innerHTML = cleanNewsContent(
+        getLocalizedValue(item, 'content') || getLocalizedValue(item, 'excerpt')
+    );
+    contentWrapper.appendChild(contentDiv);
+
+    const images = getNewsImages(item);
+    if (images.length > 0) {
+        const imageDiv = document.createElement('div');
+        imageDiv.className = 'news-item-image';
+
+        images.forEach((imageSrc, index) => {
+            const img = document.createElement('img');
+            img.src = imageSrc;
+            img.alt = images.length === 1
+                ? (getLocalizedValue(item, 'title') || 'News image')
+                : `${getLocalizedValue(item, 'title') || 'News image'} ${index + 1}`;
+            img.onerror = function() {
+                this.style.display = 'none';
+            };
+            imageDiv.appendChild(img);
+        });
+
+        contentWrapper.appendChild(imageDiv);
+    }
+
+    newsItem.appendChild(header);
+    newsItem.appendChild(contentWrapper);
+    return newsItem;
+}
+
 function initializeNews() {
     try {
         if (typeof newsData === 'undefined') {
@@ -12,94 +110,21 @@ function initializeNews() {
             return;
         }
 
-        // Clear placeholder content
         newsList.innerHTML = '';
 
-        // Sort news by date (newest first)
-        const sortedNews = [...newsData].sort((a, b) => {
-        // Parse dates like "Jun 11, 2017" or "May 19, 2017"
-        const parseDate = (dateStr) => {
-            try {
-                return new Date(dateStr);
-            } catch (e) {
-                // Fallback: try to extract year from string
-                const yearMatch = dateStr.match(/\d{4}/);
-                if (yearMatch) {
-                    return new Date(yearMatch[0]);
-                }
-                return new Date(0); // Default to epoch if can't parse
-            }
-        };
-        const dateA = parseDate(a.date);
-        const dateB = parseDate(b.date);
-        return dateB - dateA;
-    });
+        const sortedItems = [...newsData].sort((a, b) => (
+            parseNewsDate(b.date) - parseNewsDate(a.date)
+        ));
 
-        // Display each news item
-        sortedNews.forEach(news => {
+        sortedItems.forEach(item => {
             try {
-                const newsItem = document.createElement('div');
-                newsItem.className = 'news-item';
-                
-                // Format content - convert HTML entities and clean up
-                let content = news.content || news.excerpt || '';
-                // Remove images and image-related HTML
-                content = content.replace(/<img[^>]*>/gi, '');
-                content = content.replace(/<a[^>]*>[\s]*<img[^>]*>[\s]*<\/a>/gi, '');
-                content = content.replace(/\[caption[^\]]*\][\s\S]*?\[\/caption\]/gi, '');
-                // Remove excessive line breaks
-                content = content.replace(/\n{3,}/g, '\n\n');
-                
-        // Create elements safely to avoid template literal issues
-        const header = document.createElement('div');
-        header.className = 'news-item-header';
-        
-        const titleEl = document.createElement('h3');
-        titleEl.textContent = news.title || 'Untitled';
-        
-        const dateEl = document.createElement('span');
-        dateEl.className = 'news-date';
-        dateEl.textContent = news.date || '';
-        
-        header.appendChild(titleEl);
-        header.appendChild(dateEl);
-        
-        // Create content wrapper for side-by-side layout
-        const contentWrapper = document.createElement('div');
-        contentWrapper.className = 'news-item-content-wrapper';
-        
-        const contentDiv = document.createElement('div');
-        contentDiv.className = 'news-item-content';
-        // Use innerHTML for content since it may contain HTML
-        contentDiv.innerHTML = content || '';
-        
-        contentWrapper.appendChild(contentDiv);
-        
-        // Add image if available
-        if (news.image) {
-            const imageDiv = document.createElement('div');
-            imageDiv.className = 'news-item-image';
-            const img = document.createElement('img');
-            img.src = news.image;
-            img.alt = news.title || 'News image';
-            img.onerror = function() {
-                this.style.display = 'none';
-            };
-            imageDiv.appendChild(img);
-            contentWrapper.appendChild(imageDiv);
-        }
-        
-        newsItem.appendChild(header);
-        newsItem.appendChild(contentWrapper);
-                
-                newsList.appendChild(newsItem);
+                newsList.appendChild(createNewsItem(item));
             } catch (err) {
-                console.error('Error creating news item:', err, news);
+                console.error('Error creating news item:', err, item);
             }
         });
 
-        // If no news items, show message
-        if (sortedNews.length === 0) {
+        if (sortedItems.length === 0) {
             newsList.innerHTML = `
                 <div class="news-item">
                     <h3 data-en="Latest Updates" data-zh="最新更新">Latest Updates</h3>
@@ -107,8 +132,6 @@ function initializeNews() {
                 </div>
             `;
         }
-        
-        console.log(`Successfully displayed ${sortedNews.length} news items`);
     } catch (error) {
         console.error('Error initializing news:', error);
         const newsList = document.querySelector('.news-list');
@@ -117,27 +140,18 @@ function initializeNews() {
                 <div class="news-item">
                     <h3>Error Loading News</h3>
                     <p>There was an error loading the news. Please refresh the page.</p>
-                    <p style="color: red; font-size: 12px;">Error: ${error.message}</p>
                 </div>
             `;
         }
     }
 }
 
-function escapeHtml(text) {
-    const div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
-}
+document.addEventListener('languageChanged', initializeNews);
 
-// Initialize when DOM is ready
-// Make sure news loads AFTER language switcher to avoid conflicts
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function() {
-        // Small delay to ensure language switcher runs first
         setTimeout(initializeNews, 100);
     });
 } else {
-    // Small delay to ensure language switcher runs first
     setTimeout(initializeNews, 100);
 }

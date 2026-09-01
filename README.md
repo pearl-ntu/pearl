@@ -13,7 +13,6 @@ Visit the live site: https://pearl-ntu.github.io/pearl/
 - `publications.html` - Publications list
 - `people.html` - Team members
 - `news.html` - News and updates
-- `events.html` - Events
 - `join-us.html` - Join us page
 - `contact.html` - Contact information
 

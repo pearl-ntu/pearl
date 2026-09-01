@@ -1,20 +1,21 @@
 # News Images
 
-This folder contains images for news items.
+This folder contains all images for the unified News list.
 
 ## How to Add Images
 
-1. Place your image file in this folder
-2. Name it according to the news item's `slug` (e.g., `prof-liu-joins-ntu.jpg`)
-3. Update the `image` field in `news-data.js` to point to the image:
+1. Place the image directly in this folder.
+2. Use lowercase letters and hyphens in the filename.
+3. Update the `image` field for one image, or the `images` array for multiple images, in `news-data.js`:
    ```javascript
    image: "images/news/your-image-name.jpg"
+   // or
+   images: ["images/news/first.jpg", "images/news/second.jpg"]
    ```
 
 ## Image Guidelines
 
-- Recommended size: 600-800px width
-- Format: JPG or PNG
-- Keep file sizes reasonable (< 500KB)
-- Images will be displayed on the right side of news items (on desktop)
-- On mobile, images appear above the content
+- Recommended size: 600–1200px width
+- Format: JPG, PNG, or GIF
+- Keep file sizes reasonable (< 500KB when practical)
+- Images are displayed beside the news content on desktop and above it on mobile

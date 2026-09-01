@@ -49,6 +49,7 @@ function switchLanguage(lang) {
         }
     });
     
+    document.dispatchEvent(new CustomEvent('languageChanged', { detail: { lang } }));
     console.log('Language switched to:', lang); // Debug
 }
 
@@ -322,7 +323,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, observerOptions);
 
     // Observe elements for fade-in animation
-    const animateElements = document.querySelectorAll('.research-card, .person-card, .opportunity-card, .event-item, .professor-card, .research-content, .section-header');
+    const animateElements = document.querySelectorAll('.research-card, .person-card, .opportunity-card, .news-preview-item, .professor-card, .research-content, .section-header');
     animateElements.forEach(el => {
         el.style.opacity = '0';
         el.style.transform = 'translateY(30px)';
@@ -343,8 +344,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Add smooth reveal to sections (but exclude publications and news pages to avoid conflicts)
-    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-    if (currentPage !== 'publications.html' && currentPage !== 'news.html') {
+    const revealCurrentPage = window.location.pathname.split('/').pop() || 'index.html';
+    if (revealCurrentPage !== 'publications.html' && revealCurrentPage !== 'news.html') {
         const sections = document.querySelectorAll('section');
         sections.forEach((section, index) => {
             section.style.opacity = '0';
