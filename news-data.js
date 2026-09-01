@@ -1,6 +1,20 @@
 // News data
 const newsData = [
     {
+        title: "New work in Nature Chemistry!",
+        date: "Aug 26, 2026",
+        excerpt: "Our latest collaboration with Prof Marc Vendrell and his team in Nature Chemistry presents a general strategy for multicolour fluorogenic peptides and wash-free bioassays.",
+        content: `<p>🌈 <strong>New work in Nature Chemistry!</strong></p>
+<p>We are delighted to share our latest collaborative work with <strong>Prof Marc Vendrell and his team</strong>, published in <em>Nature Chemistry</em>:</p>
+<p><strong>“A general strategy towards multicolour fluorogenic peptides for wash-free bioassays”</strong></p>
+<p>This work develops a general strategy for creating <strong>multicolour fluorogenic peptides</strong>, enabling wash-free fluorescence assays and real-time imaging in living systems.</p>
+<p>Our group contributed <strong>computational modelling to resolve the molecular mechanism underlying fluorescence quenching</strong>, helping to connect molecular structure with photophysical behaviour and support the rational design of these fluorogenic systems. Much of this computational work was carried out by <strong>Lovelesh and Abedi</strong>—many congratulations to both of them for their excellent contributions!</p>
+<p>This has been a rewarding collaboration, bringing together <strong>computational chemistry, fluorophore design, photophysics, peptide chemistry, and bioimaging</strong>. Many congratulations to Marc’s team and everyone involved!</p>
+<p>🔗 <u>DOI: <a href="https://doi.org/10.1038/s41557-026-02228-0">10.1038/s41557-026-02228-0</a></u></p>`,
+        slug: "new-work-in-nature-chemistry-multicolour-fluorogenic-peptides",
+        image: "images/news/2026-08-26-nature-chemistry-multicolour-fluorogenic-peptides.png"
+    },
+    {
         title: "Welcome New PhD Student: Zhiyuan Yuan",
         date: "Jan 12, 2026",
         excerpt: "We are pleased to welcome Zhiyuan Yuan to PEARL as a new PhD student.",

@@ -190,6 +190,26 @@ function closeMobileMenu() {
     }
 }
 
+function initializeHomeNewsPreview() {
+    if (typeof newsData === 'undefined') return;
+
+    const previewLink = document.querySelector('.news-preview-item-link');
+    if (!previewLink) return;
+
+    const latestItem = [...newsData]
+        .filter(item => item && item.date)
+        .sort((a, b) => new Date(b.date) - new Date(a.date))[0];
+    if (!latestItem) return;
+
+    const title = previewLink.querySelector('.news-preview-content h3');
+    const date = previewLink.querySelector('.news-preview-date');
+    const excerpt = previewLink.querySelector('.news-preview-excerpt');
+
+    if (title) title.textContent = latestItem.title || 'Latest News';
+    if (date) date.textContent = latestItem.date || '';
+    if (excerpt) excerpt.textContent = latestItem.excerpt || '';
+}
+
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', function() {
     // Get current language from localStorage
@@ -197,6 +217,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Apply saved language immediately when page loads
     switchLanguage(currentLang);
+    initializeHomeNewsPreview();
     
     // Create mobile nav overlay if it doesn't exist
     let mobileNavOverlay = document.querySelector('.mobile-nav-overlay');
